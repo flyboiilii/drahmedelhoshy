@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ahmed-el-hoshy",
+    "name": { "en": "Prof. Ahmed Zoheir El Hoshy", "ar": "أ.د. أحمد زهير الهوشي" },
+    "role": {
+      "en": "Professor, Faculty of Dentistry, Future University in Egypt. PhD in Restorative Dentistry, Cairo University.",
+      "ar": "أستاذ بكلية طب الأسنان، جامعة المستقبل في مصر. دكتوراه في طب الأسنان الترميمي، جامعة القاهرة."
+    },
+    "image": "/placeholders/professor-portrait.jpg",
+    "placeholder": false
+  },
+  {
+    "id": "team-01",
+    "name": { "en": "[TEAM MEMBER NAME]", "ar": "[اسم عضو الفريق]" },
+    "role": { "en": "[ROLE]", "ar": "[الدور]" },
+    "image": "/placeholders/team-01.jpg",
+    "placeholder": true
+  },
+  {
+    "id": "team-02",
+    "name": { "en": "[TEAM MEMBER NAME]", "ar": "[اسم عضو الفريق]" },
+    "role": { "en": "[ROLE]", "ar": "[الدور]" },
+    "image": "/placeholders/team-02.jpg",
+    "placeholder": true
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "salma-r",
+    "author": "Salma R.",
+    "initials": "SR",
+    "descriptor": { "en": "Egyptian American patient", "ar": "مريضة مصرية أمريكية" },
+    "text": {
+      "en": "I flew in from the US with advanced gum disease and left with my teeth, and my confidence, intact.",
+      "ar": "سافرت من الولايات المتحدة بالتهاب لثة متقدم، وعدت بأسناني وثقتي بنفسي سليمتين."
+    },
+    "treatmentSlug": "general-dentistry",
+    "source": "google",
+    "real": true,
+    "paraphrased": true
+  },
+  {
+    "id": "review-02",
+    "author": "[REAL REVIEW AUTHOR]",
+    "initials": "MA",
+    "descriptor": { "en": "Veneers", "ar": "فينير" },
+    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "treatmentSlug": "veneers",
+    "source": "google",
+    "real": false,
+    "paraphrased": false
+  },
+  {
+    "id": "review-03",
+    "author": "[REAL REVIEW AUTHOR]",
+    "initials": "NK",
+    "descriptor": { "en": "Dental implants", "ar": "زراعة أسنان" },
+    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "treatmentSlug": "dental-implants",
+    "source": "google",
+    "real": false,
+    "paraphrased": false
+  },
+  {
+    "id": "review-04",
+    "author": "[REAL REVIEW AUTHOR]",
+    "initials": "HS",
+    "descriptor": { "en": "Clear aligners", "ar": "تقويم شفاف" },
+    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "treatmentSlug": "clear-aligners",
+    "source": "google",
+    "real": false,
+    "paraphrased": false
+  },
+  {
+    "id": "review-05",
+    "author": "[REAL REVIEW AUTHOR]",
+    "initials": "YF",
+    "descriptor": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم" },
+    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "treatmentSlug": "full-mouth-restoration",
+    "source": "google",
+    "real": false,
+    "paraphrased": false
+  },
+  {
+    "id": "review-06",
+    "author": "[REAL REVIEW AUTHOR]",
+    "initials": "LM",
+    "descriptor": { "en": "Whitening", "ar": "تبييض" },
+    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "treatmentSlug": "whitening-bonding",
+    "source": "google",
+    "real": false,
+    "paraphrased": false
+  }
+]

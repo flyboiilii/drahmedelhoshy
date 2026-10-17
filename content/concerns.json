@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "yellow-teeth",
+    "title": { "en": "My teeth look yellow", "ar": "أسناني تبدو صفراء" },
+    "seoTitle": { "en": "Yellow Teeth: Whitening or Veneers | Prof. El Hoshy", "ar": "أسنان صفراء: تبييض أم فينير | أ.د. أحمد الهوشي" },
+    "description": { "en": "Why teeth yellow, when whitening is enough and when veneers are needed. Free first consultation in Heliopolis, Cairo.", "ar": "لماذا تصفر الأسنان، ومتى يكفي التبييض ومتى يلزم الفينير. استشارة أولى مجانية في مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "Teeth yellow for two reasons: surface stain from coffee, tea and smoking, and the natural darkening of dentine with age. The first responds well to cleaning and whitening. The second responds partly, and sometimes needs veneers to change the colour fully.",
+        "At the free first consultation we check which kind you have, show you what whitening alone would reach, and tell you honestly if it will not get you where you want."
+      ],
+      "ar": [
+        "تصفر الأسنان لسببين: تصبغ سطحي من القهوة والشاي والتدخين، واغمقاق طبيعي للعاج مع العمر. الأول يستجيب جيداً للتنظيف والتبييض. والثاني يستجيب جزئياً، وقد يحتاج أحياناً إلى فينير لتغيير اللون كلياً.",
+        "في الاستشارة الأولى المجانية نحدد أي النوعين لديك، ونريك ما يمكن أن يصل إليه التبييض وحده، ونخبرك بصراحة إن كان لن يوصلك إلى ما تريد."
+      ]
+    },
+    "serviceSlug": "whitening-bonding",
+    "caseSlugs": ["case-017", "case-014"]
+  },
+  {
+    "slug": "gaps",
+    "title": { "en": "I have gaps between my teeth", "ar": "لديّ فراغات بين أسناني" },
+    "seoTitle": { "en": "Gaps Between Teeth: Three Options | Prof. El Hoshy", "ar": "فراغات بين الأسنان: ثلاثة خيارات | أ.د. أحمد الهوشي" },
+    "description": { "en": "Aligners, bonding or veneers for gaps between teeth, and how to choose. Free first consultation in Heliopolis, Cairo.", "ar": "تقويم شفاف أم حشوة تجميلية أم فينير لإغلاق الفراغات، وكيف تختار. استشارة أولى مجانية في مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "Gaps can be closed three ways: aligners move the teeth together, bonding adds width in one visit, and veneers close larger spaces while improving shape. The right choice depends on the size of the gap and the size of the teeth beside it.",
+        "Closing a gap by making teeth wider only works up to a point before they look too large. We measure first and show the options on a model."
+      ],
+      "ar": [
+        "يمكن إغلاق الفراغات بثلاث طرق: التقويم الشفاف يقرّب الأسنان، والحشوة التجميلية تضيف عرضاً في زيارة واحدة، والفينير يغلق الفراغات الأكبر مع تحسين الشكل. يعتمد الاختيار على حجم الفراغ وحجم الأسنان المجاورة.",
+        "إغلاق الفراغ بتوسيع الأسنان يعمل إلى حد معين قبل أن تبدو كبيرة أكثر من اللازم. نقيس أولاً ونعرض الخيارات على نموذج."
+      ]
+    },
+    "serviceSlug": "veneers",
+    "caseSlugs": ["case-031", "case-023"]
+  },
+  {
+    "slug": "chipped-tooth",
+    "title": { "en": "I chipped a front tooth", "ar": "انكسر جزء من سني الأمامي" },
+    "seoTitle": { "en": "Chipped Front Tooth Repair | Prof. Ahmed El Hoshy", "ar": "إصلاح كسر السن الأمامي | أ.د. أحمد الهوشي" },
+    "description": { "en": "How a chipped front tooth is repaired with bonding in one visit, and when a veneer or crown is needed. Heliopolis, Cairo.", "ar": "كيف يُصلَح كسر السن الأمامي بحشوة تجميلية في زيارة واحدة، ومتى يلزم الفينير أو التاج. مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "A small chip is usually repaired with composite bonding in a single visit, with no drilling and often no anaesthetic. Larger fractures, or a tooth that has darkened, may need a veneer or a crown.",
+        "If the tooth is painful or the chip reaches the nerve, come in sooner. Chips are easier to repair before the edges wear further."
+      ],
+      "ar": [
+        "يُصلَح الكسر الصغير عادةً بحشوة تجميلية في زيارة واحدة، دون برد وغالباً دون تخدير. الكسور الأكبر، أو السن الذي اغمقّ لونه، قد تحتاج إلى فينير أو تاج.",
+        "إن كان السن مؤلماً أو وصل الكسر إلى العصب، فتعال في أقرب وقت. إصلاح الكسور أسهل قبل أن تتآكل الحواف أكثر."
+      ]
+    },
+    "serviceSlug": "whitening-bonding",
+    "caseSlugs": ["case-017", "case-031"]
+  },
+  {
+    "slug": "old-crowns",
+    "title": { "en": "My old crowns look dark at the gum line", "ar": "تيجاني القديمة تبدو داكنة عند اللثة" },
+    "seoTitle": { "en": "Dark Line on Old Crowns | Prof. Ahmed El Hoshy", "ar": "خط داكن على التيجان القديمة | أ.د. أحمد الهوشي" },
+    "description": { "en": "Why old crowns show a dark line at the gum and how all-ceramic crowns replace them. Heliopolis, Cairo.", "ar": "لماذا يظهر خط داكن عند لثة التيجان القديمة وكيف تُستبدل بتيجان خزفية كاملة. مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "A dark line at the gum usually means a metal-based crown whose edge has become visible as the gum settled. Replacing it with an all-ceramic crown removes the line and lets light through the way a natural tooth does.",
+        "If several crowns are failing together, it is often better to plan them as a group so the shade and bite match. We assess each tooth underneath before promising anything."
+      ],
+      "ar": [
+        "الخط الداكن عند اللثة يعني عادةً تاجاً بقاعدة معدنية ظهرت حافته مع انحسار اللثة. استبداله بتاج خزفي كامل يزيل الخط ويسمح بمرور الضوء كما في السن الطبيعي.",
+        "إذا كانت عدة تيجان تفشل معاً، فمن الأفضل غالباً التخطيط لها كمجموعة ليتطابق اللون والإطباق. نقيّم كل سن تحتها قبل أن نعد بأي شيء."
+      ]
+    },
+    "serviceSlug": "full-mouth-restoration",
+    "caseSlugs": ["case-011", "case-021"]
+  },
+  {
+    "slug": "missing-teeth",
+    "title": { "en": "I am missing a tooth and hide my smile", "ar": "فقدت سناً وأخفي ابتسامتي" },
+    "seoTitle": { "en": "Replacing a Missing Tooth | Prof. Ahmed El Hoshy", "ar": "تعويض السن المفقود | أ.د. أحمد الهوشي" },
+    "description": { "en": "Implant or bridge for a missing tooth, and why waiting makes it harder. Free first consultation in Heliopolis, Cairo.", "ar": "زرعة أم جسر للسن المفقود، ولماذا يصعّب الانتظار العلاج. استشارة أولى مجانية في مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "A single missing tooth is most often replaced with an implant, which does not touch the neighbouring teeth. A bridge is the alternative when an implant is not suitable. Both give a fixed tooth you clean like your own.",
+        "Leaving a gap lets the neighbours tilt and the opposite tooth drift down, which makes later treatment harder. Earlier is simpler."
+      ],
+      "ar": [
+        "يُستبدل السن المفقود الواحد غالباً بزرعة لا تمس الأسنان المجاورة. والجسر هو البديل عندما لا تناسب الزراعة. كلاهما يعطيك سناً ثابتاً تنظفه كأسنانك.",
+        "ترك الفراغ يجعل الأسنان المجاورة تميل والسن المقابل ينزل، مما يصعّب العلاج لاحقاً. التدخل المبكر أبسط."
+      ]
+    },
+    "serviceSlug": "dental-implants",
+    "caseSlugs": ["case-009", "case-026"]
+  },
+  {
+    "slug": "denture-alternative",
+    "title": { "en": "I want an alternative to my denture", "ar": "أريد بديلاً لطقم الأسنان" },
+    "seoTitle": { "en": "Alternatives to Dentures | Prof. Ahmed El Hoshy", "ar": "بدائل طقم الأسنان | أ.د. أحمد الهوشي" },
+    "description": { "en": "Implant-retained dentures and fixed full arch bridges as alternatives to loose dentures. Heliopolis, Cairo.", "ar": "أطقم مثبتة على زرعات وجسور فك كامل ثابتة كبدائل للطقم المتحرك. مصر الجديدة." },
+    "paragraphs": {
+      "en": [
+        "Loose dentures can be stabilised on two to four implants that the denture clicks onto, or replaced entirely with a fixed bridge on four to six implants. Most patients notice the difference first when eating and speaking.",
+        "The choice depends on bone, budget and how much you want to be able to take out and clean. Both options are planned from a 3D scan with a written quotation."
+      ],
+      "ar": [
+        "يمكن تثبيت الطقم المتحرك على زرعتين إلى أربع يُركَّب عليها، أو استبداله كلياً بجسر ثابت على أربع إلى ست زرعات. يلاحظ معظم المرضى الفرق أولاً عند الأكل والكلام.",
+        "يعتمد الاختيار على العظم والميزانية ومدى رغبتك في خلعه للتنظيف. يُخطط الخياران من مسح ثلاثي الأبعاد مع عرض سعر مكتوب."
+      ]
+    },
+    "serviceSlug": "dental-implants",
+    "caseSlugs": ["case-026", "case-009"]
+  }
+]

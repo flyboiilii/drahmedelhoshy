@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "case-014",
+    "caseNumber": "014",
+    "treatmentSlug": "veneers",
+    "ageBand": { "en": "30 to 39", "ar": "٣٠ إلى ٣٩" },
+    "ageLabel": { "en": "34 years old", "ar": "٣٤ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 8,
+    "material": "[CERAMIC SYSTEM]",
+    "visits": 3,
+    "monthsPostOp": 6,
+    "before": "/placeholders/case-014-before.jpg",
+    "after": "/placeholders/case-014-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with, in one or two sentences.", "[PLACEHOLDER] What was planned and why, including what was deliberately left alone.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض، في جملة أو جملتين.", "[PLACEHOLDER] ما خُطط له ولماذا، بما في ذلك ما تُرك عمداً دون تدخل.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": true,
+    "placeholder": true
+  },
+  {
+    "slug": "case-009",
+    "caseNumber": "009",
+    "treatmentSlug": "dental-implants",
+    "ageBand": { "en": "50 to 59", "ar": "٥٠ إلى ٥٩" },
+    "ageLabel": { "en": "56 years old", "ar": "٥٦ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 2,
+    "material": "[IMPLANT BRAND]",
+    "visits": 4,
+    "monthsPostOp": 12,
+    "before": "/placeholders/case-009-before.jpg",
+    "after": "/placeholders/case-009-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": true,
+    "placeholder": true
+  },
+  {
+    "slug": "case-011",
+    "caseNumber": "011",
+    "treatmentSlug": "full-mouth-restoration",
+    "ageBand": { "en": "60 to 69", "ar": "٦٠ إلى ٦٩" },
+    "ageLabel": { "en": "62 years old", "ar": "٦٢ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 20,
+    "material": "[CERAMIC SYSTEM]",
+    "visits": 9,
+    "monthsPostOp": 8,
+    "before": "/placeholders/case-011-before.jpg",
+    "after": "/placeholders/case-011-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": true,
+    "placeholder": true
+  },
+  {
+    "slug": "case-017",
+    "caseNumber": "017",
+    "treatmentSlug": "whitening-bonding",
+    "ageBand": { "en": "20 to 29", "ar": "٢٠ إلى ٢٩" },
+    "ageLabel": { "en": "27 years old", "ar": "٢٧ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 2,
+    "material": "[COMPOSITE BRAND]",
+    "visits": 1,
+    "monthsPostOp": 3,
+    "before": "/placeholders/case-017-before.jpg",
+    "after": "/placeholders/case-017-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visit went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارة وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": true,
+    "placeholder": true
+  },
+  {
+    "slug": "case-021",
+    "caseNumber": "021",
+    "treatmentSlug": "veneers",
+    "ageBand": { "en": "40 to 49", "ar": "٤٠ إلى ٤٩" },
+    "ageLabel": { "en": "43 years old", "ar": "٤٣ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 10,
+    "material": "[CERAMIC SYSTEM]",
+    "visits": 3,
+    "monthsPostOp": 14,
+    "before": "/placeholders/case-021-before.jpg",
+    "after": "/placeholders/case-021-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": false,
+    "placeholder": true
+  },
+  {
+    "slug": "case-023",
+    "caseNumber": "023",
+    "treatmentSlug": "clear-aligners",
+    "ageBand": { "en": "20 to 29", "ar": "٢٠ إلى ٢٩" },
+    "ageLabel": { "en": "24 years old", "ar": "٢٤ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 28,
+    "material": "Invisalign [CONFIRM]",
+    "visits": 7,
+    "monthsPostOp": 2,
+    "before": "/placeholders/case-023-before.jpg",
+    "after": "/placeholders/case-023-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How treatment went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سار العلاج وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": false,
+    "placeholder": true
+  },
+  {
+    "slug": "case-026",
+    "caseNumber": "026",
+    "treatmentSlug": "dental-implants",
+    "ageBand": { "en": "60 to 69", "ar": "٦٠ إلى ٦٩" },
+    "ageLabel": { "en": "68 years old", "ar": "٦٨ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 12,
+    "material": "[IMPLANT BRAND]",
+    "visits": 6,
+    "monthsPostOp": 10,
+    "before": "/placeholders/case-026-before.jpg",
+    "after": "/placeholders/case-026-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": false,
+    "placeholder": true
+  },
+  {
+    "slug": "case-031",
+    "caseNumber": "031",
+    "treatmentSlug": "veneers",
+    "ageBand": { "en": "30 to 39", "ar": "٣٠ إلى ٣٩" },
+    "ageLabel": { "en": "31 years old", "ar": "٣١ عاماً" },
+    "gender": "[CONFIRM]",
+    "teethCount": 6,
+    "material": "[CERAMIC SYSTEM]",
+    "visits": 3,
+    "monthsPostOp": 4,
+    "before": "/placeholders/case-031-before.jpg",
+    "after": "/placeholders/case-031-after.jpg",
+    "story": {
+      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
+      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+    },
+    "consent": true,
+    "featured": false,
+    "placeholder": true
+  }
+]

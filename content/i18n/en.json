@@ -1,0 +1,355 @@
+{
+  "meta": {
+    "siteTitle": "El Hoshy Dental Clinic | Heliopolis, Cairo",
+    "homeTitle": "El Hoshy Dental Clinic | Prof. Ahmed El Hoshy, Heliopolis",
+    "homeDescription": "Veneers, implants and full mouth restoration in Heliopolis, Cairo, by Prof. Ahmed El Hoshy, professor of restorative dentistry. Free first consultation.",
+    "casesTitle": "Before and After Cases | Prof. Ahmed El Hoshy",
+    "casesDescription": "Real patient cases from El Hoshy Dental Clinic in Heliopolis, Cairo, published with written consent. Veneers, implants, aligners and full mouth work.",
+    "caseTitle": "Case {number}: {treatment} | Prof. Ahmed El Hoshy",
+    "caseDescription": "Before and after of case {number}, {treatment}, at El Hoshy Dental Clinic, Heliopolis. Published with written patient consent.",
+    "reviewsTitle": "Patient Reviews | El Hoshy Dental Clinic, Heliopolis",
+    "reviewsDescription": "Google rating 4.9 from 141 reviews. What patients say about El Hoshy Dental Clinic in Heliopolis, Cairo.",
+    "pricingTitle": "Pricing and Financing | El Hoshy Dental Clinic",
+    "pricingDescription": "Free first consultation, entry prices for whitening and bonding, what a written plan includes, and payment options at El Hoshy Dental Clinic.",
+    "faqTitle": "Dental Questions Answered | Prof. Ahmed El Hoshy",
+    "faqDescription": "Thirty plain answers about veneers, implants, aligners, full mouth restoration, whitening and general dentistry from a professor of restorative dentistry.",
+    "internationalTitle": "Dental Treatment in Cairo for Patients Abroad",
+    "internationalDescription": "One trip to Cairo with a written plan before you fly. Days per treatment, languages spoken and a WhatsApp video consultation with Prof. Ahmed El Hoshy.",
+    "bookTitle": "Book a Free Consultation | El Hoshy Dental, Heliopolis",
+    "bookDescription": "Book a free first consultation with Prof. Ahmed El Hoshy in Heliopolis, Cairo. Address, hours, phone, WhatsApp and map.",
+    "professorTitle": "Prof. Ahmed El Hoshy | Restorative and Esthetic Dentist",
+    "professorDescription": "Prof. Ahmed Zoheir El Hoshy: PhD in Restorative Dentistry, Cairo University, Professor at Future University in Egypt, teacher of dentists, practising in Heliopolis.",
+    "privacyTitle": "Privacy and Consent | El Hoshy Dental Clinic",
+    "privacyDescription": "How this website handles your data, and how patient images are published with written consent."
+  },
+  "nav": {
+    "home": "Home",
+    "cases": "Cases",
+    "treatments": "Treatments",
+    "professor": "The Professor",
+    "abroad": "From Abroad",
+    "reviews": "Reviews",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "book": "Book",
+    "privacy": "Privacy",
+    "concerns": "Common concerns",
+    "cta": "Free first consultation",
+    "menu": "Menu",
+    "close": "Close",
+    "langToggle": "عربي",
+    "langToggleAria": "Switch to Arabic"
+  },
+  "common": {
+    "book": "Book a free consultation",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "skip": "Skip to content",
+    "breadcrumbHome": "Home",
+    "placeholderImage": "[IMAGE] placeholder",
+    "resultsVary": "Results vary from person to person.",
+    "notFoundTitle": "This page does not exist.",
+    "notFoundText": "The address may have changed. The links below will get you back.",
+    "notFoundHome": "Back to the home page"
+  },
+  "hero": {
+    "eyebrow": "Case 014 · Heliopolis · 34 years old",
+    "eyebrowNote": "placeholder data",
+    "title": "The work speaks.",
+    "titleEm": "Quietly.",
+    "lead": "Veneers, implants and full mouth restoration in Heliopolis, planned and placed by a professor of restorative dentistry who teaches the technique to other dentists. The first consultation is free.",
+    "book": "Book a free consultation",
+    "whatsapp": "WhatsApp",
+    "stats": [
+      { "value": "4.9", "label": "from 141 Google reviews" },
+      { "value": "PhD", "label": "Cairo University" },
+      { "value": "Since 1997", "label": "in practice" }
+    ]
+  },
+  "compare": {
+    "before": "Before",
+    "after": "After",
+    "handle": "Compare before and after",
+    "placeholderNote": "[IMAGE] placeholder. Real case photographs replace these."
+  },
+  "cases": {
+    "eyebrow": "Recent cases",
+    "title": "Recent cases",
+    "all": "All",
+    "viewAll": "All cases",
+    "filterLabel": "Filter by treatment",
+    "consentShort": "Published with written consent. Results vary.",
+    "case": "Case",
+    "visits": "visits",
+    "visit": "visit",
+    "teeth": "teeth",
+    "pageTitle": "Cases",
+    "pageLead": "Real patients, photographed in the same light and from the same angle before and after. Every case is published with written consent and can be withdrawn at the patient's request.",
+    "gateTitle": "Real patients",
+    "gateText": "These images show real patients, published with written consent. I am 18 or older.",
+    "gateButton": "I understand, show the cases",
+    "factTreatment": "Treatment",
+    "factTeeth": "Teeth treated",
+    "factMaterial": "Material",
+    "factVisits": "Visits",
+    "factMonths": "Months after treatment",
+    "factAge": "Age band",
+    "story": "The case",
+    "related": "About this treatment",
+    "placeholderNote": "Case details on this page are placeholders until real cases are supplied.",
+    "noCases": "No cases in this filter yet.",
+    "backToCases": "All cases"
+  },
+  "treatments": {
+    "eyebrow": "Treatments",
+    "title": "Five things we are asked for most.",
+    "duration": "Duration",
+    "all": "All treatments",
+    "posterAlt": "Illustration poster for {title}"
+  },
+  "sequences": {
+    "scrollHint": "Scroll to move through the steps",
+    "staticHint": "Illustration. The step-by-step animation is shown on larger or faster devices.",
+    "veneer": {
+      "eyebrow": "How much tooth is removed",
+      "title": "A veneer, in four steps.",
+      "link": "Read about veneers",
+      "steps": [
+        { "title": "The tooth as it is", "text": "Turned slightly so you can see the front face and the edge." },
+        { "title": "A 0.4 mm layer", "text": "Enamel is shaped only where the design needs it. Often less than half a millimetre." },
+        { "title": "The veneer seats", "text": "A thin porcelain shell slides over the prepared face and is bonded." },
+        { "title": "The shade", "text": "Shade is chosen with you, from the natural A3 range to the brighter BL2." }
+      ],
+      "labels": { "a3": "Shade A3", "bl2": "Shade BL2", "prep": "0.4 mm" }
+    },
+    "implant": {
+      "eyebrow": "What goes into the jaw",
+      "title": "An implant, in four steps.",
+      "link": "Read about implants",
+      "steps": [
+        { "title": "Bone and gum", "text": "A cross-section of the jaw where the tooth is missing." },
+        { "title": "The fixture", "text": "A titanium post is turned into the bone under local anaesthetic." },
+        { "title": "The abutment", "text": "After healing, a small connector is fitted to the post." },
+        { "title": "The crown", "text": "A porcelain crown seats on top. It is cleaned like your own tooth." }
+      ],
+      "labels": { "bone": "Bone", "fixture": "Fixture", "abutment": "Abutment", "crown": "Crown" }
+    },
+    "aligner": {
+      "eyebrow": "Will anyone see it",
+      "title": "Aligners, month by month.",
+      "link": "Read about aligners",
+      "steps": [
+        { "title": "The tray goes on", "text": "A clear tray fits over the arch. Most people do not notice it." },
+        { "title": "Months 0 to 4", "text": "Small planned movements start with the most crowded teeth." },
+        { "title": "Months 4 to 8", "text": "Rotations correct and spaces close." },
+        { "title": "Month 12", "text": "Alignment holds with a retainer." }
+      ],
+      "labels": { "month": "Month {n}" }
+    },
+    "fullmouth": {
+      "eyebrow": "Can failed work be fixed",
+      "title": "Rebuilt, tooth by tooth.",
+      "link": "Read about full mouth restoration",
+      "steps": [
+        { "title": "The starting point", "text": "Old crowns, worn teeth and a bite that has dropped." },
+        { "title": "One tooth at a time", "text": "Each failing crown is replaced in turn. Nothing healthy is removed." },
+        { "title": "The bite returns", "text": "Height is restored so the face and jaw joints rest where they should." },
+        { "title": "From the side", "text": "The new arch seen in profile." }
+      ],
+      "labels": { "replacing": "Replacing old crowns", "restored": "Bite height restored" }
+    }
+  },
+  "professor": {
+    "eyebrow": "The Professor",
+    "positioning": "The professor of aesthetic dentistry who teaches the dentists other clinics hire.",
+    "bio": "Prof. Ahmed Zoheir El Hoshy qualified at Cairo University in 1997 and completed his Master's and PhD in Restorative Dentistry there in 2003 and 2007. He taught at Cairo University from 2002 to 2009 and is now Professor at the Faculty of Dentistry, Future University in Egypt. He teaches courses to practising dentists and was the first African and Arab dentist to design a bur for Komet's Ceraline line in Germany. He practises in Heliopolis, facing Cleopatra Hospital, and consults in Arabic, English, French and Italian.",
+    "link": "About the professor",
+    "portraitAlt": "Portrait of Prof. Ahmed El Hoshy. [IMAGE] placeholder.",
+    "awardsLabel": "Awards",
+    "pageRole": "Professor, Faculty of Dentistry, Future University in Egypt. PhD in Restorative Dentistry, Cairo University.",
+    "pageEyebrow": "Professor of aesthetic dentistry",
+    "inHisWords": "In his words",
+    "words": [
+      "I have spent my working life on two things: restoring teeth, and teaching other dentists how to do it. The second keeps the first honest. When you have to explain a decision to a room of postgraduate students, you learn to make decisions you can explain.",
+      "In the clinic that means a slower first visit, a plan you can read, and work that is designed to be undetectable rather than impressive. I would rather a patient's friends notice that they look well than notice their teeth."
+    ],
+    "education": "Education",
+    "timeline": [
+      { "year": "1997", "text": "Bachelor of Oral and Dental Medicine, Cairo University" },
+      { "year": "2002 to 2009", "text": "Assistant Lecturer, then Lecturer, Cairo University" },
+      { "year": "2003", "text": "Master's in Restorative Dentistry, Cairo University" },
+      { "year": "2007", "text": "PhD in Restorative Dentistry, Cairo University" },
+      { "year": "[CONFIRM year]", "text": "Professor, Faculty of Dentistry, Future University in Egypt (FUE)" }
+    ],
+    "awards": "Awards",
+    "teaching": "Teaching",
+    "teachingText": "The professor teaches courses to practising dentists in restorative and aesthetic techniques. Dates and how to apply: [CONFIRM course dates and how to apply].",
+    "clinic": "The clinic and the family name",
+    "clinicText": "The clinic at 47 Cleopatra Street, facing Cleopatra Hospital, also lists Prof. Zoheir El Hoshy, Professor of ENT at Cairo University. Two specialties, one address, one standard.",
+    "languages": "Languages",
+    "languagesText": "Consultations are held in Arabic, English, French and Italian.",
+    "atChairAlt": "The professor at the chair, hands and loupes. [IMAGE] placeholder."
+  },
+  "abroad": {
+    "eyebrow": "Patients from abroad",
+    "title": "One trip to Cairo. A written plan before you fly.",
+    "text": "Send photographs on WhatsApp. You receive a written plan with visits, days and a quotation within 48 hours. Arrive with every appointment already set, and go home with the work finished and a review scheduled by video.",
+    "video": "WhatsApp video consultation",
+    "how": "How a trip works",
+    "quoteNote": "Salma R., Egyptian American patient. Paraphrased from a Google review.",
+    "pageLead": "Most patients from abroad come for veneers, implants or full mouth work. The plan is agreed in writing before you book a flight, so there are no surprises in the chair.",
+    "stepsTitle": "Three steps",
+    "steps": [
+      { "title": "Send photographs on WhatsApp", "text": "Five photographs of your teeth in daylight and a short note on what you want to change. A video call can follow if useful." },
+      { "title": "A written plan within 48 hours", "text": "Treatment options, number of visits, days in Cairo and a quotation. Nothing is final until you have read it." },
+      { "title": "Arrive with appointments set", "text": "Your visits are booked around your flights. A named contact on WhatsApp answers questions before, during and after." }
+    ],
+    "daysTitle": "Days in Cairo per treatment",
+    "daysHead": { "treatment": "Treatment", "days": "Time needed" },
+    "days": [
+      { "treatment": "Porcelain veneers", "days": "5 to 7 days" },
+      { "treatment": "Dental implants", "days": "2 visits, 4 to 6 months apart" },
+      { "treatment": "Crowns", "days": "2 to 3 days" },
+      { "treatment": "Whitening", "days": "1 day" }
+    ],
+    "languagesTitle": "Languages spoken",
+    "aftercareTitle": "Aftercare when you are home",
+    "aftercareText": "Review by video and photographs at agreed intervals. Terms for adjustments and repairs: [TERMS TO CONFIRM].",
+    "hotelsTitle": "Staying near Korba",
+    "hotelsText": "The clinic is in Korba, Heliopolis, facing Cleopatra Hospital, about 20 minutes from Cairo International Airport by car. Recommended hotels: [3 HOTELS TO CONFIRM].",
+    "ctaTitle": "Start with a video consultation."
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "What patients say",
+    "badge": "4.9 on Google",
+    "badgeSub": "from 141 reviews",
+    "readAll": "Read all on Google",
+    "paraphrased": "Paraphrased from a Google review",
+    "source": "Google review",
+    "videoTitle": "Video testimonials",
+    "videoPlaceholder": "[VIDEO TESTIMONIAL]",
+    "pageLead": "Reviews are quoted with first name and initial only. Where a review has been shortened, it is marked as paraphrased.",
+    "filter": "Filter by treatment",
+    "keywordsTitle": "Patients mention most",
+    "all": "All"
+  },
+  "book": {
+    "eyebrow": "Book",
+    "title": "Start with a free consultation.",
+    "lead": "Send a WhatsApp message, call, or use the form. We reply during clinic hours.",
+    "address": "Address",
+    "hours": "Hours",
+    "hoursValue": "Saturday to Thursday, 11:00 to 21:30. Closed Friday.",
+    "phone": "Phone",
+    "otherPhones": "Also",
+    "directions": "Open in Google Maps",
+    "mapTitle": "Map showing El Hoshy Dental Clinic, 47 Cleopatra Street, Heliopolis",
+    "mapNote": "Map embed is a placeholder built from the coordinates. The Google place embed replaces it."
+  },
+  "form": {
+    "title": "Tell us what you would like to change.",
+    "name": "Your name",
+    "phone": "WhatsApp number",
+    "phoneHint": "With country code, for example +20 10 1234 5678",
+    "treatment": "Treatment",
+    "treatmentUnsure": "Not sure yet",
+    "visitType": "Visit type",
+    "inClinic": "In the clinic",
+    "video": "Video call from abroad",
+    "day": "Preferred day",
+    "anyDay": "Any day",
+    "days": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "submit": "Send on WhatsApp",
+    "note": "This opens WhatsApp on your device with your message ready to send. Nothing is stored on this website.",
+    "thanksTitle": "WhatsApp should have opened.",
+    "thanksText": "If it did not, use the button below. We reply during clinic hours.",
+    "openAgain": "Open WhatsApp",
+    "again": "Send another message",
+    "errorName": "Please enter your name.",
+    "errorPhone": "Please enter a WhatsApp number with country code.",
+    "messageIntro": "Hello El Hoshy Dental Clinic, I would like to book a free first consultation.",
+    "messageName": "Name",
+    "messagePhone": "WhatsApp",
+    "messageTreatment": "Treatment",
+    "messageVisitType": "Visit type",
+    "messageDay": "Preferred day",
+    "messageOutro": "Sent from the website"
+  },
+  "whatsapp": {
+    "template": "Hello El Hoshy Dental Clinic, I am interested in {service}. I found you on the website ({page}).",
+    "generalService": "a free first consultation",
+    "videoTemplate": "Hello El Hoshy Dental Clinic, I would like a video consultation. I am in [country]."
+  },
+  "sticky": {
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "cases": "Cases",
+    "book": "Book"
+  },
+  "footer": {
+    "hoursLabel": "Hours",
+    "links": "Links",
+    "treatments": "Treatments",
+    "concerns": "Common concerns",
+    "consent": "All cases published with written patient consent. Results vary.",
+    "variants": "El Hoshy Dental Clinic (Elhoshy, El-Hoshy) · عيادة الهوشي",
+    "licence": "Licence number: [PLACEHOLDER]",
+    "language": "العربية",
+    "languageAria": "Arabic version"
+  },
+  "service": {
+    "how": "How it works",
+    "whoFor": "Who it is for",
+    "whoNotFor": "Who it is not for",
+    "materials": "Materials and brands",
+    "cases": "Cases",
+    "cost": "What it costs",
+    "faq": "Questions patients ask",
+    "bookTitle": "Start with a free consultation.",
+    "bookText": "Photographs, a conversation, and a written note of what the professor would and would not do.",
+    "step": "Step",
+    "videoPlaceholder": "[VIDEO] A short clip of this procedure, to be filmed.",
+    "visitsLabel": "Visits",
+    "timeLabel": "Time",
+    "otherTreatments": "Other treatments",
+    "concernsTitle": "If this is what brought you here"
+  },
+  "pricing": {
+    "eyebrow": "Pricing and financing",
+    "title": "Clear figures, written down.",
+    "lead": "Every plan is quoted in writing after the free first consultation. The figures below are the entry points for the simplest treatments.",
+    "entryTitle": "Entry prices",
+    "entryHead": { "item": "Treatment", "price": "From" },
+    "includesTitle": "What a written plan includes",
+    "paymentTitle": "Payment",
+    "note": "Prices depend on the plan agreed with you and are confirmed before treatment starts.",
+    "veneersNote": "Per-tooth veneer figure shown on the English page only, pending confirmation."
+  },
+  "faqPage": {
+    "eyebrow": "Questions",
+    "title": "Plain answers.",
+    "lead": "Thirty questions patients ask most, answered without promises. Each group links to its treatment page.",
+    "goTo": "About this treatment"
+  },
+  "privacy": {
+    "eyebrow": "Privacy and consent",
+    "title": "Privacy and consent statement.",
+    "sections": [
+      { "title": "What this website collects", "text": "Nothing is stored on this website. The booking form composes a WhatsApp message on your device and opens WhatsApp. If an email copy is enabled, the same fields are sent to the clinic by email. Phone and WhatsApp links open your own apps." },
+      { "title": "Analytics", "text": "If analytics are enabled, the site uses Cloudflare Web Analytics, which does not use cookies or track you across sites. Clicks on WhatsApp, call and booking buttons may be counted in aggregate." },
+      { "title": "Patient images", "text": "Every case image is published with the patient's written consent, given separately from treatment consent. Patients may withdraw consent at any time by contacting the clinic, and the images are removed." },
+      { "title": "Medical information", "text": "The content of this site is general information, not medical advice for your situation. A diagnosis and plan require an examination. Results of treatment vary from person to person." },
+      { "title": "Contact", "text": "El Hoshy Dental Clinic, 47 Cleopatra St, Korba, Heliopolis, Cairo. WhatsApp +20 102 829 4777. Licence number: [PLACEHOLDER]." }
+    ]
+  },
+  "concerns": {
+    "eyebrow": "A common concern",
+    "treatment": "The treatment that usually solves it",
+    "cases": "Two related cases",
+    "readMore": "Read about",
+    "listTitle": "Other common concerns"
+  }
+}

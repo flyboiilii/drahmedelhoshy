@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "veneers",
+    "order": 1,
+    "title": { "en": "Smile design and porcelain veneers", "ar": "تصميم الابتسامة والفينير الخزفي" },
+    "shortTitle": { "en": "Smile design and veneers", "ar": "تصميم الابتسامة والفينير" },
+    "seoTitle": { "en": "Porcelain Veneers in Heliopolis | Prof. Ahmed El Hoshy", "ar": "الفينير في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Porcelain veneers and smile design in Heliopolis, Cairo, planned by a professor of restorative dentistry. Free first consultation.",
+      "ar": "فينير خزفي وتصميم ابتسامة في مصر الجديدة بإشراف أستاذ طب الأسنان الترميمي. الاستشارة الأولى مجانية."
+    },
+    "fearIntro": {
+      "en": "The question most people bring to this room is how much tooth will be removed. With planned veneers the answer is usually a fraction of a millimetre of enamel, and sometimes none at all. We show you the plan on a wax model before anything touches your teeth.",
+      "ar": "أكثر سؤال يصل إلى هذه الغرفة: كم سيُبرد من السن؟ مع الفينير المخطط له جيداً، الإجابة غالباً جزء من المليمتر من المينا، وأحياناً لا شيء. نعرض عليك الخطة على نموذج شمعي قبل أن يلمس أي شيء أسنانك."
+    },
+    "oneLine": { "en": "Thin porcelain, planned on a model first, bonded in two visits.", "ar": "خزف رقيق، يُخطط على نموذج أولاً، ويُثبت في زيارتين." },
+    "durationLabel": { "en": "3 visits, 5 to 7 days", "ar": "٣ زيارات، ٥ إلى ٧ أيام" },
+    "visits": { "en": "3 visits", "ar": "٣ زيارات" },
+    "days": { "en": "5 to 7 days in Cairo", "ar": "٥ إلى ٧ أيام في القاهرة" },
+    "steps": [
+      { "title": { "en": "Consultation and photographs", "ar": "الاستشارة والتصوير" }, "text": { "en": "We photograph, scan and talk about what you want to change. The first visit is free.", "ar": "نصوّر أسنانك ونمسحها رقمياً ونتحدث عما تريد تغييره. الزيارة الأولى مجانية." }, "when": { "en": "Visit 1, day 1", "ar": "الزيارة ١، اليوم ١" } },
+      { "title": { "en": "Design on a model", "ar": "التصميم على نموذج" }, "text": { "en": "The new smile is waxed on a model and tried in your mouth with temporary material. You approve the shape before any preparation.", "ar": "تُصمَّم الابتسامة الجديدة على نموذج شمعي وتُجرَّب في فمك بمادة مؤقتة. توافق على الشكل قبل أي تحضير." }, "when": { "en": "Visit 2, day 2 or 3", "ar": "الزيارة ٢، اليوم ٢ أو ٣" } },
+      { "title": { "en": "Minimal preparation", "ar": "تحضير بأقل قدر" }, "text": { "en": "Enamel is shaped only where the design needs it, guided by the model. Temporaries protect the teeth while the porcelain is made.", "ar": "تُشكَّل المينا فقط حيث يحتاج التصميم، بإرشاد النموذج. تحمي الأسنانَ تركيباتٌ مؤقتة أثناء صنع الخزف." }, "when": { "en": "Same visit", "ar": "الزيارة نفسها" } },
+      { "title": { "en": "Bonding", "ar": "التثبيت" }, "text": { "en": "The porcelain is tried in, checked for shade and fit, and bonded. A review follows a week later, or by photographs if you have travelled.", "ar": "يُجرَّب الخزف ويُراجع لونه وملاءمته ثم يُثبَّت. تتبعه مراجعة بعد أسبوع، أو بالصور إن كنت قد سافرت." }, "when": { "en": "Visit 3, day 5 to 7", "ar": "الزيارة ٣، اليوم ٥ إلى ٧" } }
+    ],
+    "whoFor": [
+      { "en": "Discoloured teeth that whitening cannot lift", "ar": "أسنان متغيرة اللون لا يفيد معها التبييض" },
+      { "en": "Small chips, wear and uneven edges", "ar": "كسور صغيرة وتآكل وحواف غير منتظمة" },
+      { "en": "Gaps and mild crowding where braces are not wanted", "ar": "فراغات أو تزاحم بسيط دون رغبة في التقويم" },
+      { "en": "Old composite bonding that has stained", "ar": "حشوات تجميلية قديمة تغيّر لونها" }
+    ],
+    "whoNotFor": [
+      { "en": "Severe crowding, which usually needs aligners first", "ar": "التزاحم الشديد، فهو يحتاج غالباً إلى تقويم أولاً" },
+      { "en": "Teeth with active gum disease or decay, until it is treated", "ar": "أسنان بها التهاب لثة نشط أو تسوس، حتى يُعالج" },
+      { "en": "Heavy night grinding without a protective guard", "ar": "صرير الأسنان الشديد ليلاً دون واقٍ ليلي" }
+    ],
+    "materials": [
+      { "label": { "en": "Ceramic system", "ar": "نظام الخزف" }, "value": "[CERAMIC SYSTEM]" },
+      { "label": { "en": "Laboratory", "ar": "المعمل" }, "value": "[LAB]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "The cost of veneers depends on the number of teeth, the ceramic system and whether the plan includes whitening of the remaining teeth. In our clinic a per-tooth figure is given in writing after the first consultation, once the plan is agreed. Entry figures: [CONFIRM]. Payment plans are available.",
+      "ar": "سعر الفينير في مصر يختلف حسب عدد الأسنان ونوع الخزف وما إذا كانت الخطة تشمل تبييض بقية الأسنان. في عيادتنا يُكتب السعر لكل سن بعد الاستشارة الأولى المجانية، بعد الاتفاق على الخطة. الأرقام المبدئية: [CONFIRM]. تتوفر خطط سداد."
+    },
+    "model": "veneer",
+    "faqIds": ["ven-1", "ven-2", "ven-3", "ven-4", "ven-5", "ven-6"]
+  },
+  {
+    "slug": "dental-implants",
+    "order": 2,
+    "title": { "en": "Dental implants and full arch", "ar": "زراعة الأسنان والفك الكامل" },
+    "shortTitle": { "en": "Implants and full arch", "ar": "الزراعة والفك الكامل" },
+    "seoTitle": { "en": "Dental Implants in Heliopolis | Prof. Ahmed El Hoshy", "ar": "زراعة الأسنان في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Dental implants, bone grafting and full arch replacement in Heliopolis, Cairo. A written plan, honest timelines and a free first consultation.",
+      "ar": "زراعة الأسنان وترقيع العظم واستبدال الفك الكامل في مصر الجديدة. خطة مكتوبة ومواعيد واضحة واستشارة أولى مجانية."
+    },
+    "fearIntro": {
+      "en": "People want to know what goes into the jaw and whether it will hurt. An implant is a small titanium post placed under local anaesthetic in a visit that is usually shorter than a filling appointment. Most patients describe the days after as mild soreness managed with ordinary painkillers.",
+      "ar": "يريد الناس أن يعرفوا ما الذي يُوضع في الفك وهل سيؤلم. الزرعة دعامة صغيرة من التيتانيوم تُوضع تحت تخدير موضعي في زيارة تكون عادةً أقصر من موعد الحشو. يصف معظم المرضى الأيام التالية بألم خفيف يُسيطر عليه بالمسكنات المعتادة."
+    },
+    "oneLine": { "en": "A titanium root, time to heal, then a crown that looks like it was always there.", "ar": "جذر من التيتانيوم، ووقت للالتئام، ثم تاج يبدو وكأنه كان هناك دائماً." },
+    "durationLabel": { "en": "2 visits, 4 to 6 months apart", "ar": "زيارتان بينهما ٤ إلى ٦ أشهر" },
+    "visits": { "en": "2 stages", "ar": "مرحلتان" },
+    "days": { "en": "2 trips, 4 to 6 months apart", "ar": "رحلتان بينهما ٤ إلى ٦ أشهر" },
+    "steps": [
+      { "title": { "en": "Scan and plan", "ar": "المسح والتخطيط" }, "text": { "en": "A 3D scan shows bone height and width. You receive a written plan with the number of implants, any grafting needed, and the timeline.", "ar": "يُظهر المسح ثلاثي الأبعاد ارتفاع العظم وعرضه. تتسلم خطة مكتوبة بعدد الزرعات وأي ترقيع مطلوب والجدول الزمني." }, "when": { "en": "Visit 1", "ar": "الزيارة ١" } },
+      { "title": { "en": "Placement", "ar": "الزراعة" }, "text": { "en": "The implant is placed under local anaesthetic. A sinus lift or bone graft, when needed, is done in the same visit or a few months before.", "ar": "تُوضع الزرعة تحت تخدير موضعي. يُجرى رفع الجيب الأنفي أو ترقيع العظم عند الحاجة في الزيارة نفسها أو قبلها بأشهر." }, "when": { "en": "Visit 1 or 2", "ar": "الزيارة ١ أو ٢" } },
+      { "title": { "en": "Healing", "ar": "الالتئام" }, "text": { "en": "Bone bonds to the implant over three to six months. A temporary tooth or denture covers the gap.", "ar": "يلتحم العظم بالزرعة خلال ثلاثة إلى ستة أشهر. يغطي الفراغ سن مؤقت أو طقم مؤقت." }, "when": { "en": "3 to 6 months", "ar": "٣ إلى ٦ أشهر" } },
+      { "title": { "en": "Abutment and crown", "ar": "الدعامة والتاج" }, "text": { "en": "The connector and final crown are fitted over two or three short visits.", "ar": "تُركَّب الوصلة والتاج النهائي خلال زيارتين أو ثلاث قصيرة." }, "when": { "en": "Second trip, 3 to 5 days", "ar": "الرحلة الثانية، ٣ إلى ٥ أيام" } }
+    ],
+    "whoFor": [
+      { "en": "A single missing tooth where the neighbours are healthy", "ar": "سن واحد مفقود وأسنان مجاورة سليمة" },
+      { "en": "Several missing teeth or a failing bridge", "ar": "عدة أسنان مفقودة أو جسر فاشل" },
+      { "en": "Loose lower dentures that make eating difficult", "ar": "طقم سفلي متحرك يجعل الأكل صعباً" },
+      { "en": "People who want a fixed alternative to removable dentures", "ar": "من يريد بديلاً ثابتاً للأطقم المتحركة" }
+    ],
+    "whoNotFor": [
+      { "en": "Uncontrolled diabetes or heavy smoking, until these are managed", "ar": "سكري غير منضبط أو تدخين شديد، حتى يُضبطا" },
+      { "en": "Active gum disease, which is treated first", "ar": "التهاب لثة نشط، ويُعالج أولاً" },
+      { "en": "Growing jaws, so usually under 18", "ar": "فكوك ما زالت في طور النمو، أي غالباً تحت ١٨ عاماً" }
+    ],
+    "materials": [
+      { "label": { "en": "Implant brand", "ar": "ماركة الزرعات" }, "value": "[IMPLANT BRAND]" },
+      { "label": { "en": "Crown material", "ar": "خامة التاج" }, "value": "[CERAMIC SYSTEM]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "Implant cost depends on the implant system, whether bone grafting or a sinus lift is needed, and the type of crown. Full arch solutions are priced per arch. Entry figures: [CONFIRM]. A written quotation follows the 3D scan, and payment plans are available.",
+      "ar": "سعر زراعة الأسنان في مصر يعتمد على نوع الزرعة، والحاجة إلى ترقيع عظم أو رفع جيب أنفي، ونوع التاج. حلول الفك الكامل تُسعَّر لكل فك. الأرقام المبدئية: [CONFIRM]. يُقدَّم عرض سعر مكتوب بعد المسح ثلاثي الأبعاد، وتتوفر خطط سداد."
+    },
+    "model": "implant",
+    "faqIds": ["imp-1", "imp-2", "imp-3", "imp-4", "imp-5", "imp-6"]
+  },
+  {
+    "slug": "full-mouth-restoration",
+    "order": 3,
+    "title": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم بالكامل" },
+    "shortTitle": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم" },
+    "seoTitle": { "en": "Full Mouth Restoration in Heliopolis | Prof. El Hoshy", "ar": "إعادة تأهيل الفم في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Full mouth restoration for worn teeth and failing crowns in Heliopolis, Cairo, planned in stages by a professor of restorative dentistry.",
+      "ar": "إعادة تأهيل الفم للأسنان المتآكلة والتيجان الفاشلة في مصر الجديدة، بخطة على مراحل من أستاذ طب الأسنان الترميمي."
+    },
+    "fearIntro": {
+      "en": "The fear here is that everything has to come out. In most mouths it does not. Worn teeth, old crowns and a collapsed bite are rebuilt in stages, keeping every tooth that can be kept, and you wear a trial version of the new bite before anything is final.",
+      "ar": "الخوف هنا أن كل شيء يجب أن يُخلع. في معظم الحالات لا يحدث ذلك. تُعاد الأسنان المتآكلة والتيجان القديمة والإطباق المنخفض على مراحل، مع الحفاظ على كل سن يمكن الحفاظ عليه، وتجرّب نسخة مؤقتة من الإطباق الجديد قبل أي شيء نهائي."
+    },
+    "oneLine": { "en": "Worn teeth and old crowns rebuilt in stages, keeping what can be kept.", "ar": "أسنان متآكلة وتيجان قديمة تُعاد على مراحل، مع الحفاظ على ما يمكن الحفاظ عليه." },
+    "durationLabel": { "en": "3 to 6 months, in stages", "ar": "٣ إلى ٦ أشهر، على مراحل" },
+    "visits": { "en": "Several visits, in planned groups", "ar": "عدة زيارات في مجموعات مخططة" },
+    "days": { "en": "3 to 6 months", "ar": "٣ إلى ٦ أشهر" },
+    "steps": [
+      { "title": { "en": "Full assessment", "ar": "تقييم شامل" }, "text": { "en": "Photographs, scans, bite records and X-rays. We list which teeth are stable, which need treatment and which cannot be saved.", "ar": "صور ومسح وتسجيل إطباق وأشعة. نحدد الأسنان المستقرة، والتي تحتاج علاجاً، والتي لا يمكن إنقاذها." }, "when": { "en": "Visit 1", "ar": "الزيارة ١" } },
+      { "title": { "en": "Trial bite", "ar": "إطباق تجريبي" }, "text": { "en": "The new bite height is tested with temporary material for a few weeks. You eat and speak with it before anything is made in porcelain.", "ar": "يُختبر ارتفاع الإطباق الجديد بمادة مؤقتة لبضعة أسابيع. تأكل وتتكلم بها قبل صنع أي شيء من الخزف." }, "when": { "en": "Weeks 2 to 6", "ar": "الأسابيع ٢ إلى ٦" } },
+      { "title": { "en": "Foundations", "ar": "الأساسات" }, "text": { "en": "Root canals, gum treatment and implants where needed, usually quadrant by quadrant.", "ar": "علاج عصب ولثة وزراعة حيث يلزم، غالباً ربعاً ربعاً." }, "when": { "en": "Months 1 to 4", "ar": "الأشهر ١ إلى ٤" } },
+      { "title": { "en": "Final restorations", "ar": "التركيبات النهائية" }, "text": { "en": "Crowns, onlays and veneers are fitted in planned groups so you are never without teeth.", "ar": "تُركَّب التيجان والحشوات الخزفية والفينير في مجموعات مخططة حتى لا تبقى بلا أسنان أبداً." }, "when": { "en": "Months 3 to 6", "ar": "الأشهر ٣ إلى ٦" } }
+    ],
+    "whoFor": [
+      { "en": "Teeth worn short by grinding or acid", "ar": "أسنان قصُرت بالصرير أو الأحماض" },
+      { "en": "Multiple old crowns failing at the same time", "ar": "عدة تيجان قديمة تفشل في الوقت نفسه" },
+      { "en": "A bite that has collapsed after years of missing teeth", "ar": "إطباق انخفض بعد سنوات من فقدان الأسنان" },
+      { "en": "Previous work from several clinics that no longer fits together", "ar": "أعمال سابقة من عدة عيادات لم تعد متناسقة" }
+    ],
+    "whoNotFor": [
+      { "en": "A single damaged tooth, which needs a single crown", "ar": "سن واحد تالف، فهو يحتاج إلى تاج واحد" },
+      { "en": "Anyone not ready for several visits over a few months", "ar": "من ليس مستعداً لعدة زيارات على مدى بضعة أشهر" }
+    ],
+    "materials": [
+      { "label": { "en": "Ceramic system", "ar": "نظام الخزف" }, "value": "[CERAMIC SYSTEM]" },
+      { "label": { "en": "Implant brand", "ar": "ماركة الزرعات" }, "value": "[IMPLANT BRAND]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "Full mouth cases are priced per tooth and per stage, so the total depends on how many teeth are restored and whether implants are included. Entry figures: [CONFIRM]. The plan is written and staged so the cost spreads over the treatment, and payment plans are available.",
+      "ar": "تُسعَّر حالات إعادة تأهيل الفم في مصر لكل سن ولكل مرحلة، فيعتمد الإجمالي على عدد الأسنان وما إذا كانت الزراعة ضمن الخطة. الأرقام المبدئية: [CONFIRM]. الخطة مكتوبة ومقسمة على مراحل فتتوزع التكلفة على مدة العلاج، وتتوفر خطط سداد."
+    },
+    "model": "fullmouth",
+    "faqIds": ["fm-1", "fm-2", "fm-3", "fm-4", "fm-5"]
+  },
+  {
+    "slug": "clear-aligners",
+    "order": 4,
+    "title": { "en": "Clear aligners and adult orthodontics", "ar": "التقويم الشفاف وتقويم الكبار" },
+    "shortTitle": { "en": "Clear aligners", "ar": "التقويم الشفاف" },
+    "seoTitle": { "en": "Clear Aligners in Heliopolis | Prof. Ahmed El Hoshy", "ar": "التقويم الشفاف في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Invisalign and clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Free first consultation.",
+      "ar": "إنفزلاين والتقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. الاستشارة الأولى مجانية."
+    },
+    "fearIntro": {
+      "en": "Two worries come up: will people see it, and does it really move teeth. Aligners are thin clear trays that most people never notice in conversation. They move teeth in small planned steps, and you see the full sequence on screen before the first tray is made.",
+      "ar": "يتكرر قلقان: هل سيلاحظه الناس، وهل يحرّك الأسنان فعلاً. التقويم الشفاف قوالب رقيقة شفافة لا يلاحظها معظم الناس أثناء الحديث. يحرّك الأسنان بخطوات صغيرة مخططة، وترى التسلسل كاملاً على الشاشة قبل صنع أول قالب."
+    },
+    "oneLine": { "en": "Thin trays, changed every one to two weeks, planned on screen first.", "ar": "قوالب رقيقة تُبدَّل كل أسبوع أو أسبوعين، وتُخطط على الشاشة أولاً." },
+    "durationLabel": { "en": "6 to 18 months", "ar": "٦ إلى ١٨ شهراً" },
+    "visits": { "en": "Check-ups every 6 to 8 weeks", "ar": "مراجعة كل ٦ إلى ٨ أسابيع" },
+    "days": { "en": "6 to 18 months", "ar": "٦ إلى ١٨ شهراً" },
+    "steps": [
+      { "title": { "en": "Scan", "ar": "المسح الرقمي" }, "text": { "en": "A digital scan replaces impressions. We check gums and any old fillings first.", "ar": "يحل المسح الرقمي محل الطبعات. نفحص اللثة والحشوات القديمة أولاً." }, "when": { "en": "Visit 1", "ar": "الزيارة ١" } },
+      { "title": { "en": "The plan on screen", "ar": "الخطة على الشاشة" }, "text": { "en": "You see each stage of movement and the expected end position before approving.", "ar": "ترى كل مرحلة من الحركة والوضع النهائي المتوقع قبل الموافقة." }, "when": { "en": "1 to 2 weeks later", "ar": "بعد أسبوع إلى أسبوعين" } },
+      { "title": { "en": "Trays", "ar": "القوالب" }, "text": { "en": "Trays are worn 20 to 22 hours a day and changed on schedule. Short check-ups every six to eight weeks, or by photographs for patients abroad.", "ar": "تُلبس القوالب من ٢٠ إلى ٢٢ ساعة يومياً وتُبدَّل حسب الجدول. مراجعات قصيرة كل ستة إلى ثمانية أسابيع، أو بالصور للمرضى في الخارج." }, "when": { "en": "6 to 18 months", "ar": "٦ إلى ١٨ شهراً" } },
+      { "title": { "en": "Retention", "ar": "التثبيت" }, "text": { "en": "A retainer holds the result. Without it teeth drift back.", "ar": "يحافظ المثبت على النتيجة. ومن دونه تعود الأسنان تدريجياً." }, "when": { "en": "Ongoing", "ar": "مستمر" } }
+    ],
+    "whoFor": [
+      { "en": "Crowding or spacing in adults and teenagers", "ar": "تزاحم أو فراغات لدى الكبار والمراهقين" },
+      { "en": "Teeth that relapsed after braces years ago", "ar": "أسنان عادت للاعوجاج بعد تقويم قديم" },
+      { "en": "Alignment before veneers, to keep preparation minimal", "ar": "ترتيب الأسنان قبل الفينير لتقليل التحضير" },
+      { "en": "People who cannot wear fixed braces at work", "ar": "من لا يناسبه التقويم الثابت في عمله" }
+    ],
+    "whoNotFor": [
+      { "en": "Severe bite problems that need fixed braces or jaw surgery", "ar": "مشاكل الإطباق الشديدة التي تحتاج إلى تقويم ثابت أو جراحة فك" },
+      { "en": "Anyone who cannot commit to 20 hours of wear a day", "ar": "من لا يستطيع الالتزام بعشرين ساعة لبس يومياً" },
+      { "en": "Untreated gum disease", "ar": "التهاب لثة غير معالج" }
+    ],
+    "materials": [
+      { "label": { "en": "Aligner systems", "ar": "أنظمة التقويم الشفاف" }, "value": "Invisalign, [CONFIRM other systems]" },
+      { "label": { "en": "Retainers", "ar": "المثبتات" }, "value": "[CONFIRM]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "Aligner cost depends on how many trays the plan needs and whether both arches are treated. Short cases cost less than full treatment. Entry figures: [CONFIRM]. The written plan includes retainers, and payment plans are available.",
+      "ar": "سعر التقويم الشفاف في مصر يعتمد على عدد القوالب التي تحتاجها الخطة وما إذا كان العلاج للفكين. الحالات القصيرة أقل تكلفة من العلاج الكامل. الأرقام المبدئية: [CONFIRM]. تشمل الخطة المكتوبة المثبتات، وتتوفر خطط سداد."
+    },
+    "model": "aligner",
+    "faqIds": ["ali-1", "ali-2", "ali-3", "ali-4", "ali-5"]
+  },
+  {
+    "slug": "whitening-bonding",
+    "order": 5,
+    "title": { "en": "Whitening and composite bonding", "ar": "التبييض والحشوات التجميلية" },
+    "shortTitle": { "en": "Whitening and bonding", "ar": "التبييض والحشوات التجميلية" },
+    "seoTitle": { "en": "Teeth Whitening in Heliopolis | Prof. Ahmed El Hoshy", "ar": "تبييض الأسنان في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Professional teeth whitening and composite bonding in Heliopolis, Cairo. One visit, gums protected, honest advice on what whitening can and cannot do.",
+      "ar": "تبييض أسنان احترافي وحشوات تجميلية في مصر الجديدة. زيارة واحدة، مع حماية اللثة ورأي صريح فيما يفعله التبييض وما لا يفعله."
+    },
+    "fearIntro": {
+      "en": "People ask whether whitening damages enamel and whether it will look unnatural. Professional whitening does not remove enamel. The shade is chosen with you and stopped where it still looks like your teeth. Bonding adds composite to chips and edges in one visit without drilling healthy tooth.",
+      "ar": "يسأل الناس هل يضر التبييض بالمينا وهل سيبدو غير طبيعي. التبييض الاحترافي لا يزيل المينا. يُختار اللون معك ويتوقف عند الدرجة التي ما زالت تشبه أسنانك. والحشوات التجميلية تضيف مادة مركبة إلى الكسور والحواف في زيارة واحدة دون برد سن سليم."
+    },
+    "oneLine": { "en": "A brighter shade in one visit. Chips and edges repaired without drilling.", "ar": "درجة أفتح في زيارة واحدة. وإصلاح الكسور والحواف دون برد." },
+    "durationLabel": { "en": "1 visit", "ar": "زيارة واحدة" },
+    "visits": { "en": "1 visit", "ar": "زيارة واحدة" },
+    "days": { "en": "1 day", "ar": "يوم واحد" },
+    "steps": [
+      { "title": { "en": "Check and clean", "ar": "فحص وتنظيف" }, "text": { "en": "Whitening works on clean enamel. Decay and sensitive spots are treated first.", "ar": "يعمل التبييض على مينا نظيفة. يُعالج التسوس والمناطق الحساسة أولاً." }, "when": { "en": "Start of the visit", "ar": "بداية الزيارة" } },
+      { "title": { "en": "Gum protection", "ar": "حماية اللثة" }, "text": { "en": "Gums are covered with a protective barrier before the gel is applied.", "ar": "تُغطى اللثة بحاجز واقٍ قبل وضع الجل." }, "when": { "en": "10 minutes", "ar": "١٠ دقائق" } },
+      { "title": { "en": "Whitening", "ar": "التبييض" }, "text": { "en": "The gel works in short cycles over about an hour. Home trays can extend the result.", "ar": "يعمل الجل على دورات قصيرة خلال نحو ساعة. يمكن لقوالب المنزل أن تطيل النتيجة." }, "when": { "en": "About 1 hour", "ar": "نحو ساعة" } },
+      { "title": { "en": "Bonding, if planned", "ar": "الحشوة التجميلية إن كانت ضمن الخطة" }, "text": { "en": "Composite is layered and shaped on the tooth, then polished. No anaesthetic is usually needed.", "ar": "تُوضع المادة المركبة طبقات وتُشكَّل على السن ثم تُلمَّع. لا يلزم تخدير عادةً." }, "when": { "en": "Same visit or a later one", "ar": "الزيارة نفسها أو زيارة لاحقة" } }
+    ],
+    "whoFor": [
+      { "en": "Teeth that have yellowed with coffee, tea or age", "ar": "أسنان اصفرت بالقهوة أو الشاي أو مع العمر" },
+      { "en": "A small chip or a worn edge on a front tooth", "ar": "كسر صغير أو حافة متآكلة في سن أمامي" },
+      { "en": "A single gap that is too small for veneers", "ar": "فراغ صغير واحد لا يحتاج إلى فينير" },
+      { "en": "Anyone wanting a quick, reversible improvement", "ar": "من يريد تحسيناً سريعاً وقابلاً للتراجع" }
+    ],
+    "whoNotFor": [
+      { "en": "Crowns and old fillings, which do not change shade", "ar": "التيجان والحشوات القديمة، فهي لا تتغير بالتبييض" },
+      { "en": "Grey or tetracycline staining, where veneers do better", "ar": "التصبغات الرمادية أو تصبغ التتراسيكلين، فالفينير أنسب لها" },
+      { "en": "Pregnancy, and children under 16", "ar": "الحمل، والأطفال تحت ١٦ عاماً" }
+    ],
+    "materials": [
+      { "label": { "en": "Whitening system", "ar": "نظام التبييض" }, "value": "[WHITENING SYSTEM]" },
+      { "label": { "en": "Composite", "ar": "المادة المركبة" }, "value": "[COMPOSITE BRAND]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "Whitening is priced per session and bonding per tooth. Entry price for whitening: [ENTRY PRICE]. Entry price for bonding: [ENTRY PRICE]. Both are confirmed at the free first consultation.",
+      "ar": "سعر تبييض الأسنان في مصر يُحسب لكل جلسة، والحشوة التجميلية لكل سن. السعر المبدئي للتبييض: [ENTRY PRICE]. السعر المبدئي للحشوة التجميلية: [ENTRY PRICE]. يُؤكَّد السعران في الاستشارة الأولى المجانية."
+    },
+    "model": "none",
+    "faqIds": ["wh-1", "wh-2", "wh-3", "wh-4"]
+  },
+  {
+    "slug": "general-dentistry",
+    "order": 6,
+    "title": { "en": "Gum, family and general dentistry", "ar": "علاج اللثة وطب أسنان الأسرة والعام" },
+    "shortTitle": { "en": "General dentistry", "ar": "طب الأسنان العام" },
+    "seoTitle": { "en": "Family Dentistry in Heliopolis | Prof. Ahmed El Hoshy", "ar": "طب الأسنان العام في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "description": {
+      "en": "Gum treatment, root canals, fillings, children's dentistry, TMJ care and dentures in Heliopolis, Cairo. Infection control that patients mention in reviews.",
+      "ar": "علاج اللثة والعصب والحشوات وأسنان الأطفال ومفصل الفك والأطقم في مصر الجديدة. تعقيم يذكره المرضى في تقييماتهم."
+    },
+    "fearIntro": {
+      "en": "Most people put off the dentist because of pain or a past experience. Root canals and fillings here are done under full local anaesthetic, usually in one visit, and reviewers on Google describe the clinic as virtually painless. We explain each step before it happens.",
+      "ar": "يؤجل معظم الناس زيارة طبيب الأسنان بسبب الألم أو تجربة سابقة. علاج العصب والحشوات هنا تحت تخدير موضعي كامل، وغالباً في زيارة واحدة، ويصف المرضى العيادة في تقييماتهم على جوجل بأنها شبه خالية من الألم. نشرح كل خطوة قبل أن تحدث."
+    },
+    "oneLine": { "en": "Gums, root canals, fillings, children and dentures, with infection control you can see.", "ar": "لثة وعصب وحشوات وأطفال وأطقم، مع تعقيم تراه بعينك." },
+    "durationLabel": { "en": "Usually 1 visit", "ar": "غالباً زيارة واحدة" },
+    "visits": { "en": "Usually 1 visit", "ar": "غالباً زيارة واحدة" },
+    "days": { "en": "Same day", "ar": "اليوم نفسه" },
+    "steps": [
+      { "title": { "en": "Examination", "ar": "الفحص" }, "text": { "en": "A full check with X-rays where needed. You get a written list of what is urgent and what can wait.", "ar": "فحص كامل مع أشعة عند الحاجة. تحصل على قائمة مكتوبة بما هو عاجل وما يمكن تأجيله." }, "when": { "en": "Visit 1", "ar": "الزيارة ١" } },
+      { "title": { "en": "Gum health first", "ar": "صحة اللثة أولاً" }, "text": { "en": "Cleaning and gum treatment come before cosmetic work. Healthy gums are what make everything else last.", "ar": "التنظيف وعلاج اللثة قبل أي عمل تجميلي. اللثة السليمة هي ما يجعل كل شيء آخر يدوم." }, "when": { "en": "Visit 1 or 2", "ar": "الزيارة ١ أو ٢" } },
+      { "title": { "en": "Treatment", "ar": "العلاج" }, "text": { "en": "Fillings, root canals, children's treatment, TMJ splints and dentures, each explained before it starts.", "ar": "حشوات وعلاج عصب وعلاج أطفال وجبائر مفصل الفك وأطقم، يُشرح كل منها قبل البدء." }, "when": { "en": "As planned", "ar": "حسب الخطة" } },
+      { "title": { "en": "Recall", "ar": "المتابعة" }, "text": { "en": "A six-monthly review keeps small problems small.", "ar": "مراجعة كل ستة أشهر تُبقي المشاكل الصغيرة صغيرة." }, "when": { "en": "Every 6 months", "ar": "كل ٦ أشهر" } }
+    ],
+    "whoFor": [
+      { "en": "Bleeding gums, bad breath or loose teeth", "ar": "نزيف لثة أو رائحة فم أو أسنان متحركة" },
+      { "en": "Toothache or a tooth that reacts to hot and cold", "ar": "ألم أسنان أو سن يتأثر بالساخن والبارد" },
+      { "en": "Children from their first teeth onward", "ar": "الأطفال منذ أول أسنانهم" },
+      { "en": "Jaw clicking, morning headaches or worn edges", "ar": "طقطقة فك أو صداع صباحي أو حواف متآكلة" },
+      { "en": "Missing teeth where implants are not the right choice yet", "ar": "أسنان مفقودة حيث لا تكون الزراعة الخيار المناسب بعد" }
+    ],
+    "whoNotFor": [
+      { "en": "Dental emergencies outside opening hours, which should go to a hospital emergency department", "ar": "طوارئ الأسنان خارج ساعات العمل، وتُقصد لها طوارئ المستشفيات" }
+    ],
+    "materials": [
+      { "label": { "en": "Filling materials", "ar": "مواد الحشو" }, "value": "[COMPOSITE BRAND]" },
+      { "label": { "en": "Sterilisation protocol", "ar": "بروتوكول التعقيم" }, "value": "[CONFIRM]" },
+      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+    ],
+    "costParagraph": {
+      "en": "General treatment is priced per item after examination. Fillings, root canals and cleanings each have a set fee that is confirmed before treatment starts. Entry figures: [CONFIRM]. The first consultation is free.",
+      "ar": "يُسعَّر العلاج العام لكل إجراء بعد الفحص. للحشوات وعلاج العصب والتنظيف رسوم محددة تُؤكَّد قبل بدء العلاج. الأرقام المبدئية: [CONFIRM]. الاستشارة الأولى مجانية."
+    },
+    "model": "none",
+    "faqIds": ["gen-1", "gen-2", "gen-3", "gen-4"]
+  }
+]

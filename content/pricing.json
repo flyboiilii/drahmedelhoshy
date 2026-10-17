@@ -1,0 +1,40 @@
+{
+  "consultation": {
+    "title": { "en": "The first consultation is free.", "ar": "الاستشارة الأولى مجانية." },
+    "text": {
+      "en": "Time with the professor, photographs, and a written note of what he would and would not do. No obligation and no sales conversation.",
+      "ar": "وقت مع الأستاذ، وصور، وملاحظة مكتوبة بما يراه مناسباً وما لا يراه. دون التزام ودون حديث بيع."
+    },
+    "durationConfirm": "[CONFIRM consultation length]"
+  },
+  "entries": [
+    {
+      "id": "whitening",
+      "label": { "en": "Professional whitening, one session", "ar": "تبييض احترافي، جلسة واحدة" },
+      "price": { "en": "[ENTRY PRICE]", "ar": "[ENTRY PRICE]" },
+      "note": { "en": "Includes gum protection and a shade record.", "ar": "تشمل حماية اللثة وتسجيل اللون." }
+    },
+    {
+      "id": "bonding",
+      "label": { "en": "Composite bonding, per tooth", "ar": "حشوة تجميلية، لكل سن" },
+      "price": { "en": "[ENTRY PRICE]", "ar": "[ENTRY PRICE]" },
+      "note": { "en": "One visit. Polished and checked at a review.", "ar": "زيارة واحدة. تُلمَّع وتُراجع في موعد متابعة." }
+    }
+  ],
+  "veneersFrom": {
+    "label": "Porcelain veneers, from (per tooth)",
+    "price": "[CONFIRM]",
+    "note": "Shown on the English pricing page only, pending confirmation that a per-tooth figure may be published."
+  },
+  "includes": [
+    { "en": "A written plan listing every stage and visit", "ar": "خطة مكتوبة بكل مرحلة وزيارة" },
+    { "en": "Photographs, scans and X-rays needed for the plan", "ar": "الصور والمسح والأشعة اللازمة للخطة" },
+    { "en": "Temporaries where they are needed", "ar": "التركيبات المؤقتة حيث تلزم" },
+    { "en": "Review appointments after treatment", "ar": "مواعيد المراجعة بعد العلاج" },
+    { "en": "A named contact on WhatsApp for questions", "ar": "شخص محدد على واتساب للرد على الأسئلة" }
+  ],
+  "payment": {
+    "cards": { "en": "Cards accepted.", "ar": "نقبل البطاقات البنكية." },
+    "instalments": { "en": "Instalment plans: [PARTNERS TO CONFIRM]", "ar": "خطط تقسيط: [PARTNERS TO CONFIRM]" }
+  }
+}

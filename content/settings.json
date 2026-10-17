@@ -1,0 +1,54 @@
+{
+  "name": { "en": "El Hoshy Dental Clinic", "ar": "عيادة الهوشي للأسنان" },
+  "shortName": { "en": "El Hoshy Dental", "ar": "الهوشي للأسنان" },
+  "doctor": { "en": "Prof. Ahmed Zoheir El Hoshy", "ar": "أ.د. أحمد زهير الهوشي" },
+  "doctorShort": { "en": "Prof. Ahmed El Hoshy", "ar": "أ.د. أحمد الهوشي" },
+  "nameVariants": ["Elhoshy", "El-Hoshy", "Hoshy", "Ahmed Zohier El Hoshy", "الهوشى"],
+  "address": {
+    "en": "47 Cleopatra St, Salah El Din, Korba, Heliopolis, Cairo 11345, facing Cleopatra Hospital",
+    "ar": "٤٧ شارع كليوباترا، صلاح الدين، الكوربة، مصر الجديدة، القاهرة، أمام مستشفى كليوباترا"
+  },
+  "addressParts": {
+    "street": "47 Cleopatra St, Salah El Din, Korba",
+    "locality": "Heliopolis",
+    "region": "Cairo",
+    "postalCode": "11345",
+    "country": "EG"
+  },
+  "coordinates": { "lat": 30.0943, "lng": 31.3299 },
+  "phones": {
+    "primary": "+20 102 829 4777",
+    "primaryE164": "+201028294777",
+    "others": ["+20 122 107 0377", "+20 2 2414 7290"],
+    "othersE164": ["+201221070377", "+20224147290"]
+  },
+  "whatsapp": "201028294777",
+  "hours": {
+    "days": { "en": "Saturday to Thursday", "ar": "من السبت إلى الخميس" },
+    "open": "11:00",
+    "close": "21:30",
+    "closed": { "en": "Closed Friday", "ar": "مغلق يوم الجمعة" },
+    "schemaDays": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+    "confirm": "[CONFIRM] directories disagree on hours"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/elhoshydentalclinic/",
+    "facebook": "https://www.facebook.com/ehhoshy",
+    "linktree": "https://linktr.ee/hoshyclinic"
+  },
+  "googleRating": 4.9,
+  "googleReviewCount": 141,
+  "googleReviewKeywords": ["infection control", "virtually painless", "dental aesthetics"],
+  "googleMapsUrl": "[PLACEHOLDER]",
+  "googleMapsEmbedUrl": "https://www.google.com/maps?q=30.0943,31.3299&output=embed",
+  "licenceNumber": "[PLACEHOLDER]",
+  "languages": {
+    "en": ["Arabic", "English", "French", "Italian"],
+    "ar": ["العربية", "الإنجليزية", "الفرنسية", "الإيطالية"]
+  },
+  "payment": {
+    "en": "Cards accepted. Payment plans available. The first consultation is free.",
+    "ar": "نقبل البطاقات البنكية. تتوفر خطط سداد. الاستشارة الأولى مجانية."
+  },
+  "since": "1997"
+}
