@@ -3,6 +3,7 @@ import { getDict, l, otherLang, type Lang } from "@/lib/i18n";
 import { concernPath, localize, servicePath } from "@/lib/routes";
 import { concerns, services, settings } from "@/lib/content";
 import { Icon } from "@/components/ui/Icon";
+import { LogoMark } from "@/components/ui/LogoMark";
 
 export function Footer({ lang }: { lang: Lang }) {
   const d = getDict(lang);
@@ -11,8 +12,11 @@ export function Footer({ lang }: { lang: Lang }) {
       <div className="container-x py-14 md:py-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <p className="wordmark text-alabaster">
-              El Hoshy <span className="text-brass">Dental</span>
+            <p className="flex items-center gap-3 text-alabaster">
+              <LogoMark size={34} className="text-brass" />
+              <span className="wordmark">
+                El Hoshy <span className="text-brass">Dental</span>
+              </span>
             </p>
             <p className="mt-5 max-w-sm text-limestone">{l(settings.address, lang)}</p>
             <p className="mt-4 text-limestone">

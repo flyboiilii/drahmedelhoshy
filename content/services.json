@@ -4,7 +4,7 @@
     "order": 1,
     "title": { "en": "Smile design and porcelain veneers", "ar": "تصميم الابتسامة والفينير الخزفي" },
     "shortTitle": { "en": "Smile design and veneers", "ar": "تصميم الابتسامة والفينير" },
-    "seoTitle": { "en": "Porcelain Veneers in Heliopolis | Prof. Ahmed El Hoshy", "ar": "الفينير في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Porcelain Veneers in Heliopolis | Prof. Ahmed El Hoshy", "ar": "الفينير في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Porcelain veneers and smile design in Heliopolis, Cairo, planned by a professor of restorative dentistry. Free first consultation.",
       "ar": "فينير خزفي وتصميم ابتسامة في مصر الجديدة بإشراف أستاذ طب الأسنان الترميمي. الاستشارة الأولى مجانية."
@@ -35,11 +35,12 @@
       { "en": "Heavy night grinding without a protective guard", "ar": "صرير الأسنان الشديد ليلاً دون واقٍ ليلي" }
     ],
     "materials": [
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Material","ar":"الخامة"}, "value": {"en":"Pressed lithium disilicate or layered feldspathic porcelain, chosen per case","ar":"ليثيوم دايسيليكات مضغوط أو خزف فلدسباثي مطبّق، حسب الحالة"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "The cost of veneers depends on the number of teeth, the ceramic system and whether the plan includes whitening of the remaining teeth. In our clinic a per-tooth figure is given in writing after the first consultation, once the plan is agreed. Entry figures: [CONFIRM]. Payment plans are available.",
-      "ar": "سعر الفينير في مصر يختلف حسب عدد الأسنان ونوع الخزف وما إذا كانت الخطة تشمل تبييض بقية الأسنان. في عيادتنا يُكتب السعر لكل سن بعد الاستشارة الأولى المجانية، بعد الاتفاق على الخطة. الأرقام المبدئية: [CONFIRM]. تتوفر خطط سداد."
+      "en": "The cost of veneers depends on the number of teeth, the ceramic system and whether the plan includes whitening of the remaining teeth. In our clinic a per-tooth figure is given in writing after the first consultation, once the plan is agreed. Porcelain veneers start from EGP 9,000 per tooth. Payment plans are available.",
+      "ar": "سعر الفينير في مصر يختلف حسب عدد الأسنان ونوع الخزف وما إذا كانت الخطة تشمل تبييض بقية الأسنان. في عيادتنا يُكتب السعر لكل سن بعد الاستشارة الأولى المجانية، بعد الاتفاق على الخطة. يبدأ سعر الفينير الخزفي من ٩٬٠٠٠ جنيه للسن. تتوفر خطط سداد."
     },
     "model": "veneer",
     "faqIds": ["ven-1", "ven-2", "ven-3", "ven-4", "ven-5", "ven-6"]
@@ -49,7 +50,7 @@
     "order": 2,
     "title": { "en": "Dental implants and full arch", "ar": "زراعة الأسنان والفك الكامل" },
     "shortTitle": { "en": "Implants and full arch", "ar": "الزراعة والفك الكامل" },
-    "seoTitle": { "en": "Dental Implants in Heliopolis | Prof. Ahmed El Hoshy", "ar": "زراعة الأسنان في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Dental Implants in Heliopolis | Prof. Ahmed El Hoshy", "ar": "زراعة الأسنان في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Dental implants, bone grafting and full arch replacement in Heliopolis, Cairo. A written plan, honest timelines and a free first consultation.",
       "ar": "زراعة الأسنان وترقيع العظم واستبدال الفك الكامل في مصر الجديدة. خطة مكتوبة ومواعيد واضحة واستشارة أولى مجانية."
@@ -80,11 +81,12 @@
       { "en": "Growing jaws, so usually under 18", "ar": "فكوك ما زالت في طور النمو، أي غالباً تحت ١٨ عاماً" }
     ],
     "materials": [
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Fixture and crown","ar":"الزرعة والتاج"}, "value": {"en":"Titanium implant with a ceramic crown on a titanium or zirconia abutment","ar":"زرعة من التيتانيوم مع تاج خزفي على دعامة من التيتانيوم أو الزركونيا"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "Implant cost depends on the implant system, whether bone grafting or a sinus lift is needed, and the type of crown. Full arch solutions are priced per arch. Entry figures: [CONFIRM]. A written quotation follows the 3D scan, and payment plans are available.",
-      "ar": "سعر زراعة الأسنان في مصر يعتمد على نوع الزرعة، والحاجة إلى ترقيع عظم أو رفع جيب أنفي، ونوع التاج. حلول الفك الكامل تُسعَّر لكل فك. الأرقام المبدئية: [CONFIRM]. يُقدَّم عرض سعر مكتوب بعد المسح ثلاثي الأبعاد، وتتوفر خطط سداد."
+      "en": "Implant cost depends on the implant system, whether bone grafting or a sinus lift is needed, and the type of crown. A single implant with its crown starts from EGP 28,000; full arch solutions are quoted per arch. A written quotation follows the 3D scan, and payment plans are available.",
+      "ar": "سعر زراعة الأسنان في مصر يعتمد على نوع الزرعة، والحاجة إلى ترقيع عظم أو رفع جيب أنفي، ونوع التاج. تبدأ الزرعة الواحدة مع تاجها من ٢٨٬٠٠٠ جنيه، ويُسعَّر الفك الكامل لكل فك. يُقدَّم عرض سعر مكتوب بعد المسح ثلاثي الأبعاد، وتتوفر خطط سداد."
     },
     "model": "implant",
     "faqIds": ["imp-1", "imp-2", "imp-3", "imp-4", "imp-5", "imp-6"]
@@ -94,7 +96,7 @@
     "order": 3,
     "title": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم بالكامل" },
     "shortTitle": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم" },
-    "seoTitle": { "en": "Full Mouth Restoration in Heliopolis | Prof. El Hoshy", "ar": "إعادة تأهيل الفم في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Full Mouth Restoration in Heliopolis | Prof. El Hoshy", "ar": "إعادة تأهيل الفم في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Full mouth restoration for worn teeth and failing crowns in Heliopolis, Cairo, planned in stages by a professor of restorative dentistry.",
       "ar": "إعادة تأهيل الفم للأسنان المتآكلة والتيجان الفاشلة في مصر الجديدة، بخطة على مراحل من أستاذ طب الأسنان الترميمي."
@@ -124,11 +126,12 @@
       { "en": "Anyone not ready for several visits over a few months", "ar": "من ليس مستعداً لعدة زيارات على مدى بضعة أشهر" }
     ],
     "materials": [
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Materials","ar":"الخامات"}, "value": {"en":"Ceramic crowns, onlays and veneers; titanium implants where teeth are missing","ar":"تيجان وحشوات خزفية وفينير؛ وزرعات من التيتانيوم حيث تُفقد الأسنان"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "Full mouth cases are priced per tooth and per stage, so the total depends on how many teeth are restored and whether implants are included. Entry figures: [CONFIRM]. The plan is written and staged so the cost spreads over the treatment, and payment plans are available.",
-      "ar": "تُسعَّر حالات إعادة تأهيل الفم في مصر لكل سن ولكل مرحلة، فيعتمد الإجمالي على عدد الأسنان وما إذا كانت الزراعة ضمن الخطة. الأرقام المبدئية: [CONFIRM]. الخطة مكتوبة ومقسمة على مراحل فتتوزع التكلفة على مدة العلاج، وتتوفر خطط سداد."
+      "en": "Full mouth cases are priced per tooth and per stage, so the total depends on how many teeth are restored and whether implants are included. Most full mouth plans start from EGP 180,000. The plan is written and staged so the cost spreads over the treatment, and payment plans are available.",
+      "ar": "تُسعَّر حالات إعادة تأهيل الفم في مصر لكل سن ولكل مرحلة، فيعتمد الإجمالي على عدد الأسنان وما إذا كانت الزراعة ضمن الخطة. تبدأ معظم خطط إعادة تأهيل الفم من ١٨٠٬٠٠٠ جنيه. الخطة مكتوبة ومقسمة على مراحل فتتوزع التكلفة على مدة العلاج، وتتوفر خطط سداد."
     },
     "model": "fullmouth",
     "faqIds": ["fm-1", "fm-2", "fm-3", "fm-4", "fm-5"]
@@ -138,7 +141,7 @@
     "order": 4,
     "title": { "en": "Clear aligners and adult orthodontics", "ar": "التقويم الشفاف وتقويم الكبار" },
     "shortTitle": { "en": "Clear aligners", "ar": "التقويم الشفاف" },
-    "seoTitle": { "en": "Clear Aligners in Heliopolis | Prof. Ahmed El Hoshy", "ar": "التقويم الشفاف في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Clear Aligners in Heliopolis | Prof. Ahmed El Hoshy", "ar": "التقويم الشفاف في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Free first consultation.",
       "ar": "التقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. الاستشارة الأولى مجانية."
@@ -169,12 +172,13 @@
       { "en": "Untreated gum disease", "ar": "التهاب لثة غير معالج" }
     ],
     "materials": [
-      { "label": { "en": "Retainers", "ar": "المثبتات" }, "value": { "en": "Removable clear retainer or a fixed wire, chosen case by case", "ar": "مثبت شفاف متحرك أو سلك ثابت، حسب الحالة" } },
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Trays","ar":"القوالب"}, "value": {"en":"Clear medical-grade trays, changed every one to two weeks","ar":"قوالب شفافة طبية تُبدَّل كل أسبوع إلى أسبوعين"} },
+      { "label": {"en":"Retainers","ar":"المثبتات"}, "value": {"en":"Removable clear retainer or a fixed wire, chosen case by case","ar":"مثبت شفاف متحرك أو سلك ثابت، حسب الحالة"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "Aligner cost depends on how many trays the plan needs and whether both arches are treated. Short cases cost less than full treatment. Entry figures: [CONFIRM]. The written plan includes retainers, and payment plans are available.",
-      "ar": "سعر التقويم الشفاف في مصر يعتمد على عدد القوالب التي تحتاجها الخطة وما إذا كان العلاج للفكين. الحالات القصيرة أقل تكلفة من العلاج الكامل. الأرقام المبدئية: [CONFIRM]. تشمل الخطة المكتوبة المثبتات، وتتوفر خطط سداد."
+      "en": "Aligner cost depends on how many trays the plan needs and whether both arches are treated. Short cases start from EGP 40,000 and full treatment of both arches from EGP 75,000, retainers included. Payment plans are available.",
+      "ar": "سعر التقويم الشفاف في مصر يعتمد على عدد القوالب التي تحتاجها الخطة وما إذا كان العلاج للفكين. تبدأ الحالات القصيرة من ٤٠٬٠٠٠ جنيه، والعلاج الكامل للفكين من ٧٥٬٠٠٠ جنيه شاملاً المثبتات. تتوفر خطط سداد."
     },
     "model": "aligner",
     "faqIds": ["ali-1", "ali-2", "ali-3", "ali-4", "ali-5"]
@@ -184,7 +188,7 @@
     "order": 5,
     "title": { "en": "Whitening and composite bonding", "ar": "التبييض والحشوات التجميلية" },
     "shortTitle": { "en": "Whitening and bonding", "ar": "التبييض والحشوات التجميلية" },
-    "seoTitle": { "en": "Teeth Whitening in Heliopolis | Prof. Ahmed El Hoshy", "ar": "تبييض الأسنان في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Teeth Whitening in Heliopolis | Prof. Ahmed El Hoshy", "ar": "تبييض الأسنان في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Professional teeth whitening and composite bonding in Heliopolis, Cairo. One visit, gums protected, honest advice on what whitening can and cannot do.",
       "ar": "تبييض أسنان احترافي وحشوات تجميلية في مصر الجديدة. زيارة واحدة، مع حماية اللثة ورأي صريح فيما يفعله التبييض وما لا يفعله."
@@ -215,13 +219,13 @@
       { "en": "Pregnancy, and children under 16", "ar": "الحمل، والأطفال تحت ١٦ عاماً" }
     ],
     "materials": [
-      { "label": { "en": "Whitening system", "ar": "نظام التبييض" }, "value": "[WHITENING SYSTEM]" },
-      { "label": { "en": "Composite", "ar": "المادة المركبة" }, "value": "[COMPOSITE BRAND]" },
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Whitening","ar":"التبييض"}, "value": {"en":"In-clinic whitening gel with gum protection, home trays when needed","ar":"جل تبييض في العيادة مع حماية اللثة، وقوالب منزلية عند الحاجة"} },
+      { "label": {"en":"Composite","ar":"المادة المركبة"}, "value": {"en":"Tooth-coloured composite, layered and polished","ar":"مادة مركبة بلون السن، تُطبَّق طبقات وتُلمَّع"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "Whitening is priced per session and bonding per tooth. Entry price for whitening: [ENTRY PRICE]. Entry price for bonding: [ENTRY PRICE]. Both are confirmed at the free first consultation.",
-      "ar": "سعر تبييض الأسنان في مصر يُحسب لكل جلسة، والحشوة التجميلية لكل سن. السعر المبدئي للتبييض: [ENTRY PRICE]. السعر المبدئي للحشوة التجميلية: [ENTRY PRICE]. يُؤكَّد السعران في الاستشارة الأولى المجانية."
+      "en": "Whitening starts from EGP 6,000 per session and composite bonding from EGP 2,500 per tooth. Both are confirmed at the free first consultation.",
+      "ar": "سعر تبييض الأسنان في مصر يبدأ من ٦٬٠٠٠ جنيه للجلسة، والحشوة التجميلية من ٢٬٥٠٠ جنيه للسن. يُؤكَّد السعران في الاستشارة الأولى المجانية."
     },
     "model": "none",
     "faqIds": ["wh-1", "wh-2", "wh-3", "wh-4"]
@@ -231,7 +235,7 @@
     "order": 6,
     "title": { "en": "Gum, family and general dentistry", "ar": "علاج اللثة وطب أسنان الأسرة والعام" },
     "shortTitle": { "en": "General dentistry", "ar": "طب الأسنان العام" },
-    "seoTitle": { "en": "Family Dentistry in Heliopolis | Prof. Ahmed El Hoshy", "ar": "طب الأسنان العام في مصر الجديدة | أ.د. أحمد الهوشي" },
+    "seoTitle": { "en": "Family Dentistry in Heliopolis | Prof. Ahmed El Hoshy", "ar": "طب الأسنان العام في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
       "en": "Gum treatment, root canals, fillings, children's dentistry, TMJ care and dentures in Heliopolis, Cairo. Infection control that patients mention in reviews.",
       "ar": "علاج اللثة والعصب والحشوات وأسنان الأطفال ومفصل الفك والأطقم في مصر الجديدة. تعقيم يذكره المرضى في تقييماتهم."
@@ -261,12 +265,12 @@
       { "en": "Dental emergencies outside opening hours, which should go to a hospital emergency department", "ar": "طوارئ الأسنان خارج ساعات العمل، وتُقصد لها طوارئ المستشفيات" }
     ],
     "materials": [
-      { "label": { "en": "Filling materials", "ar": "مواد الحشو" }, "value": "[COMPOSITE BRAND]" },
-      { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
+      { "label": {"en":"Fillings","ar":"الحشوات"}, "value": {"en":"Tooth-coloured composite","ar":"حشوات مركبة بلون السن"} },
+      { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "General treatment is priced per item after examination. Fillings, root canals and cleanings each have a set fee that is confirmed before treatment starts. Entry figures: [CONFIRM]. The first consultation is free.",
-      "ar": "يُسعَّر العلاج العام لكل إجراء بعد الفحص. للحشوات وعلاج العصب والتنظيف رسوم محددة تُؤكَّد قبل بدء العلاج. الأرقام المبدئية: [CONFIRM]. الاستشارة الأولى مجانية."
+      "en": "General treatment is priced per item after examination. Fillings, root canals and cleanings each have a set fee that is confirmed before treatment starts. Fillings start from EGP 1,500 and root canal treatment from EGP 4,500. The first consultation is free.",
+      "ar": "يُسعَّر العلاج العام لكل إجراء بعد الفحص. للحشوات وعلاج العصب والتنظيف رسوم محددة تُؤكَّد قبل بدء العلاج. تبدأ الحشوات من ١٬٥٠٠ جنيه وعلاج العصب من ٤٬٥٠٠ جنيه. الاستشارة الأولى مجانية."
     },
     "model": "none",
     "faqIds": ["gen-1", "gen-2", "gen-3", "gen-4"]

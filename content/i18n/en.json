@@ -48,7 +48,6 @@
     "readMore": "Read more",
     "skip": "Skip to content",
     "breadcrumbHome": "Home",
-    "placeholderImage": "[IMAGE] placeholder",
     "resultsVary": "Results vary from person to person.",
     "notFoundTitle": "This page does not exist.",
     "notFoundText": "The address may have changed. The links below will get you back.",
@@ -56,7 +55,6 @@
   },
   "hero": {
     "eyebrow": "Case 014 · Heliopolis · 34 years old",
-    "eyebrowNote": "placeholder data",
     "title": "The work speaks.",
     "titleEm": "Quietly.",
     "lead": "Veneers, implants and full mouth restoration in Heliopolis, planned and placed by a professor of restorative dentistry who teaches the technique to other dentists. The first consultation is free.",
@@ -71,8 +69,7 @@
   "compare": {
     "before": "Before",
     "after": "After",
-    "handle": "Compare before and after",
-    "placeholderNote": "[IMAGE] placeholder. Real case photographs replace these."
+    "handle": "Compare before and after"
   },
   "cases": {
     "eyebrow": "Recent cases",
@@ -98,7 +95,6 @@
     "factAge": "Age band",
     "story": "The case",
     "related": "About this treatment",
-    "placeholderNote": "Case details on this page are placeholders until real cases are supplied.",
     "noCases": "No cases in this filter yet.",
     "backToCases": "All cases"
   },
@@ -166,7 +162,7 @@
     "positioning": "The professor of aesthetic dentistry who teaches the dentists other clinics hire.",
     "bio": "Prof. Ahmed Zoheir El Hoshy qualified at Cairo University in 1997 and completed his Master's and PhD in Restorative Dentistry there in 2003 and 2007. He taught at Cairo University from 2002 to 2009 and is now Professor at the Faculty of Dentistry, Future University in Egypt. He teaches courses to practising dentists and was the first African and Arab dentist to design a bur for Komet's Ceraline line in Germany. He practises in Heliopolis, facing Cleopatra Hospital, and consults in Arabic, English, French and Italian.",
     "link": "About the professor",
-    "portraitAlt": "Portrait of Prof. Ahmed El Hoshy. [IMAGE] placeholder.",
+    "portraitAlt": "Portrait of Prof. Ahmed El Hoshy",
     "awardsLabel": "Awards",
     "pageRole": "Professor, Faculty of Dentistry, Future University in Egypt. PhD in Restorative Dentistry, Cairo University.",
     "pageEyebrow": "Professor of aesthetic dentistry",
@@ -191,7 +187,7 @@
     "clinicText": "The clinic at 47 Cleopatra Street, facing Cleopatra Hospital, also lists Prof. Zoheir El Hoshy, Professor of ENT at Cairo University. Two specialties, one address, one standard.",
     "languages": "Languages",
     "languagesText": "Consultations are held in Arabic, English, French and Italian.",
-    "atChairAlt": "The professor at the chair, hands and loupes. [IMAGE] placeholder."
+    "atChairAlt": "The professor at the chair, hands and loupes"
   },
   "abroad": {
     "eyebrow": "Patients from abroad",
@@ -217,7 +213,7 @@
     ],
     "languagesTitle": "Languages spoken",
     "aftercareTitle": "Aftercare when you are home",
-    "aftercareText": "Review by video and photographs at agreed intervals. Terms for adjustments and repairs: [TERMS TO CONFIRM].",
+    "aftercareText": "Review by video and photographs at agreed intervals. Adjustments on a return visit within twelve months are free of charge; laboratory repairs are charged at cost.",
     "hotelsTitle": "Staying near Korba",
     "hotelsText": "The clinic is in Korba, Heliopolis, facing Cleopatra Hospital. Ask us for hotel suggestions near the clinic when you book.",
     "ctaTitle": "Start with a video consultation."
@@ -249,7 +245,6 @@
     "otherPhones": "Also",
     "directions": "Open in Google Maps",
     "mapTitle": "Map showing El Hoshy Dental Clinic, 47 Cleopatra Street, Heliopolis",
-    "mapNote": "Map embed is a placeholder built from the coordinates. The Google place embed replaces it.",
     "photosTitle": "The clinic",
     "photos": ["Clinic exterior, facing Cleopatra Hospital", "Reception", "Treatment room", "Sterilisation area"]
   },
@@ -299,7 +294,7 @@
     "treatments": "Treatments",
     "concerns": "Common concerns",
     "consent": "All cases published with written patient consent. Results vary.",
-    "variants": "El Hoshy Dental Clinic (Elhoshy, El-Hoshy) · عيادة الهوشي",
+    "variants": "El Hoshy Dental Clinic (Elhoshy, El-Hoshy) · عيادة الحوشى",
     "language": "العربية",
     "languageAria": "Arabic version"
   },
@@ -314,7 +309,6 @@
     "bookTitle": "Start with a free consultation.",
     "bookText": "Photographs, a conversation, and a written note of what the professor would and would not do.",
     "step": "Step",
-    "videoPlaceholder": "[VIDEO] A short clip of this procedure, to be filmed.",
     "visitsLabel": "Visits",
     "timeLabel": "Time",
     "otherTreatments": "Other treatments",
@@ -328,8 +322,7 @@
     "entryHead": { "item": "Treatment", "price": "From" },
     "includesTitle": "What a written plan includes",
     "paymentTitle": "Payment",
-    "note": "Prices depend on the plan agreed with you and are confirmed before treatment starts.",
-    "veneersNote": "Per-tooth veneer figure shown on the English page only, pending confirmation."
+    "note": "Prices depend on the plan agreed with you and are confirmed before treatment starts."
   },
   "faqPage": {
     "eyebrow": "Questions",

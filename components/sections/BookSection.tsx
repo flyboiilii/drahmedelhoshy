@@ -85,9 +85,6 @@ export function BookSection({ lang, page, withMap = false, level = "h2" }: Props
                 ))}
               </ul>
               <MapEmbed title={d.book.mapTitle} />
-              <p className="caption mt-2">
-                <span className="placeholder-tag">{d.book.mapNote}</span>
-              </p>
             </div>
           )}
         </div>

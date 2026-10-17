@@ -50,7 +50,6 @@ export function createProfessorPage(lang: Lang): { metadata: Metadata; Page: () 
           <div className="lg:col-span-5">
             <div className="relative aspect-[3/4] img-frame max-w-md lg:ms-auto" data-reveal>
               <Image src="/placeholders/professor-portrait.jpg" alt={d.professor.portraitAlt} fill sizes="(min-width: 1024px) 40vw, 100vw" priority className="object-cover" />
-              <span className="placeholder-tag absolute bottom-3 start-3">[IMAGE]</span>
             </div>
           </div>
         </section>
@@ -75,7 +74,6 @@ export function createProfessorPage(lang: Lang): { metadata: Metadata; Page: () 
           <div className="container-x">
             <div className="relative aspect-[16/9] img-frame" data-reveal>
               <Image src="/placeholders/professor-chair.jpg" alt={d.professor.atChairAlt} fill sizes="(min-width: 1440px) 1344px, 100vw" className="object-cover" />
-              <span className="placeholder-tag absolute bottom-3 start-3">[IMAGE]</span>
             </div>
           </div>
         </section>

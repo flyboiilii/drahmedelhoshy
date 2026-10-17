@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   metadataBase,
   title: { default: d.meta.siteTitle, template: "%s" },
   description: d.meta.homeDescription,
-  applicationName: "عيادة الهوشي للأسنان",
+  applicationName: "عيادة الحوشى للأسنان",
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
 };

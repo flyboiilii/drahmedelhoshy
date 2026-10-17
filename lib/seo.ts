@@ -33,7 +33,7 @@ export function buildMetadata({ lang, path, title, description, image }: Args): 
       title,
       description,
       url: canonical,
-      siteName: lang === "ar" ? "عيادة الهوشي للأسنان" : "El Hoshy Dental Clinic",
+      siteName: lang === "ar" ? "عيادة الحوشى للأسنان" : "El Hoshy Dental Clinic",
       locale: lang === "ar" ? "ar_EG" : "en_GB",
       alternateLocale: lang === "ar" ? "en_GB" : "ar_EG",
       type: "website",

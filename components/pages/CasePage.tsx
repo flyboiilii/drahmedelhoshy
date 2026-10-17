@@ -81,10 +81,7 @@ export function createCasePage(lang: Lang) {
               mirrored={lang === "ar"}
               sizes="(min-width: 1440px) 1344px, 100vw"
             />
-            <p className="caption mt-3 flex flex-wrap gap-x-3">
-              <span>{d.cases.consentShort}</span>
-              <span className="placeholder-tag">{d.compare.placeholderNote}</span>
-            </p>
+            <p className="caption mt-3">{d.cases.consentShort}</p>
           </div>
         </section>
 
@@ -99,11 +96,6 @@ export function createCasePage(lang: Lang) {
                   </div>
                 ))}
               </dl>
-              {c.placeholder && (
-                <p className="caption mt-4">
-                  <span className="placeholder-tag">{d.cases.placeholderNote}</span>
-                </p>
-              )}
             </div>
             <div className="lg:col-span-7">
               <h2 className="h3">{d.cases.story}</h2>

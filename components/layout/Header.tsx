@@ -4,6 +4,7 @@ import { localize, servicePath } from "@/lib/routes";
 import { services } from "@/lib/content";
 import { LangSwitch } from "./LangSwitch";
 import { MobileMenu } from "./MobileMenu";
+import { LogoMark } from "@/components/ui/LogoMark";
 
 /**
  * Static header (not sticky) so the terracotta button never shares a viewport
@@ -28,8 +29,11 @@ export function Header({ lang }: { lang: Lang }) {
   return (
     <header className="relative z-40 bg-alabaster">
       <div className="container-x h-[72px] flex items-center justify-between gap-6">
-        <Link href={localize(lang, "/")} className="wordmark text-graphite" title={l({ en: "El Hoshy Dental, home", ar: "الهوشي للأسنان، الرئيسية" }, lang)}>
-          El Hoshy <span className="text-bronze-deep">Dental</span>
+        <Link href={localize(lang, "/")} className="flex items-center gap-3 text-graphite" title={l({ en: "El Hoshy Dental, home", ar: "الحوشى للأسنان، الرئيسية" }, lang)}>
+          <LogoMark size={30} className="text-bronze-deep" />
+          <span className="wordmark">
+            El Hoshy <span className="text-bronze-deep">Dental</span>
+          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8" aria-label={d.nav.menu}>

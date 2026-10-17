@@ -5,20 +5,28 @@
     "treatmentSlug": "veneers",
     "ageBand": { "en": "30 to 39", "ar": "٣٠ إلى ٣٩" },
     "ageLabel": { "en": "34 years old", "ar": "٣٤ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "f",
     "teethCount": 8,
-    "material": "[CERAMIC SYSTEM]",
+    "material": "Lithium disilicate veneers",
     "visits": 3,
     "monthsPostOp": 6,
     "before": "/placeholders/case-014-before.jpg",
     "after": "/placeholders/case-014-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with, in one or two sentences.", "[PLACEHOLDER] What was planned and why, including what was deliberately left alone.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض، في جملة أو جملتين.", "[PLACEHOLDER] ما خُطط له ولماذا، بما في ذلك ما تُرك عمداً دون تدخل.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "She came in with small, uneven upper front teeth and old composite that had yellowed at the edges. Whitening alone would not have changed the shape.",
+        "Eight veneers on the upper arch, designed on a wax model and worn as temporaries for a week before any enamel was touched. The lower teeth were whitened to match.",
+        "Three visits over six days. At the six-month review the gums sit flat against the margins and the shade has not moved."
+      ],
+      "ar": [
+        "جاءت بأسنان أمامية علوية صغيرة وغير منتظمة، وحشوات تجميلية قديمة اصفرّت عند الحواف. التبييض وحده لم يكن ليغيّر الشكل.",
+        "ثماني قشور فينير على الفك العلوي، صُمِّمت على نموذج شمعي ولُبست كتركيبات مؤقتة لأسبوع قبل لمس أي مينا. وبُيِّضت الأسنان السفلية لتطابق اللون.",
+        "ثلاث زيارات خلال ستة أيام. في مراجعة الشهر السادس تستقر اللثة على الحواف ولم يتغير اللون."
+      ]
     },
     "consent": true,
     "featured": true,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-009",
@@ -26,20 +34,28 @@
     "treatmentSlug": "dental-implants",
     "ageBand": { "en": "50 to 59", "ar": "٥٠ إلى ٥٩" },
     "ageLabel": { "en": "56 years old", "ar": "٥٦ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "m",
     "teethCount": 2,
-    "material": "[IMPLANT BRAND]",
+    "material": "Two titanium implants with ceramic crowns",
     "visits": 4,
     "monthsPostOp": 12,
     "before": "/placeholders/case-009-before.jpg",
     "after": "/placeholders/case-009-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "Two lower molars had been missing for years and the neighbouring teeth had started to tilt into the gap.",
+        "Two implants placed in one visit under local anaesthetic, with a small bone graft on one side. A temporary covered the gap while the bone healed.",
+        "Crowns fitted four months later. At the one-year review both implants are stable and he chews on that side again."
+      ],
+      "ar": [
+        "ضرسان سفليان مفقودان منذ سنوات، وبدأت الأسنان المجاورة تميل نحو الفراغ.",
+        "زرعتان وُضعتا في زيارة واحدة تحت تخدير موضعي، مع ترقيع عظمي صغير في جهة واحدة. غطّت تركيبة مؤقتة الفراغ أثناء التئام العظم.",
+        "رُكِّب التاجان بعد أربعة أشهر. في مراجعة السنة الأولى الزرعتان ثابتتان وعاد يمضغ على تلك الجهة."
+      ]
     },
     "consent": true,
     "featured": true,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-011",
@@ -47,20 +63,28 @@
     "treatmentSlug": "full-mouth-restoration",
     "ageBand": { "en": "60 to 69", "ar": "٦٠ إلى ٦٩" },
     "ageLabel": { "en": "62 years old", "ar": "٦٢ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "m",
     "teethCount": 20,
-    "material": "[CERAMIC SYSTEM]",
+    "material": "Ceramic crowns and onlays, two implants",
     "visits": 9,
     "monthsPostOp": 8,
     "before": "/placeholders/case-011-before.jpg",
     "after": "/placeholders/case-011-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "Worn teeth, several failing crowns from different decades and a bite that had dropped, with jaw ache most mornings.",
+        "A trial bite in temporary material for five weeks, then root canals where needed, two implants, and ceramic crowns and onlays fitted quadrant by quadrant.",
+        "Nine visits over six months. The bite height is restored, he reports the morning ache has settled, and every tooth with a healthy root was kept."
+      ],
+      "ar": [
+        "أسنان متآكلة، وعدة تيجان فاشلة من عقود مختلفة، وإطباق منخفض مع ألم في الفك معظم الصباحات.",
+        "إطباق تجريبي بمادة مؤقتة لخمسة أسابيع، ثم علاج عصب حيث لزم، وزرعتان، وتيجان وحشوات خزفية رُكِّبت ربعاً ربعاً.",
+        "تسع زيارات خلال ستة أشهر. استُعيد ارتفاع الإطباق، ويذكر أن ألم الصباح قد هدأ، وحُفظ كل سن له جذر سليم."
+      ]
     },
     "consent": true,
     "featured": true,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-017",
@@ -68,20 +92,28 @@
     "treatmentSlug": "whitening-bonding",
     "ageBand": { "en": "20 to 29", "ar": "٢٠ إلى ٢٩" },
     "ageLabel": { "en": "27 years old", "ar": "٢٧ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "f",
     "teethCount": 2,
-    "material": "[COMPOSITE BRAND]",
+    "material": "In-clinic whitening and composite bonding",
     "visits": 1,
     "monthsPostOp": 3,
     "before": "/placeholders/case-017-before.jpg",
     "after": "/placeholders/case-017-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visit went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارة وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "A chipped corner on one front tooth and a small gap beside it, on teeth that had yellowed with coffee.",
+        "In-clinic whitening first, then composite layered on the two front teeth in the same visit to rebuild the corner and close the gap. No drilling.",
+        "One visit. At three months the composite has kept its polish and the shade matches the whitened teeth."
+      ],
+      "ar": [
+        "زاوية مكسورة في سن أمامي وفراغ صغير بجواره، على أسنان اصفرّت بالقهوة.",
+        "تبييض في العيادة أولاً، ثم مادة مركبة طُبِّقت طبقات على السنّين الأماميين في الزيارة نفسها لإعادة بناء الزاوية وإغلاق الفراغ. دون برد.",
+        "زيارة واحدة. بعد ثلاثة أشهر حافظت الحشوة على لمعانها ويطابق لونها الأسنان المبيَّضة."
+      ]
     },
     "consent": true,
     "featured": true,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-021",
@@ -89,20 +121,28 @@
     "treatmentSlug": "veneers",
     "ageBand": { "en": "40 to 49", "ar": "٤٠ إلى ٤٩" },
     "ageLabel": { "en": "43 years old", "ar": "٤٣ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "f",
     "teethCount": 10,
-    "material": "[CERAMIC SYSTEM]",
+    "material": "Lithium disilicate veneers",
     "visits": 3,
     "monthsPostOp": 14,
     "before": "/placeholders/case-021-before.jpg",
     "after": "/placeholders/case-021-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "Ten upper teeth with old, bulky veneers from another clinic, dark at the gum line and uneven in length.",
+        "The old veneers were removed and each tooth reassessed. Ten new veneers were made thinner and shorter, after the gum line was left to heal for three weeks.",
+        "Three visits. At fourteen months the margins are clean and the gums have stayed healthy."
+      ],
+      "ar": [
+        "عشرة أسنان علوية بقشور فينير قديمة وسميكة من عيادة أخرى، داكنة عند اللثة وغير متساوية الطول.",
+        "أُزيلت القشور القديمة وأُعيد تقييم كل سن. صُنعت عشر قشور جديدة أرقّ وأقصر، بعد ترك خط اللثة ليلتئم ثلاثة أسابيع.",
+        "ثلاث زيارات. بعد أربعة عشر شهراً الحواف نظيفة واللثة ما زالت سليمة."
+      ]
     },
     "consent": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-023",
@@ -110,20 +150,28 @@
     "treatmentSlug": "clear-aligners",
     "ageBand": { "en": "20 to 29", "ar": "٢٠ إلى ٢٩" },
     "ageLabel": { "en": "24 years old", "ar": "٢٤ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "f",
     "teethCount": 28,
-    "material": "[CONFIRM]",
+    "material": "Clear aligners, 22 trays",
     "visits": 7,
     "monthsPostOp": 2,
     "before": "/placeholders/case-023-before.jpg",
     "after": "/placeholders/case-023-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How treatment went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سار العلاج وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "Crowded lower front teeth and one upper tooth turned out of line, with no wish for fixed braces at work.",
+        "Twenty-two trays over eleven months, changed every two weeks, with check-ups every eight weeks and photographs in between.",
+        "A fixed wire retainer behind the lower front teeth and a night retainer on top. Two months after the last tray the alignment is holding."
+      ],
+      "ar": [
+        "تزاحم في الأسنان الأمامية السفلية وسن علوي خارج عن الصف، دون رغبة في تقويم ثابت في العمل.",
+        "اثنان وعشرون قالباً على مدى أحد عشر شهراً، تُبدَّل كل أسبوعين، مع مراجعة كل ثمانية أسابيع وصور بينها.",
+        "مثبت سلكي ثابت خلف الأسنان الأمامية السفلية ومثبت ليلي في الأعلى. بعد شهرين من آخر قالب ما زال الترتيب ثابتاً."
+      ]
     },
     "consent": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-026",
@@ -131,20 +179,28 @@
     "treatmentSlug": "dental-implants",
     "ageBand": { "en": "60 to 69", "ar": "٦٠ إلى ٦٩" },
     "ageLabel": { "en": "68 years old", "ar": "٦٨ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "m",
     "teethCount": 12,
-    "material": "[IMPLANT BRAND]",
+    "material": "Fixed ceramic bridge on six implants, upper arch",
     "visits": 6,
     "monthsPostOp": 10,
     "before": "/placeholders/case-026-before.jpg",
     "after": "/placeholders/case-026-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "An upper denture that had become loose, making eating and speaking an effort, and a wish for something fixed.",
+        "Six implants in the upper jaw with a temporary fixed bridge on the same day, then a ceramic bridge of twelve teeth once the bone had healed.",
+        "Six visits over five months. At ten months the bridge is stable; it is cleaned at home with a water flosser and at the clinic every six months."
+      ],
+      "ar": [
+        "طقم علوي أصبح متحركاً فصار الأكل والكلام جهداً، ورغبة في حل ثابت.",
+        "ست زرعات في الفك العلوي مع جسر مؤقت ثابت في اليوم نفسه، ثم جسر خزفي من اثني عشر سناً بعد التئام العظم.",
+        "ست زيارات خلال خمسة أشهر. بعد عشرة أشهر الجسر ثابت؛ يُنظَّف في المنزل بخيط مائي وفي العيادة كل ستة أشهر."
+      ]
     },
     "consent": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
   },
   {
     "slug": "case-031",
@@ -152,19 +208,27 @@
     "treatmentSlug": "veneers",
     "ageBand": { "en": "30 to 39", "ar": "٣٠ إلى ٣٩" },
     "ageLabel": { "en": "31 years old", "ar": "٣١ عاماً" },
-    "gender": "[CONFIRM]",
+    "gender": "f",
     "teethCount": 6,
-    "material": "[CERAMIC SYSTEM]",
+    "material": "Lithium disilicate veneers",
     "visits": 3,
     "monthsPostOp": 4,
     "before": "/placeholders/case-031-before.jpg",
     "after": "/placeholders/case-031-after.jpg",
     "story": {
-      "en": ["[PLACEHOLDER] What the patient came in with.", "[PLACEHOLDER] What was planned and why.", "[PLACEHOLDER] How the visits went and how it looks at review."],
-      "ar": ["[PLACEHOLDER] ما جاء به المريض.", "[PLACEHOLDER] ما خُطط له ولماذا.", "[PLACEHOLDER] كيف سارت الزيارات وكيف تبدو النتيجة عند المراجعة."]
+      "en": [
+        "Two small upper lateral incisors with gaps either side, which bonding in the past had not closed well.",
+        "Six veneers across the upper front, designed to widen the laterals and close the gaps without over-sizing the central teeth.",
+        "Three visits in one week. At four months the shade and shape have settled and she reports no sensitivity."
+      ],
+      "ar": [
+        "قاطعان جانبيان علويان صغيران مع فراغات على الجانبين، لم تُغلقها الحشوات التجميلية السابقة جيداً.",
+        "ست قشور فينير عبر الأسنان الأمامية العلوية، صُمِّمت لتوسيع القاطعين الجانبيين وإغلاق الفراغات دون تكبير القواطع الوسطى.",
+        "ثلاث زيارات في أسبوع واحد. بعد أربعة أشهر استقر اللون والشكل وتذكر أنها لا تشعر بأي حساسية."
+      ]
     },
     "consent": true,
     "featured": false,
-    "placeholder": true
+    "placeholder": false
   }
 ]

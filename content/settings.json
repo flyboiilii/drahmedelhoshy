@@ -1,9 +1,9 @@
 {
-  "name": { "en": "El Hoshy Dental Clinic", "ar": "عيادة الهوشي للأسنان" },
-  "shortName": { "en": "El Hoshy Dental", "ar": "الهوشي للأسنان" },
-  "doctor": { "en": "Prof. Ahmed Zoheir El Hoshy", "ar": "أ.د. أحمد زهير الهوشي" },
-  "doctorShort": { "en": "Prof. Ahmed El Hoshy", "ar": "أ.د. أحمد الهوشي" },
-  "nameVariants": ["Elhoshy", "El-Hoshy", "Hoshy", "Ahmed Zohier El Hoshy", "الهوشى", "الحوشي"],
+  "name": { "en": "El Hoshy Dental Clinic", "ar": "عيادة الحوشى للأسنان" },
+  "shortName": { "en": "El Hoshy Dental", "ar": "الحوشى للأسنان" },
+  "doctor": { "en": "Prof. Ahmed Zoheir El Hoshy", "ar": "أ.د. أحمد زهير الحوشى" },
+  "doctorShort": { "en": "Prof. Ahmed El Hoshy", "ar": "أ.د. أحمد الحوشى" },
+  "nameVariants": ["Elhoshy", "El-Hoshy", "Hoshy", "Ahmed Zohier El Hoshy", "الحوشي", "الهوشي", "الهوشى"],
   "address": {
     "en": "47 Cleopatra St, Salah El Din, Korba, Heliopolis, Cairo 11345, facing Cleopatra Hospital",
     "ar": "٤٧ شارع كليوباترا، صلاح الدين، الكوربة، مصر الجديدة، القاهرة، أمام مستشفى كليوباترا"
@@ -39,7 +39,7 @@
   "googleReviewCount": 141,
   "googleReviewKeywords": ["infection control", "virtually painless", "dental aesthetics"],
   "googleMapsUrl": "https://share.google/sp9ceIYRNmH6Dnikb",
-  "googleMapsEmbedUrl": "https://www.google.com/maps?q=30.0943,31.3299&output=embed",
+  "googleMapsEmbedUrl": "https://maps.google.com/maps?q=30.0943008,31.3298655+(El+Hoshy+Dental+Clinic)&z=17&output=embed",
   "licenceNumber": "",
   "languages": {
     "en": ["Arabic", "English", "French", "Italian"],

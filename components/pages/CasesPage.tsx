@@ -42,9 +42,6 @@ export function createCasesPage(lang: Lang): { metadata: Metadata; Page: () => R
               columns={3}
             />
           </ConsentGate>
-          <p className="caption mt-10">
-            <span className="placeholder-tag">{d.cases.placeholderNote}</span>
-          </p>
         </section>
         <BookCta lang={lang} page={localize(lang, PATH)} />
       </>

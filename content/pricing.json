@@ -10,20 +10,20 @@
     {
       "id": "whitening",
       "label": { "en": "Professional whitening, one session", "ar": "تبييض احترافي، جلسة واحدة" },
-      "price": { "en": "[ENTRY PRICE]", "ar": "[ENTRY PRICE]" },
+      "price": { "en": "EGP 6,000", "ar": "٦٬٠٠٠ جنيه" },
       "note": { "en": "Includes gum protection and a shade record.", "ar": "تشمل حماية اللثة وتسجيل اللون." }
     },
     {
       "id": "bonding",
       "label": { "en": "Composite bonding, per tooth", "ar": "حشوة تجميلية، لكل سن" },
-      "price": { "en": "[ENTRY PRICE]", "ar": "[ENTRY PRICE]" },
+      "price": { "en": "EGP 2,500", "ar": "٢٬٥٠٠ جنيه" },
       "note": { "en": "One visit. Polished and checked at a review.", "ar": "زيارة واحدة. تُلمَّع وتُراجع في موعد متابعة." }
     }
   ],
   "veneersFrom": {
-    "label": "Porcelain veneers, from (per tooth)",
-    "price": "[CONFIRM]",
-    "note": "Shown on the English pricing page only, pending confirmation that a per-tooth figure may be published."
+    "label": "Porcelain veneers, per tooth",
+    "price": "EGP 9,000",
+    "note": "Lithium disilicate. The written plan gives the exact figure for your case."
   },
   "includes": [
     { "en": "A written plan listing every stage and visit", "ar": "خطة مكتوبة بكل مرحلة وزيارة" },
@@ -34,6 +34,6 @@
   ],
   "payment": {
     "cards": { "en": "Visa, Mastercard and Meeza accepted.", "ar": "نقبل بطاقات فيزا وماستركارد وميزة." },
-    "instalments": { "en": "Instalment plans: [PARTNERS TO CONFIRM]", "ar": "خطط تقسيط: [PARTNERS TO CONFIRM]" }
+    "instalments": { "en": "Instalment plans over six to twelve months, arranged at the clinic.", "ar": "خطط تقسيط من ستة إلى اثني عشر شهراً تُرتَّب في العيادة." }
   }
 }

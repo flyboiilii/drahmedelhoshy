@@ -18,9 +18,8 @@ export function BeforeAfterHero({ lang, featured }: { lang: Lang; featured: Case
   return (
     <section className="container-x pt-8 md:pt-14 pb-10 md:pb-16">
       <div className="max-w-4xl">
-        <p className="eyebrow rise flex flex-wrap items-center gap-x-3 gap-y-1" style={{ "--i": 0 } as React.CSSProperties}>
-          <span>{d.hero.eyebrow}</span>
-          <span className="placeholder-tag normal-case tracking-normal">{d.hero.eyebrowNote}</span>
+        <p className="eyebrow rise" style={{ "--i": 0 } as React.CSSProperties}>
+          {d.hero.eyebrow}
         </p>
         <h1 className="h1 mt-5 rise" style={{ "--i": 1 } as React.CSSProperties}>
           {d.hero.title} <em>{d.hero.titleEm}</em>
@@ -41,10 +40,7 @@ export function BeforeAfterHero({ lang, featured }: { lang: Lang; featured: Case
             sizes="(min-width: 1440px) 1344px, 100vw"
           />
         )}
-        <p className="caption mt-3 flex flex-wrap gap-x-3">
-          <span>{d.cases.consentShort}</span>
-          <span className="placeholder-tag">{d.compare.placeholderNote}</span>
-        </p>
+        <p className="caption mt-3">{d.cases.consentShort}</p>
       </div>
 
       <div className="mt-10 md:mt-14 grid gap-10 lg:grid-cols-12 lg:items-end">

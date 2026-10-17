@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#F4F0E9"/>
-  <text x="32" y="44" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#1F1C1A">H</text>
-  <rect x="14" y="50" width="36" height="1.5" fill="#9C8574"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="14" fill="#F4F0E9"/>
+  <g fill="none" stroke="#1F1C1A" stroke-width="3.2" stroke-linejoin="round" transform="translate(50 50) scale(0.9) translate(-50 -50)">
+    <g transform="rotate(0 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+    <g transform="rotate(60 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+    <g transform="rotate(120 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+    <g transform="rotate(180 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+    <g transform="rotate(240 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+    <g transform="rotate(300 50 50)"><path d="M50 38C42 34 32 26 34 18C36 12 44 11 50 15C56 11 64 12 66 18C68 26 58 34 50 38Z"/></g>
+  </g>
 </svg>

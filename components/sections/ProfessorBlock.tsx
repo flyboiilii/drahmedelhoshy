@@ -13,7 +13,6 @@ export function ProfessorBlock({ lang }: { lang: Lang }) {
         <div className="lg:col-span-5">
           <div className="relative aspect-[3/4] img-frame max-w-md" data-reveal>
             <Image src="/placeholders/professor-portrait.jpg" alt={d.professor.portraitAlt} fill sizes="(min-width: 1024px) 40vw, 100vw" className="object-cover" />
-            <span className="placeholder-tag absolute bottom-3 start-3">[IMAGE]</span>
           </div>
         </div>
         <div className="lg:col-span-7 lg:ps-8">

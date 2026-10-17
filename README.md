@@ -187,5 +187,6 @@ Choices made where the brief was silent or where two of its rules met:
 - **Suspense boundaries around page sections.** The server still renders everything; on the client React hydrates each boundary in its own small task instead of one long one, which cut total blocking time on the home page from about 390 ms to under 200 ms.
 - **On small screens only the active step of a pinned sequence shows its text**, and the 3D box is 16:10 rather than 4:3, so the pinned section fits a phone viewport.
 - **`scroll-padding-bottom` on mobile** keeps anchored targets above the sticky bar.
+- **The clinic's six-petal mark is redrawn as a single-colour vector** (`components/ui/LogoMark.tsx`, favicon, OG images). The original artwork is blue, which the palette excludes, so the mark sits in graphite or brass beside the serif wordmark. Swap in the clinic's vector file when it arrives.
 - **Site URL defaults to `https://elhoshydentalclinic.com`** (the domain chosen in the placeholders round). Set `NEXT_PUBLIC_SITE_URL` if a different domain is bought before the first deploy.
 - **Node 22 was used for the build on this machine**; the project pins 20 for Cloudflare (`NODE_VERSION`, `.nvmrc`). Both work.

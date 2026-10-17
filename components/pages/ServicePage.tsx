@@ -8,7 +8,6 @@ import { concernPath, localize, servicePath } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbJsonLd, faqJsonLd, procedureJsonLd } from "@/lib/jsonld";
 import { whatsAppUrl } from "@/lib/whatsapp";
-import { posterFor } from "@/lib/sequences";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
@@ -92,12 +91,13 @@ export function createServicePage(lang: Lang, slug: string): { metadata: Metadat
           <section className="section pt-0">
             <div className="container-x">
               <div className="relative aspect-[16/9] img-frame" data-reveal>
-                <Image src={posterFor("none", slug)} alt="" fill sizes="(min-width: 1440px) 1344px, 100vw" className="object-cover" />
-                <div className="absolute inset-0 grid place-items-center">
-                  <span className="placeholder-tag flex items-center gap-2 bg-paper">
-                    <Icon name="play" size={14} /> {d.service.videoPlaceholder}
-                  </span>
-                </div>
+                <Image
+                  src={slug === "whitening-bonding" ? "/placeholders/treatment-room.jpg" : "/placeholders/sterilisation.jpg"}
+                  alt={slug === "whitening-bonding" ? d.book.photos[2] : d.book.photos[3]}
+                  fill
+                  sizes="(min-width: 1440px) 1344px, 100vw"
+                  className="object-cover"
+                />
               </div>
             </div>
           </section>
