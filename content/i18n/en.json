@@ -181,11 +181,12 @@
       { "year": "2002 to 2009", "text": "Assistant Lecturer, then Lecturer, Cairo University" },
       { "year": "2003", "text": "Master's in Restorative Dentistry, Cairo University" },
       { "year": "2007", "text": "PhD in Restorative Dentistry, Cairo University" },
-      { "year": "[CONFIRM year]", "text": "Professor, Faculty of Dentistry, Future University in Egypt (FUE)" }
+      { "year": "Present", "text": "Professor, Faculty of Dentistry, Future University in Egypt (FUE)" }
     ],
     "awards": "Awards",
     "teaching": "Teaching",
-    "teachingText": "The professor teaches courses to practising dentists in restorative and aesthetic techniques. Dates and how to apply: [CONFIRM course dates and how to apply].",
+    "teachingText": "The professor teaches courses to practising dentists in restorative and aesthetic techniques. Dates and how to apply are announced on the clinic's Instagram.",
+    "teachingLink": "Courses on Instagram",
     "clinic": "The clinic and the family name",
     "clinicText": "The clinic at 47 Cleopatra Street, facing Cleopatra Hospital, also lists Prof. Zoheir El Hoshy, Professor of ENT at Cairo University. Two specialties, one address, one standard.",
     "languages": "Languages",
@@ -218,7 +219,7 @@
     "aftercareTitle": "Aftercare when you are home",
     "aftercareText": "Review by video and photographs at agreed intervals. Terms for adjustments and repairs: [TERMS TO CONFIRM].",
     "hotelsTitle": "Staying near Korba",
-    "hotelsText": "The clinic is in Korba, Heliopolis, facing Cleopatra Hospital, about 20 minutes from Cairo International Airport by car. Recommended hotels: [3 HOTELS TO CONFIRM].",
+    "hotelsText": "The clinic is in Korba, Heliopolis, facing Cleopatra Hospital. Ask us for hotel suggestions near the clinic when you book.",
     "ctaTitle": "Start with a video consultation."
   },
   "reviews": {
@@ -227,11 +228,12 @@
     "badge": "4.9 on Google",
     "badgeSub": "from 141 reviews",
     "readAll": "Read all on Google",
-    "paraphrased": "Paraphrased from a Google review",
-    "source": "Google review",
-    "videoTitle": "Video testimonials",
-    "videoPlaceholder": "[VIDEO TESTIMONIAL]",
-    "pageLead": "Reviews are quoted with first name and initial only. Where a review has been shortened, it is marked as paraphrased.",
+    "none": "No written review for this treatment yet. The Google page has them all.",
+    "videoTitle": "Video",
+    "videoSub": "From the clinic's Instagram",
+    "videoPlay": "Play the reel",
+    "videoOpen": "Open on Instagram",
+    "pageLead": "Reviews are quoted in the patient's own words with first name and initial only. Where a review has been shortened or translated, the card says so.",
     "filter": "Filter by treatment",
     "keywordsTitle": "Patients mention most",
     "all": "All"
@@ -247,7 +249,9 @@
     "otherPhones": "Also",
     "directions": "Open in Google Maps",
     "mapTitle": "Map showing El Hoshy Dental Clinic, 47 Cleopatra Street, Heliopolis",
-    "mapNote": "Map embed is a placeholder built from the coordinates. The Google place embed replaces it."
+    "mapNote": "Map embed is a placeholder built from the coordinates. The Google place embed replaces it.",
+    "photosTitle": "The clinic",
+    "photos": ["Clinic exterior, facing Cleopatra Hospital", "Reception", "Treatment room", "Sterilisation area"]
   },
   "form": {
     "title": "Tell us what you would like to change.",
@@ -296,7 +300,6 @@
     "concerns": "Common concerns",
     "consent": "All cases published with written patient consent. Results vary.",
     "variants": "El Hoshy Dental Clinic (Elhoshy, El-Hoshy) · عيادة الهوشي",
-    "licence": "Licence number: [PLACEHOLDER]",
     "language": "العربية",
     "languageAria": "Arabic version"
   },
@@ -342,7 +345,7 @@
       { "title": "Analytics", "text": "If analytics are enabled, the site uses Cloudflare Web Analytics, which does not use cookies or track you across sites. Clicks on WhatsApp, call and booking buttons may be counted in aggregate." },
       { "title": "Patient images", "text": "Every case image is published with the patient's written consent, given separately from treatment consent. Patients may withdraw consent at any time by contacting the clinic, and the images are removed." },
       { "title": "Medical information", "text": "The content of this site is general information, not medical advice for your situation. A diagnosis and plan require an examination. Results of treatment vary from person to person." },
-      { "title": "Contact", "text": "El Hoshy Dental Clinic, 47 Cleopatra St, Korba, Heliopolis, Cairo. WhatsApp +20 102 829 4777. Licence number: [PLACEHOLDER]." }
+      { "title": "Contact", "text": "El Hoshy Dental Clinic, 47 Cleopatra St, Korba, Heliopolis, Cairo. WhatsApp +20 102 829 4777." }
     ]
   },
   "concerns": {

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getDict, l, type Lang } from "@/lib/i18n";
 import { googleMapsLink, services, settings } from "@/lib/content";
 import { whatsAppUrl } from "@/lib/whatsapp";
@@ -75,6 +76,14 @@ export function BookSection({ lang, page, withMap = false, level = "h2" }: Props
 
           {withMap && (
             <div className="mt-10">
+              <p className="eyebrow mb-3">{d.book.photosTitle}</p>
+              <ul className="grid grid-cols-4 gap-2 mb-6">
+                {["clinic-exterior", "reception", "treatment-room", "sterilisation"].map((name, i) => (
+                  <li key={name} className="relative aspect-[3/2] img-frame" data-reveal>
+                    <Image src={`/placeholders/${name}.jpg`} alt={d.book.photos[i]} fill sizes="(min-width: 1024px) 10vw, 22vw" className="object-cover" />
+                  </li>
+                ))}
+              </ul>
               <MapEmbed title={d.book.mapTitle} />
               <p className="caption mt-2">
                 <span className="placeholder-tag">{d.book.mapNote}</span>

@@ -10,6 +10,7 @@ export const review: SanityType = {
     { name: "initials", title: "Initials", type: "string" },
     localizedString("descriptor", "Descriptor"),
     localizedText("text", "Text"),
+    localizedString("note", "Source note (shown under the quote)"),
     { name: "treatment", title: "Treatment", type: "reference", to: [{ type: "service" }] },
     { name: "source", title: "Source", type: "string", options: { list: ["google", "instagram", "facebook", "video"] } },
     { name: "real", title: "Verified real review", type: "boolean", initialValue: false },

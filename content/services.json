@@ -35,8 +35,6 @@
       { "en": "Heavy night grinding without a protective guard", "ar": "صرير الأسنان الشديد ليلاً دون واقٍ ليلي" }
     ],
     "materials": [
-      { "label": { "en": "Ceramic system", "ar": "نظام الخزف" }, "value": "[CERAMIC SYSTEM]" },
-      { "label": { "en": "Laboratory", "ar": "المعمل" }, "value": "[LAB]" },
       { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
     ],
     "costParagraph": {
@@ -82,8 +80,6 @@
       { "en": "Growing jaws, so usually under 18", "ar": "فكوك ما زالت في طور النمو، أي غالباً تحت ١٨ عاماً" }
     ],
     "materials": [
-      { "label": { "en": "Implant brand", "ar": "ماركة الزرعات" }, "value": "[IMPLANT BRAND]" },
-      { "label": { "en": "Crown material", "ar": "خامة التاج" }, "value": "[CERAMIC SYSTEM]" },
       { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
     ],
     "costParagraph": {
@@ -128,8 +124,6 @@
       { "en": "Anyone not ready for several visits over a few months", "ar": "من ليس مستعداً لعدة زيارات على مدى بضعة أشهر" }
     ],
     "materials": [
-      { "label": { "en": "Ceramic system", "ar": "نظام الخزف" }, "value": "[CERAMIC SYSTEM]" },
-      { "label": { "en": "Implant brand", "ar": "ماركة الزرعات" }, "value": "[IMPLANT BRAND]" },
       { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
     ],
     "costParagraph": {
@@ -146,8 +140,8 @@
     "shortTitle": { "en": "Clear aligners", "ar": "التقويم الشفاف" },
     "seoTitle": { "en": "Clear Aligners in Heliopolis | Prof. Ahmed El Hoshy", "ar": "التقويم الشفاف في مصر الجديدة | أ.د. أحمد الهوشي" },
     "description": {
-      "en": "Invisalign and clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Free first consultation.",
-      "ar": "إنفزلاين والتقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. الاستشارة الأولى مجانية."
+      "en": "Clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Free first consultation.",
+      "ar": "التقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. الاستشارة الأولى مجانية."
     },
     "fearIntro": {
       "en": "Two worries come up: will people see it, and does it really move teeth. Aligners are thin clear trays that most people never notice in conversation. They move teeth in small planned steps, and you see the full sequence on screen before the first tray is made.",
@@ -175,8 +169,7 @@
       { "en": "Untreated gum disease", "ar": "التهاب لثة غير معالج" }
     ],
     "materials": [
-      { "label": { "en": "Aligner systems", "ar": "أنظمة التقويم الشفاف" }, "value": "Invisalign, [CONFIRM other systems]" },
-      { "label": { "en": "Retainers", "ar": "المثبتات" }, "value": "[CONFIRM]" },
+      { "label": { "en": "Retainers", "ar": "المثبتات" }, "value": { "en": "Removable clear retainer or a fixed wire, chosen case by case", "ar": "مثبت شفاف متحرك أو سلك ثابت، حسب الحالة" } },
       { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
     ],
     "costParagraph": {
@@ -269,7 +262,6 @@
     ],
     "materials": [
       { "label": { "en": "Filling materials", "ar": "مواد الحشو" }, "value": "[COMPOSITE BRAND]" },
-      { "label": { "en": "Sterilisation protocol", "ar": "بروتوكول التعقيم" }, "value": "[CONFIRM]" },
       { "label": { "en": "Warranty", "ar": "الضمان" }, "value": "[WARRANTY TERMS]" }
     ],
     "costParagraph": {

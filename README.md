@@ -24,7 +24,7 @@ Environment variables (all optional, see `.env.example`):
 
 | Variable | Effect |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Base URL for canonical links, hreflang, sitemap and JSON-LD. Defaults to `https://elhoshydental.com`. |
+| `NEXT_PUBLIC_SITE_URL` | Base URL for canonical links, hreflang, sitemap and JSON-LD. Defaults to `https://elhoshydentalclinic.com`. |
 | `NEXT_PUBLIC_WEB3FORMS_KEY` | When set, the lead form also posts a JSON copy of each lead to Web3Forms (email). |
 | `NEXT_PUBLIC_CF_BEACON_TOKEN` | When set, the Cloudflare Web Analytics beacon is added to every page. |
 
@@ -152,7 +152,7 @@ Nothing in the page components depends on where the content comes from.
 2. Cloudflare dashboard: Workers and Pages, Create, Pages, Connect to Git, pick the repo.
 3. Framework preset: Next.js (Static HTML Export). Build command `npm run build`. Output directory `out`. Environment variable `NODE_VERSION` = `20`. Add `NEXT_PUBLIC_SITE_URL` (and the optional keys) as needed.
 4. Deploy. The `out/` folder contains both language trees, `404.html`, `sitemap.xml`, `robots.txt` and the OG images.
-5. Custom domain: in the Pages project add the apex (`elhoshydental.com`) and `www`. With the domain at Cloudflare Registrar the DNS records are created for you. Redirect `www` to the apex with a Bulk Redirect.
+5. Custom domain: in the Pages project add the apex (`elhoshydentalclinic.com`) and `www`. With the domain at Cloudflare Registrar the DNS records are created for you. Redirect `www` to the apex with a Bulk Redirect.
 
 The full checklist, including the launch-day list, is in section 13 of the brief.
 
@@ -187,5 +187,5 @@ Choices made where the brief was silent or where two of its rules met:
 - **Suspense boundaries around page sections.** The server still renders everything; on the client React hydrates each boundary in its own small task instead of one long one, which cut total blocking time on the home page from about 390 ms to under 200 ms.
 - **On small screens only the active step of a pinned sequence shows its text**, and the 3D box is 16:10 rather than 4:3, so the pinned section fits a phone viewport.
 - **`scroll-padding-bottom` on mobile** keeps anchored targets above the sticky bar.
-- **Site URL defaults to `https://elhoshydental.com`** (the recommended domain in the brief). Set `NEXT_PUBLIC_SITE_URL` if a different domain is bought before the first deploy.
+- **Site URL defaults to `https://elhoshydentalclinic.com`** (the domain chosen in the placeholders round). Set `NEXT_PUBLIC_SITE_URL` if a different domain is bought before the first deploy.
 - **Node 22 was used for the build on this machine**; the project pins 20 for Cloudflare (`NODE_VERSION`, `.nvmrc`). Both work.

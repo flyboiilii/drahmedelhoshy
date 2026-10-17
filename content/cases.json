@@ -112,7 +112,7 @@
     "ageLabel": { "en": "24 years old", "ar": "٢٤ عاماً" },
     "gender": "[CONFIRM]",
     "teethCount": 28,
-    "material": "Invisalign [CONFIRM]",
+    "material": "[CONFIRM]",
     "visits": 7,
     "monthsPostOp": 2,
     "before": "/placeholders/case-023-before.jpg",

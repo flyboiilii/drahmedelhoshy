@@ -2,25 +2,21 @@
   {
     "id": "komet-ceraline",
     "title": { "en": "First African and Arab bur designer for Ceraline", "ar": "أول مصمم أفريقي وعربي لأدوات تحضير Ceraline" },
-    "issuer": { "en": "Komet, Germany", "ar": "شركة Komet الألمانية" },
-    "year": "[CONFIRM]"
+    "issuer": { "en": "Komet, Germany", "ar": "شركة Komet الألمانية" }
   },
   {
     "id": "dentsply-masters",
     "title": { "en": "DENTSPLY award for outstanding Master's performance", "ar": "جائزة DENTSPLY للتميز في درجة الماجستير" },
-    "issuer": { "en": "DENTSPLY", "ar": "DENTSPLY" },
-    "year": "[CONFIRM]"
+    "issuer": { "en": "DENTSPLY", "ar": "DENTSPLY" }
   },
   {
     "id": "gold-medal",
     "title": { "en": "Gold medal, highest score in Oral Histology and Restorative Dentistry", "ar": "الميدالية الذهبية لأعلى درجة في علم أنسجة الفم وطب الأسنان الترميمي" },
-    "issuer": { "en": "Cairo University", "ar": "جامعة القاهرة" },
-    "year": "[CONFIRM]"
+    "issuer": { "en": "Cairo University", "ar": "جامعة القاهرة" }
   },
   {
     "id": "silver-medal",
     "title": { "en": "Silver medal, second highest score in Oral Pathology", "ar": "الميدالية الفضية لثاني أعلى درجة في علم أمراض الفم" },
-    "issuer": { "en": "Cairo University", "ar": "جامعة القاهرة" },
-    "year": "[CONFIRM]"
+    "issuer": { "en": "Cairo University", "ar": "جامعة القاهرة" }
   }
 ]

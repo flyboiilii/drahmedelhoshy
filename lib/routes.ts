@@ -1,6 +1,6 @@
 import type { Lang } from "./i18n";
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://elhoshydental.com").replace(/\/$/, "");
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://elhoshydentalclinic.com").replace(/\/$/, "");
 
 export const SERVICE_SLUGS = [
   "veneers",

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import type { Metadata } from "next";
 import { getDict, l, otherLang, type Lang } from "@/lib/i18n";
-import { casesFor, concerns, faqsFor, getService, isPlaceholder, services } from "@/lib/content";
+import { casesFor, concerns, faqsFor, getService, isPlaceholder, materialValue, services } from "@/lib/content";
 import { concernPath, localize, servicePath } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbJsonLd, faqJsonLd, procedureJsonLd } from "@/lib/jsonld";
@@ -155,12 +155,15 @@ export function createServicePage(lang: Lang, slug: string): { metadata: Metadat
           <div className="container-x">
             <h2 className="h3">{d.service.materials}</h2>
             <dl className="mt-6 hairline">
-              {service.materials.map((m) => (
-                <div key={m.value + l(m.label, lang)} className="grid grid-cols-[10rem_1fr] md:grid-cols-[16rem_1fr] gap-4 py-4 border-b border-line">
-                  <dt className="text-muted">{l(m.label, lang)}</dt>
-                  <dd>{isPlaceholder(m.value) ? <span className="placeholder-tag">{m.value}</span> : m.value}</dd>
-                </div>
-              ))}
+              {service.materials.map((m) => {
+                const value = materialValue(m.value, lang);
+                return (
+                  <div key={l(m.label, lang)} className="grid grid-cols-[10rem_1fr] md:grid-cols-[16rem_1fr] gap-4 py-4 border-b border-line">
+                    <dt className="text-muted">{l(m.label, lang)}</dt>
+                    <dd>{isPlaceholder(value) ? <span className="placeholder-tag">{value}</span> : value}</dd>
+                  </div>
+                );
+              })}
             </dl>
           </div>
         </section>

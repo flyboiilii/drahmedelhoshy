@@ -29,7 +29,7 @@ export const service: SanityType = {
       name: "materials",
       title: "Materials and brands",
       type: "array",
-      of: [{ type: "object", fields: [localizedString("label", "Label"), { name: "value", title: "Value", type: "string" }] }],
+      of: [{ type: "object", fields: [localizedString("label", "Label"), localizedString("value", "Value")] }],
     },
     localizedText("costParagraph", "Cost paragraph"),
     { name: "model", title: "3D model", type: "string", options: { list: ["veneer", "implant", "aligner", "fullmouth", "none"] } },

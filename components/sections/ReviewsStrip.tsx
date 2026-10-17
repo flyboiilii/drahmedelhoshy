@@ -12,7 +12,7 @@ export function toReviewCard(r: (typeof reviews)[number], lang: Lang) {
     descriptor: l(r.descriptor, lang),
     text: l(r.text, lang),
     treatmentLabel: service ? l(service.shortTitle, lang) : "",
-    paraphrased: r.paraphrased,
+    note: l(r.note, lang),
   };
 }
 
@@ -25,7 +25,7 @@ export function ReviewsStrip({ lang }: { lang: Lang }) {
         <SectionHeading eyebrow={d.reviews.eyebrow} title={d.reviews.title} />
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
           {three.map((r) => (
-            <ReviewCard key={r.id} data={toReviewCard(r, lang)} labels={d.reviews} />
+            <ReviewCard key={r.id} data={toReviewCard(r, lang)} />
           ))}
           <GoogleBadge
             href={googleMapsLink()}

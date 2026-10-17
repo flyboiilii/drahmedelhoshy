@@ -104,9 +104,6 @@ export function Footer({ lang }: { lang: Lang }) {
           <p>{d.footer.consent}</p>
           <p className="text-xs opacity-80">{d.footer.variants}</p>
         </div>
-        <p className="mt-3 text-xs text-limestone opacity-70">
-          {d.footer.licence}
-        </p>
       </div>
     </footer>
   );

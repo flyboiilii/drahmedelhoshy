@@ -38,9 +38,6 @@ export function createPricingPage(lang: Lang): { metadata: Metadata; Page: () =>
             <div className="md:col-span-8">
               <h2 className="h2">{l(pricing.consultation.title, lang)}</h2>
               <p className="mt-4 text-muted max-w-2xl">{l(pricing.consultation.text, lang)}</p>
-              <p className="mt-3 caption">
-                <span className="placeholder-tag">{pricing.consultation.durationConfirm}</span>
-              </p>
             </div>
             <div className="md:col-span-4 md:text-end">
               <span className="font-display text-5xl text-bronze-deep">0</span>

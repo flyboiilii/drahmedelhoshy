@@ -9,6 +9,7 @@ import teamJson from "@/content/team.json";
 import pricingJson from "@/content/pricing.json";
 import concernsJson from "@/content/concerns.json";
 import modelsJson from "@/content/models.json";
+import videosJson from "@/content/videos.json";
 import { SERVICE_SLUGS } from "./routes";
 
 // ---------------------------------------------------------------------------
@@ -50,7 +51,6 @@ export const SettingsSchema = z.object({
     close: z.string(),
     closed: Localized,
     schemaDays: z.array(z.string()),
-    confirm: z.string(),
   }),
   socials: z.object({ instagram: z.string().url(), facebook: z.string().url(), linktree: z.string().url() }),
   googleRating: z.number().min(0).max(5),
@@ -79,7 +79,7 @@ export const ServiceSchema = z.object({
   steps: z.array(z.object({ title: Localized, text: Localized, when: Localized })).min(3),
   whoFor: z.array(Localized).min(1),
   whoNotFor: z.array(Localized).min(1),
-  materials: z.array(z.object({ label: Localized, value: z.string() })),
+  materials: z.array(z.object({ label: Localized, value: z.union([z.string(), Localized]) })),
   costParagraph: Localized,
   model: ModelKind,
   faqIds: z.array(z.string()),
@@ -110,6 +110,7 @@ export const ReviewSchema = z.object({
   initials: z.string().min(1).max(3),
   descriptor: Localized,
   text: Localized,
+  note: Localized,
   treatmentSlug: ServiceSlug,
   source: z.enum(["google", "instagram", "facebook", "video"]),
   real: z.boolean(),
@@ -117,11 +118,11 @@ export const ReviewSchema = z.object({
 });
 
 export const FaqSchema = z.object({ id: z.string(), serviceSlug: ServiceSlug, q: Localized, a: Localized });
-export const AwardSchema = z.object({ id: z.string(), title: Localized, issuer: Localized, year: z.string() });
+export const AwardSchema = z.object({ id: z.string(), title: Localized, issuer: Localized });
 export const TeamSchema = z.object({ id: z.string(), name: Localized, role: Localized, image: z.string(), placeholder: z.boolean() });
 
 export const PricingSchema = z.object({
-  consultation: z.object({ title: Localized, text: Localized, durationConfirm: z.string() }),
+  consultation: z.object({ title: Localized, text: Localized }),
   entries: z.array(z.object({ id: z.string(), label: Localized, price: Localized, note: Localized })),
   veneersFrom: z.object({ label: z.string(), price: z.string(), note: z.string() }),
   includes: z.array(Localized),
@@ -136,6 +137,13 @@ export const ConcernSchema = z.object({
   paragraphs: LocalizedList,
   serviceSlug: ServiceSlug,
   caseSlugs: z.array(z.string()).length(2),
+});
+
+export const VideoSchema = z.object({
+  id: z.string(),
+  platform: z.literal("instagram"),
+  url: z.string().url(),
+  poster: z.string().startsWith("/"),
 });
 
 export const ModelsSchema = z.object({
@@ -168,6 +176,7 @@ export const team = parse(z.array(TeamSchema), teamJson, "team.json");
 export const pricing = parse(PricingSchema, pricingJson, "pricing.json");
 export const concerns = parse(z.array(ConcernSchema), concernsJson, "concerns.json");
 export const models = parse(ModelsSchema, modelsJson, "models.json");
+export const videos = parse(z.array(VideoSchema), videosJson, "videos.json");
 
 export type Settings = z.infer<typeof SettingsSchema>;
 export type Service = z.infer<typeof ServiceSchema>;
@@ -179,6 +188,7 @@ export type TeamMember = z.infer<typeof TeamSchema>;
 export type Pricing = z.infer<typeof PricingSchema>;
 export type Concern = z.infer<typeof ConcernSchema>;
 export type Models = z.infer<typeof ModelsSchema>;
+export type Video = z.infer<typeof VideoSchema>;
 
 // Cross-file integrity: every referenced id must exist.
 for (const s of services) {
@@ -230,3 +240,8 @@ export function googleMapsLink(): string {
 }
 
 export const isPlaceholder = (value: string) => /\[[^\]]+\]/.test(value);
+
+/** Materials values may be a plain string or an { en, ar } pair. */
+export function materialValue(value: string | { en: string; ar: string }, lang: "en" | "ar"): string {
+  return typeof value === "string" ? value : value[lang];
+}

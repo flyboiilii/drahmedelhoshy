@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getDict, type Lang } from "@/lib/i18n";
-import { googleMapsLink, reviews, settings } from "@/lib/content";
+import { googleMapsLink, reviews, settings, videos } from "@/lib/content";
 import { localize } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
@@ -10,6 +9,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Icon } from "@/components/ui/Icon";
 import { GoogleBadge } from "@/components/sections/ReviewCard";
 import { ReviewsGrid } from "@/components/sections/ReviewsGrid";
+import { InstagramReel } from "@/components/sections/InstagramReel";
 import { toReviewCard } from "@/components/sections/ReviewsStrip";
 import { caseFilters } from "@/components/cases/caseView";
 import { BookCta } from "@/components/sections/BookCta";
@@ -54,21 +54,16 @@ export function createReviewsPage(lang: Lang): { metadata: Metadata; Page: () =>
         </section>
 
         <section className="container-x pb-16">
-          <ReviewsGrid items={items} filters={caseFilters(lang)} labels={{ all: d.reviews.all, filter: d.reviews.filter, paraphrased: d.reviews.paraphrased, source: d.reviews.source }} />
+          <ReviewsGrid items={items} filters={caseFilters(lang)} labels={{ all: d.reviews.all, filter: d.reviews.filter, none: d.reviews.none }} />
         </section>
 
         <section className="section bg-sand">
           <div className="container-x">
-            <SectionHeading eyebrow={d.reviews.videoTitle} title={d.reviews.videoTitle} />
-            <ul className="mt-10 grid gap-5 md:grid-cols-3">
-              {[1, 2, 3].map((i) => (
-                <li key={i} className="relative aspect-video img-frame" data-reveal>
-                  <Image src={`/placeholders/video-testimonial-${i}.jpg`} alt="" fill sizes="(min-width: 768px) 33vw, 100vw" className="object-cover" />
-                  <div className="absolute inset-0 grid place-items-center">
-                    <span className="placeholder-tag flex items-center gap-2 bg-paper">
-                      <Icon name="play" size={14} /> {d.reviews.videoPlaceholder}
-                    </span>
-                  </div>
+            <SectionHeading eyebrow={d.reviews.videoSub} title={d.reviews.videoTitle} />
+            <ul className="mt-10 grid gap-5 sm:grid-cols-2 md:grid-cols-3 max-w-4xl">
+              {videos.map((v) => (
+                <li key={v.id}>
+                  <InstagramReel id={v.id} url={v.url} poster={v.poster} playLabel={d.reviews.videoPlay} openLabel={d.reviews.videoOpen} />
                 </li>
               ))}
             </ul>

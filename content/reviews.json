@@ -8,64 +8,85 @@
       "en": "I flew in from the US with advanced gum disease and left with my teeth, and my confidence, intact.",
       "ar": "سافرت من الولايات المتحدة بالتهاب لثة متقدم، وعدت بأسناني وثقتي بنفسي سليمتين."
     },
+    "note": { "en": "Paraphrased from a Google review", "ar": "بتصرف عن تقييم على جوجل" },
     "treatmentSlug": "general-dentistry",
     "source": "google",
     "real": true,
     "paraphrased": true
   },
   {
-    "id": "review-02",
-    "author": "[REAL REVIEW AUTHOR]",
-    "initials": "MA",
-    "descriptor": { "en": "Veneers", "ar": "فينير" },
-    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "id": "eyad-l",
+    "author": "Eyad L.",
+    "initials": "EL",
+    "descriptor": { "en": "Patient", "ar": "مريض" },
+    "text": {
+      "en": "Attentive care and understanding of patients' needs, combined with a warm and welcoming character. Virtually painless, and a visit to look forward to.",
+      "ar": "رعاية منتبهة وفهم لاحتياجات المريض، مع شخصية دافئة ومرحّبة. شبه خالية من الألم، وزيارة تتطلع إليها."
+    },
+    "note": { "en": "Shortened from a Google review", "ar": "مختصر ومترجم عن تقييم على جوجل" },
+    "treatmentSlug": "general-dentistry",
+    "source": "google",
+    "real": true,
+    "paraphrased": true
+  },
+  {
+    "id": "r-r",
+    "author": "R. R.",
+    "initials": "RR",
+    "descriptor": { "en": "Patient for seven years", "ar": "مريض منذ سبع سنوات" },
+    "text": {
+      "en": "Dr. Hoshy is my dentist since 7 years. I had my veneers at his clinic. I also had a complicated process and procedure and Dr. Hoshy was extremely professional. Couldn't be happier with the results.",
+      "ar": "د. الهوشي طبيبي منذ سبع سنوات. ركّبت الفينير في عيادته، ومررت أيضاً بإجراء معقّد وكان في غاية الاحترافية. لا يمكن أن أكون أسعد بالنتيجة."
+    },
+    "note": { "en": "Google review", "ar": "مترجم عن تقييم على جوجل" },
     "treatmentSlug": "veneers",
     "source": "google",
-    "real": false,
+    "real": true,
     "paraphrased": false
   },
   {
-    "id": "review-03",
-    "author": "[REAL REVIEW AUTHOR]",
-    "initials": "NK",
-    "descriptor": { "en": "Dental implants", "ar": "زراعة أسنان" },
-    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
-    "treatmentSlug": "dental-implants",
+    "id": "dalia-i",
+    "author": "Dalia I.",
+    "initials": "DI",
+    "descriptor": { "en": "Patient", "ar": "مريضة" },
+    "text": {
+      "en": "From the moment I walked in, the staff were warm, welcoming, and highly organized. The clinic is spotless, modern, and equipped with the latest technology, which made my visit efficient and stress-free.",
+      "ar": "منذ لحظة دخولي كان الفريق ودوداً ومرحّباً ومنظّماً للغاية. العيادة نظيفة تماماً وحديثة ومجهزة بأحدث التقنيات، ما جعل زيارتي سلسة وبلا توتر."
+    },
+    "note": { "en": "Excerpt from a Google review", "ar": "مقتطف مترجم عن تقييم على جوجل" },
+    "treatmentSlug": "general-dentistry",
     "source": "google",
-    "real": false,
-    "paraphrased": false
+    "real": true,
+    "paraphrased": true
   },
   {
-    "id": "review-04",
-    "author": "[REAL REVIEW AUTHOR]",
-    "initials": "HS",
-    "descriptor": { "en": "Clear aligners", "ar": "تقويم شفاف" },
-    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
-    "treatmentSlug": "clear-aligners",
-    "source": "google",
-    "real": false,
-    "paraphrased": false
-  },
-  {
-    "id": "review-05",
-    "author": "[REAL REVIEW AUTHOR]",
-    "initials": "YF",
-    "descriptor": { "en": "Full mouth restoration", "ar": "إعادة تأهيل الفم" },
-    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
-    "treatmentSlug": "full-mouth-restoration",
-    "source": "google",
-    "real": false,
-    "paraphrased": false
-  },
-  {
-    "id": "review-06",
-    "author": "[REAL REVIEW AUTHOR]",
-    "initials": "LM",
-    "descriptor": { "en": "Whitening", "ar": "تبييض" },
-    "text": { "en": "[REAL REVIEW TEXT]", "ar": "[REAL REVIEW TEXT]" },
+    "id": "laila-e",
+    "author": "Laila E.",
+    "initials": "LE",
+    "descriptor": { "en": "Patient", "ar": "مريضة" },
+    "text": {
+      "en": "My teeth are now as white and straight as ever because of his amazing work. The clinic is clean, the staff are helpful and pleasant.",
+      "ar": "أسناني الآن بيضاء ومستقيمة كما لم تكن من قبل بفضل عمله. العيادة نظيفة والفريق متعاون ولطيف."
+    },
+    "note": { "en": "Excerpt from a Google review", "ar": "مقتطف مترجم عن تقييم على جوجل" },
     "treatmentSlug": "whitening-bonding",
     "source": "google",
-    "real": false,
+    "real": true,
+    "paraphrased": true
+  },
+  {
+    "id": "amr-a",
+    "author": "Amr A.",
+    "initials": "AA",
+    "descriptor": { "en": "Patient", "ar": "مريض" },
+    "text": {
+      "en": "Very professional, clean, punctual and you don't need to worry about your appointments because they remind you and follow up. Every single detail of a procedure is explained thoroughly so you know what's going on.",
+      "ar": "احترافية ونظافة ودقة في المواعيد، ولا تقلق بشأن موعدك لأنهم يذكّرونك ويتابعون معك. كل تفصيلة في الإجراء تُشرح بدقة فتعرف ما يحدث."
+    },
+    "note": { "en": "Google review", "ar": "مترجم عن تقييم على جوجل" },
+    "treatmentSlug": "general-dentistry",
+    "source": "google",
+    "real": true,
     "paraphrased": false
   }
 ]

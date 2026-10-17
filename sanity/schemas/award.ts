@@ -5,6 +5,6 @@ export const award: SanityType = {
   name: "award",
   title: "Award",
   type: "document",
-  fields: [localizedString("title", "Title"), localizedString("issuer", "Issuer"), { name: "year", title: "Year", type: "string" }],
-  preview: { select: { title: "title.en", subtitle: "year" } },
+  fields: [localizedString("title", "Title"), localizedString("issuer", "Issuer")],
+  preview: { select: { title: "title.en", subtitle: "issuer.en" } },
 };

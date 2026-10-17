@@ -3,7 +3,7 @@
   "shortName": { "en": "El Hoshy Dental", "ar": "الهوشي للأسنان" },
   "doctor": { "en": "Prof. Ahmed Zoheir El Hoshy", "ar": "أ.د. أحمد زهير الهوشي" },
   "doctorShort": { "en": "Prof. Ahmed El Hoshy", "ar": "أ.د. أحمد الهوشي" },
-  "nameVariants": ["Elhoshy", "El-Hoshy", "Hoshy", "Ahmed Zohier El Hoshy", "الهوشى"],
+  "nameVariants": ["Elhoshy", "El-Hoshy", "Hoshy", "Ahmed Zohier El Hoshy", "الهوشى", "الحوشي"],
   "address": {
     "en": "47 Cleopatra St, Salah El Din, Korba, Heliopolis, Cairo 11345, facing Cleopatra Hospital",
     "ar": "٤٧ شارع كليوباترا، صلاح الدين، الكوربة، مصر الجديدة، القاهرة، أمام مستشفى كليوباترا"
@@ -28,8 +28,7 @@
     "open": "11:00",
     "close": "21:30",
     "closed": { "en": "Closed Friday", "ar": "مغلق يوم الجمعة" },
-    "schemaDays": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-    "confirm": "[CONFIRM] directories disagree on hours"
+    "schemaDays": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"]
   },
   "socials": {
     "instagram": "https://www.instagram.com/elhoshydentalclinic/",
@@ -39,16 +38,16 @@
   "googleRating": 4.9,
   "googleReviewCount": 141,
   "googleReviewKeywords": ["infection control", "virtually painless", "dental aesthetics"],
-  "googleMapsUrl": "[PLACEHOLDER]",
+  "googleMapsUrl": "https://share.google/sp9ceIYRNmH6Dnikb",
   "googleMapsEmbedUrl": "https://www.google.com/maps?q=30.0943,31.3299&output=embed",
-  "licenceNumber": "[PLACEHOLDER]",
+  "licenceNumber": "",
   "languages": {
     "en": ["Arabic", "English", "French", "Italian"],
     "ar": ["العربية", "الإنجليزية", "الفرنسية", "الإيطالية"]
   },
   "payment": {
-    "en": "Cards accepted. Payment plans available. The first consultation is free.",
-    "ar": "نقبل البطاقات البنكية. تتوفر خطط سداد. الاستشارة الأولى مجانية."
+    "en": "Visa, Mastercard and Meeza accepted. Payment plans available. The first consultation is free.",
+    "ar": "نقبل بطاقات فيزا وماستركارد وميزة. تتوفر خطط سداد. الاستشارة الأولى مجانية."
   },
   "since": "1997"
 }

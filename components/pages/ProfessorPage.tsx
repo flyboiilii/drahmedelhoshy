@@ -109,6 +109,11 @@ export function createProfessorPage(lang: Lang): { metadata: Metadata; Page: () 
             <div>
               <h2 className="h3">{d.professor.teaching}</h2>
               <p className="mt-4 text-muted">{d.professor.teachingText}</p>
+              <p className="mt-3">
+                <a href={settings.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-link text-sm">
+                  {d.professor.teachingLink}
+                </a>
+              </p>
             </div>
             <div>
               <h2 className="h3">{d.professor.clinic}</h2>

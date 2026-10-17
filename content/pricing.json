@@ -4,8 +4,7 @@
     "text": {
       "en": "Time with the professor, photographs, and a written note of what he would and would not do. No obligation and no sales conversation.",
       "ar": "وقت مع الأستاذ، وصور، وملاحظة مكتوبة بما يراه مناسباً وما لا يراه. دون التزام ودون حديث بيع."
-    },
-    "durationConfirm": "[CONFIRM consultation length]"
+    }
   },
   "entries": [
     {
@@ -34,7 +33,7 @@
     { "en": "A named contact on WhatsApp for questions", "ar": "شخص محدد على واتساب للرد على الأسئلة" }
   ],
   "payment": {
-    "cards": { "en": "Cards accepted.", "ar": "نقبل البطاقات البنكية." },
+    "cards": { "en": "Visa, Mastercard and Meeza accepted.", "ar": "نقبل بطاقات فيزا وماستركارد وميزة." },
     "instalments": { "en": "Instalment plans: [PARTNERS TO CONFIRM]", "ar": "خطط تقسيط: [PARTNERS TO CONFIRM]" }
   }
 }

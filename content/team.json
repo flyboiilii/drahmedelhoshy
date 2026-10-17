@@ -8,19 +8,5 @@
     },
     "image": "/placeholders/professor-portrait.jpg",
     "placeholder": false
-  },
-  {
-    "id": "team-01",
-    "name": { "en": "[TEAM MEMBER NAME]", "ar": "[اسم عضو الفريق]" },
-    "role": { "en": "[ROLE]", "ar": "[الدور]" },
-    "image": "/placeholders/team-01.jpg",
-    "placeholder": true
-  },
-  {
-    "id": "team-02",
-    "name": { "en": "[TEAM MEMBER NAME]", "ar": "[اسم عضو الفريق]" },
-    "role": { "en": "[ROLE]", "ar": "[الدور]" },
-    "image": "/placeholders/team-02.jpg",
-    "placeholder": true
   }
 ]

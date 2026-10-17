@@ -8,7 +8,7 @@ type Item = ReviewCardData & { treatmentSlug: string };
 type Props = {
   items: Item[];
   filters: { key: string; label: string }[];
-  labels: { all: string; filter: string; paraphrased: string; source: string };
+  labels: { all: string; filter: string; none: string };
 };
 
 export function ReviewsGrid({ items, filters, labels }: Props) {
@@ -26,13 +26,17 @@ export function ReviewsGrid({ items, filters, labels }: Props) {
           </button>
         ))}
       </div>
-      <ul className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-        {visible.map((r) => (
-          <li key={r.id}>
-            <ReviewCard data={r} labels={labels} />
-          </li>
-        ))}
-      </ul>
+      {visible.length === 0 ? (
+        <p className="mt-10 text-muted">{labels.none}</p>
+      ) : (
+        <ul className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {visible.map((r) => (
+            <li key={r.id}>
+              <ReviewCard data={r} />
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
