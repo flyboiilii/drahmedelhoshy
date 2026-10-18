@@ -13,7 +13,8 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "assets": "node scripts/placeholders.mjs && node scripts/og.mjs",
-    "draco": "node scripts/copy-draco.mjs"
+    "draco": "node scripts/copy-draco.mjs",
+    "posters": "node scripts/posters.mjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.6",

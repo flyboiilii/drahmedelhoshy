@@ -1,5 +1,7 @@
 # 3D models brief
 
+**Status, 18 October 2026.** All five files are built and in `public/models/`, scripted in Blender 4.2 from `blender/*.py` (no artist was available before the pitch). Node names, morph targets and axes follow this brief; the figures below that differ from the built files are noted in place. Colour variation is carried in vertex colours rather than textures, so each node stays one primitive and keeps its morph targets on the mesh. The four posters in `public/posters/` are rendered from the same models (`node scripts/posters.mjs <render dir>`). A proper artist pass can replace any file one at a time; the site only reads the node names.
+
 Five GLB files replace the procedural stand-ins. Each one exists to answer one patient fear, as section 8 of the build brief says, and the site already contains the choreography; the model only has to deliver the named parts in the right place. Drop a finished file in `public/models/` under the exact name, flip its flag in `content/models.json` to `true`, rebuild, and the animated version appears.
 
 ## Rules for all five

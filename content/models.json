@@ -1,7 +1,7 @@
 {
   "veneer": true,
-  "implant": false,
-  "aligner": false,
-  "fullmouth": false,
-  "arch": false
+  "implant": true,
+  "aligner": true,
+  "fullmouth": true,
+  "arch": true
 }
