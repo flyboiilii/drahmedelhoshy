@@ -25,7 +25,7 @@ Since 17 October 2026 the site shows no visible placeholder tags: everything rea
 
 ## Cases (facts and stories are invented to fit the treatment; photographs supplied 18 October 2026)
 
-All eight entries in `content/cases.json` (014, 009, 011, 017, 021, 023, 026, 031): age, teeth count, material, visits, months after treatment and the three story lines are written to be plausible, not taken from real patients. Replace each with a real consented case before launch, or remove the ones you cannot match. The home hero reads "Case 014, Heliopolis, 34 years old" from this file.
+All eight entries in `content/cases.json` (014, 009, 011, 017, 021, 023, 026, 031): age, teeth count, material, visits, months after treatment and the three story lines are written to be plausible, not taken from real patients. Replace each with a real consented case before launch, or remove the ones you cannot match. The home hero shows the case 014 photographs without a caption.
 
 ## Verified and final
 

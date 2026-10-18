@@ -17,10 +17,7 @@ export function BeforeAfterHero({ lang, featured }: { lang: Lang; featured: Case
   return (
     <section className="container-x pt-8 md:pt-14 pb-10 md:pb-16">
       <div className="max-w-4xl">
-        <p className="eyebrow rise" style={{ "--i": 0 } as React.CSSProperties}>
-          {d.hero.eyebrow}
-        </p>
-        <h1 className="h1 mt-5 rise" style={{ "--i": 1 } as React.CSSProperties}>
+        <h1 className="h1 rise" style={{ "--i": 0 } as React.CSSProperties}>
           {d.hero.title} <em>{d.hero.titleEm}</em>
         </h1>
       </div>
