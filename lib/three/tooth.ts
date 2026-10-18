@@ -40,9 +40,9 @@ export function crownGeometry(segments = 36): LatheGeometry {
 export const COLORS = {
   ivory: "#f0e9dc",
   ivoryBright: "#f6f3ec",
-  shadeA3: "#d9c4a2",
+  shadeA3: "#e6d6ba",
   shadeBL2: "#f5f2ea",
-  dentine: "#d9cfc2",
+  dentine: "#cfb38c",
   oldCrown: "#b9aa92",
   bone: "#e6dccb",
   gum: "#d8b3a4",
