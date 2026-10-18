@@ -46,11 +46,9 @@ These must be real patients of the clinic with written consent on file. They can
 - Treatments as currently written on the site: 014 upper veneers (8 teeth), 009 two lower implants, 011 full mouth with crowns and two implants, 017 whitening and bonding on two front teeth, 021 replacement of ten old veneers, 023 clear aligners, 026 fixed upper bridge on six implants, 031 six veneers closing gaps. If the real cases differ, tell me and I rewrite the facts and stories to match.
 - How to shoot both halves identically: retracted smile (cheek retractors) or natural smile, choose one per case and keep it for both; same camera distance and height; teeth centred, lips framing; ring flash or the treatment light with no shadows; same white balance; no filters. Crop to the mouth or lower face only, no eyes, so no face is identifiable.
 
-## 8. Reel stills, optional
+## 8. Reel covers
 
-- Files: `video-testimonial-1.jpg`, `video-testimonial-2.jpg`, `video-testimonial-3.jpg`, 9:16 preferred.
-- Used on: the Reviews page as the tap-to-play cover of each Instagram reel.
-- Description: A frame exported from each of the three reels (Cmq82Syh1UH, Ckal4a5AdlL, Csi3X2ugr05), ideally the opening frame with the professor or the clinic in view, no overlaid text.
+Covers for the three Instagram reels on the Reviews page (tap to play). Vertical 9:16, 1080 x 1920, under 150 KB, no text. Files `reel-1.jpg`, `reel-2.jpg`, `reel-3.jpg`. Full briefs in `REEL-COVERS.md`.
 
 ## 9. Logo
 

@@ -16,5 +16,6 @@ import { pricing } from "./pricing";
 import { concern } from "./concern";
 
 export const schemaTypes = [settings, service, caseStudy, review, faq, award, teamMember, pricing, concern];
+// Note: content/videos.json (Instagram reels with a localized title and a poster) has no studio type yet; add one when the reels become editable content.
 
 export type { SanityField, SanityType } from "./types";

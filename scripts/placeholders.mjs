@@ -63,7 +63,7 @@ jobs.push(make("placeholders/sterilisation.jpg", { w: 1600, h: 1067, from: C.pap
 jobs.push(make("placeholders/team-01.jpg", { w: 1200, h: 1600, from: C.limestone, to: C.sand, label: "[IMAGE]", sub: "TEAM MEMBER" }));
 jobs.push(make("placeholders/team-02.jpg", { w: 1200, h: 1600, from: C.limestone, to: C.sand, label: "[IMAGE]", sub: "TEAM MEMBER" }));
 for (const i of [1, 2, 3]) {
-  jobs.push(make(`placeholders/video-testimonial-${i}.jpg`, { w: 1600, h: 900, from: C.sand, to: C.limestone, label: "[VIDEO]", sub: `TESTIMONIAL ${i}` }));
+  jobs.push(make(`placeholders/reel-${i}.jpg`, { w: 1080, h: 1920, from: C.sand, to: C.limestone, label: "[STILL]", sub: `REEL ${i}` }));
 }
 for (const p of ["veneer", "implant", "aligner", "fullmouth", "arch", "whitening-bonding", "general-dentistry"]) {
   jobs.push(make(`posters/${p}.webp`, { w: 1200, h: 960, from: C.alabaster, to: C.limestone, label: "", sub: "" }));

@@ -144,6 +144,7 @@ export const VideoSchema = z.object({
   platform: z.literal("instagram"),
   url: z.string().url(),
   poster: z.string().startsWith("/"),
+  title: Localized,
 });
 
 export const ModelsSchema = z.object({

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getDict, type Lang } from "@/lib/i18n";
+import { getDict, l, type Lang } from "@/lib/i18n";
 import { googleMapsLink, reviews, settings, videos } from "@/lib/content";
 import { localize } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
@@ -63,7 +63,7 @@ export function createReviewsPage(lang: Lang): { metadata: Metadata; Page: () =>
             <ul className="mt-10 grid gap-5 sm:grid-cols-2 md:grid-cols-3 max-w-4xl">
               {videos.map((v) => (
                 <li key={v.id}>
-                  <InstagramReel id={v.id} url={v.url} poster={v.poster} playLabel={d.reviews.videoPlay} openLabel={d.reviews.videoOpen} />
+                  <InstagramReel id={v.id} url={v.url} poster={v.poster} title={l(v.title, lang)} playLabel={d.reviews.videoPlay} openLabel={d.reviews.videoOpen} />
                 </li>
               ))}
             </ul>

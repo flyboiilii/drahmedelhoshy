@@ -3,18 +3,21 @@
     "id": "Cmq82Syh1UH",
     "platform": "instagram",
     "url": "https://www.instagram.com/reel/Cmq82Syh1UH/",
-    "poster": "/placeholders/video-testimonial-1.jpg"
+    "poster": "/placeholders/reel-1.jpg",
+    "title": { "en": "Finishing touches at the chair", "ar": "لمسات التشطيب على الكرسي" }
   },
   {
     "id": "Ckal4a5AdlL",
     "platform": "instagram",
     "url": "https://www.instagram.com/reel/Ckal4a5AdlL/",
-    "poster": "/placeholders/video-testimonial-2.jpg"
+    "poster": "/placeholders/reel-2.jpg",
+    "title": { "en": "The veneer try-in", "ar": "تجربة الفينير قبل التثبيت" }
   },
   {
     "id": "Csi3X2ugr05",
     "platform": "instagram",
     "url": "https://www.instagram.com/reel/Csi3X2ugr05/",
-    "poster": "/placeholders/video-testimonial-3.jpg"
+    "poster": "/placeholders/reel-3.jpg",
+    "title": { "en": "A whitening session", "ar": "جلسة تبييض" }
   }
 ]
