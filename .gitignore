@@ -21,3 +21,6 @@ next-env.d.ts
 
 # editor and app state
 /.claude/
+
+# Blender script bytecode
+blender/__pycache__/
