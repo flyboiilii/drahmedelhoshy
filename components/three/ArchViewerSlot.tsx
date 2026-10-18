@@ -3,6 +3,7 @@
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { canRun3D } from "@/lib/device";
+import { onFirstInteraction } from "@/lib/interaction";
 import { sceneStore } from "@/lib/scene-store";
 import type { Lang } from "@/lib/i18n";
 
@@ -25,8 +26,29 @@ export function ArchViewerSlot({ labels }: Props) {
   const onReady = useCallback(() => setReady(true), []);
   const id = useId();
 
+  // Same gate as the sequences: nothing from three.js loads until the visitor has interacted
+  // and the box is within 1200px of the viewport. Mounting it on page load cost two seconds of
+  // main-thread time on the home page before the hero had painted.
   useEffect(() => {
-    if (canRun3D()) setLive(true);
+    const el = host.current;
+    if (!el || !canRun3D() || !("IntersectionObserver" in window)) return;
+    let io: IntersectionObserver | null = null;
+    const off = onFirstInteraction(() => {
+      io = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setLive(true);
+            io?.disconnect();
+          }
+        },
+        { rootMargin: "1200px 0px 1200px 0px" },
+      );
+      io.observe(el);
+    });
+    return () => {
+      off();
+      io?.disconnect();
+    };
   }, []);
 
   useEffect(() => {

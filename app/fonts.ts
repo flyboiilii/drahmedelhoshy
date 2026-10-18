@@ -5,24 +5,24 @@ export const instrumentSerif = Instrument_Serif({
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",
-  preload: false,
+  preload: true,
   variable: "--font-instrument-serif",
 });
 
-/** Italic is only used for the emphasised word in display headings, so it is not preloaded. */
+/** Italic is used for the emphasised word in the hero heading, so it is preloaded with the roman. */
 export const instrumentSerifItalic = Instrument_Serif({
   weight: ["400"],
   style: ["italic"],
   subsets: ["latin"],
   display: "swap",
-  preload: false,
+  preload: true,
   variable: "--font-instrument-serif-italic",
 });
 
 export const instrumentSans = Instrument_Sans({
   subsets: ["latin"],
   display: "swap",
-  preload: false,
+  preload: true,
   variable: "--font-instrument-sans",
 });
 
