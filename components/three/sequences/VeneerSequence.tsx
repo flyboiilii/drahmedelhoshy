@@ -2,7 +2,7 @@
 
 import { useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { useGLTF } from "@react-three/drei";
+import { useClinicGltf } from "../useClinicGltf";
 import { Color, DoubleSide, Group, Mesh, MeshPhysicalMaterial, MeshStandardMaterial, SphereGeometry } from "three";
 import type { ProgressRef } from "../SequenceView";
 import { COLORS, toothGeometry } from "@/lib/three/tooth";
@@ -81,7 +81,7 @@ function VeneerProcedural({ progress }: { progress: ProgressRef }) {
 
 /** Artist-delivered GLB with nodes tooth, prepLayer, veneer. Same choreography on the named nodes. */
 function VeneerGlb({ progress }: { progress: ProgressRef }) {
-  const { scene, nodes } = useGLTF("/models/veneer.glb", "/draco/");
+  const { scene, nodes } = useClinicGltf("/models/veneer.glb");
   const group = useRef<Group>(null);
   const tooth = nodes.tooth as Mesh | undefined;
   const veneer = nodes.veneer as Mesh | undefined;

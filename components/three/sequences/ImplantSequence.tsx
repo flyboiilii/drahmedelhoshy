@@ -2,7 +2,8 @@
 
 import { useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { RoundedBox, useGLTF } from "@react-three/drei";
+import { RoundedBox } from "@react-three/drei";
+import { useClinicGltf } from "../useClinicGltf";
 import { DoubleSide, Group, Mesh, MeshStandardMaterial, Plane, Vector3 } from "three";
 import type { ProgressRef } from "../SequenceView";
 import { COLORS, crownGeometry } from "@/lib/three/tooth";
@@ -93,7 +94,7 @@ function ImplantProcedural({ progress }: { progress: ProgressRef }) {
 
 /** GLB with nodes bone, gum, fixture, abutment, crown. */
 function ImplantGlb({ progress }: { progress: ProgressRef }) {
-  const { scene, nodes } = useGLTF("/models/implant.glb", "/draco/");
+  const { scene, nodes } = useClinicGltf("/models/implant.glb");
   const plane = useMemo(() => new Plane(new Vector3(0, 0, -1), 0.8), []);
   const base = useRef<Record<string, number>>({});
 

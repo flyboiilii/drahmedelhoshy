@@ -119,7 +119,7 @@ Four scroll-driven explainers (`veneer`, `implant`, `aligner`, `fullmouth`) answ
 1. Export from Blender with Draco, under 1.5 MB and 50K triangles, PBR, baked AO, KTX2 1024 textures, morph targets not skeletons, node names exactly as in section 8 of the brief (`tooth`, `prepLayer`, `veneer`; `bone`, `gum`, `fixture`, `abutment`, `crown`; `arch` with morphs `m0`, `m6`, `m12` and `tray`; `arch` with morph `worn` to `restored` and `crown_01` to `crown_10`; `archBefore`, `archAfter`).
 2. Save it as `public/models/{veneer|implant|aligner|fullmouth|arch}.glb`.
 3. Flip the matching flag in `content/models.json` to `true`. The sequence component switches from the procedural stand-in to the GLB version (same choreography on the named nodes). `arch: true` swaps the home hero from the image compare to the 3D `ArchViewer`.
-4. The Draco decoder is served from `public/draco/` (run `npm run draco` after upgrading three).
+4. The Draco decoder (`public/draco/`) and the KTX2 transcoder (`public/basis/`) are served locally; run `npm run draco` after upgrading three. GLBs may use Draco geometry and KTX2 textures, as the artist brief in `MODELS-BRIEF.md` asks.
 
 ## Conversion layer
 

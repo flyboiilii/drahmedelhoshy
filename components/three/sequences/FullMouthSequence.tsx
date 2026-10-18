@@ -2,7 +2,7 @@
 
 import { useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { useGLTF } from "@react-three/drei";
+import { useClinicGltf } from "../useClinicGltf";
 import { Group, Mesh, MeshStandardMaterial } from "three";
 import type { ProgressRef } from "../SequenceView";
 import { archSlots, COLORS, crownGeometry } from "@/lib/three/tooth";
@@ -110,7 +110,7 @@ function FullMouthProcedural({ progress }: { progress: ProgressRef }) {
 
 /** GLB with node arch (morph worn -> restored) and crown_01 to crown_10. */
 function FullMouthGlb({ progress }: { progress: ProgressRef }) {
-  const { scene, nodes } = useGLTF("/models/fullmouth.glb", "/draco/");
+  const { scene, nodes } = useClinicGltf("/models/fullmouth.glb");
   const group = useRef<Group>(null);
   const arch = nodes.arch as Mesh | undefined;
   const crowns = useMemo(

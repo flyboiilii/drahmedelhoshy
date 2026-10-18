@@ -2,7 +2,8 @@
 
 import { Suspense, useEffect, useMemo, useRef, type RefObject } from "react";
 import { useFrame } from "@react-three/fiber";
-import { PerspectiveCamera, View, useGLTF } from "@react-three/drei";
+import { PerspectiveCamera, View } from "@react-three/drei";
+import { useClinicGltf } from "./useClinicGltf";
 import { DoubleSide, Group, Mesh, MeshStandardMaterial, Plane, Vector3 } from "three";
 import { sceneStore } from "@/lib/scene-store";
 import { Lights } from "./SequenceView";
@@ -33,7 +34,7 @@ export default function ArchViewer({ split, yaw }: Props) {
 }
 
 function Arches({ split, yaw }: Props) {
-  const { nodes } = useGLTF("/models/arch.glb", "/draco/");
+  const { nodes } = useClinicGltf("/models/arch.glb");
   const group = useRef<Group>(null);
   const before = nodes.archBefore as Mesh | undefined;
   const after = nodes.archAfter as Mesh | undefined;

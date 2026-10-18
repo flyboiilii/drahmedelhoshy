@@ -2,7 +2,7 @@
 
 import { useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
-import { useGLTF } from "@react-three/drei";
+import { useClinicGltf } from "../useClinicGltf";
 import { CatmullRomCurve3, DoubleSide, Group, Mesh, MeshPhysicalMaterial, MeshStandardMaterial, Plane, TubeGeometry, Vector3 } from "three";
 import type { ProgressRef } from "../SequenceView";
 import { archSlots, COLORS, crownGeometry } from "@/lib/three/tooth";
@@ -90,7 +90,7 @@ function AlignerProcedural({ progress }: { progress: ProgressRef }) {
 
 /** GLB with node arch (morph targets m0, m6, m12) and tray. */
 function AlignerGlb({ progress }: { progress: ProgressRef }) {
-  const { scene, nodes } = useGLTF("/models/aligner.glb", "/draco/");
+  const { scene, nodes } = useClinicGltf("/models/aligner.glb");
   const arch = nodes.arch as Mesh | undefined;
   const tray = nodes.tray as Mesh | undefined;
   const trayBase = useRef<number | null>(null);
