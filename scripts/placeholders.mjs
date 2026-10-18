@@ -1,8 +1,9 @@
-// Generates flat, stone-coloured placeholder images for every image slot and
-// poster so the build never 404s. Re-run with `npm run assets` after changing
-// the lists below. Real photographs replace these files one for one.
+// Generates flat, stone-coloured placeholder images for any image slot that
+// has no file yet, so the build never 404s. Existing files are never
+// overwritten: real photographs are safe. Delete a file to regenerate its stand-in.
 import sharp from "sharp";
 import { mkdir } from "node:fs/promises";
+import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -39,6 +40,10 @@ function svg({ w, h, from, to, label, sub }) {
 
 async function make(file, opts) {
   const out = path.join(PUB, file);
+  if (fs.existsSync(out)) {
+    console.log("kept", file);
+    return;
+  }
   await mkdir(path.dirname(out), { recursive: true });
   const img = sharp(Buffer.from(svg(opts)));
   if (file.endsWith(".webp")) await img.webp({ quality: 80 }).toFile(out);
@@ -60,8 +65,6 @@ jobs.push(make("placeholders/clinic-exterior.jpg", { w: 1600, h: 1067, from: C.s
 jobs.push(make("placeholders/reception.jpg", { w: 1600, h: 1067, from: C.paper, to: C.sand, label: "[IMAGE]", sub: "RECEPTION" }));
 jobs.push(make("placeholders/treatment-room.jpg", { w: 1600, h: 1067, from: C.paper, to: C.sand, label: "[IMAGE]", sub: "TREATMENT ROOM" }));
 jobs.push(make("placeholders/sterilisation.jpg", { w: 1600, h: 1067, from: C.paper, to: C.sand, label: "[IMAGE]", sub: "STERILISATION AREA" }));
-jobs.push(make("placeholders/team-01.jpg", { w: 1200, h: 1600, from: C.limestone, to: C.sand, label: "[IMAGE]", sub: "TEAM MEMBER" }));
-jobs.push(make("placeholders/team-02.jpg", { w: 1200, h: 1600, from: C.limestone, to: C.sand, label: "[IMAGE]", sub: "TEAM MEMBER" }));
 for (const i of [1, 2, 3]) {
   jobs.push(make(`placeholders/reel-${i}.jpg`, { w: 1080, h: 1920, from: C.sand, to: C.limestone, label: "[STILL]", sub: `REEL ${i}` }));
 }

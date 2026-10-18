@@ -1,5 +1,7 @@
 # Shot list
 
+Status 18 October 2026: items 1 to 8 received and placed (the chair shot was cropped to 16:9 from the 3:4 file supplied; the clinic shots were cropped to 3:2). Open: the vector logo (item 9) and the optional 3D posters (item 10).
+
 Every image the site needs, with the file name it must be saved under, the shape, and a description written so it can be handed to a photographer or to an image model as is. House look for all of them: soft daylight, warm stone tones (alabaster, sand, bronze), nothing blue or teal, no lens flare, no heavy retouching, no text or logos in frame. Save files in `public/placeholders/` under the exact names below; the site picks them up on the next build.
 
 ## 1. Professor portrait

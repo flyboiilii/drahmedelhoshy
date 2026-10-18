@@ -23,7 +23,7 @@ Since 17 October 2026 the site shows no visible placeholder tags: everything rea
 | Aftercare for patients abroad: video review, free adjustments on a return visit within twelve months, lab repairs at cost | `content/i18n/*.json` abroad.aftercareText |
 | Materials rows: lithium disilicate or feldspathic porcelain; titanium implants with ceramic crowns; clear medical-grade trays; tooth-coloured composite; in-clinic gel with home trays | `content/services.json` materials (no brand names, by your choice) |
 
-## Cases (facts and stories are invented to fit the treatment; photographs are flat stand-ins)
+## Cases (facts and stories are invented to fit the treatment; photographs supplied 18 October 2026)
 
 All eight entries in `content/cases.json` (014, 009, 011, 017, 021, 023, 026, 031): age, teeth count, material, visits, months after treatment and the three story lines are written to be plausible, not taken from real patients. Replace each with a real consented case before launch, or remove the ones you cannot match. The home hero reads "Case 014, Heliopolis, 34 years old" from this file.
 
@@ -33,7 +33,7 @@ Hours, phones, address, Google rating and review count, review quotes (Google an
 
 ## Still needed from you
 
-- Photographs: see `SHOT-LIST.md`. Until they arrive the site shows flat stone images labelled with the slot name.
+- Photographs: all supplied on 18 October 2026 and in place. If the case photographs are generated stand-ins rather than consented patients, replace them before launch: the consent line under each case must be true.
 - Logo file at `public/logo.svg` (or `.png`).
 - Google Maps embed URL from the "Embed a map" dialog, to replace the labelled coordinate pin (`content/settings.json` googleMapsEmbedUrl). The current pin is the verified location.
 - Phase 2: GitHub repository, Cloudflare account, Pages project, domain `elhoshydentalclinic.com`, Web Analytics token.
