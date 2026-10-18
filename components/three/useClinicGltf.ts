@@ -4,6 +4,7 @@ import { useEffect, useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 import { KTX2Loader, type GLTFLoader } from "three-stdlib";
+import { sceneStore } from "@/lib/scene-store";
 
 let ktx2: KTX2Loader | null = null;
 
@@ -25,11 +26,12 @@ export function useClinicGltf(path: string) {
   const gltf = useGLTF(path, "/draco/", false, extend);
   // The canvas renders on demand; once the file has loaded (and Suspense resolved) ask for a
   // frame, otherwise a viewer that is not being scrolled stays blank until the next event.
-  const invalidate = useThree((s) => s.invalidate);
+  // It has to be the root store's invalidate: inside a drei View portal, useThree's copy
+  // counts frames on the portal state, which the demand loop never reads.
   useEffect(() => {
-    invalidate();
-    const t = window.setTimeout(() => invalidate(), 250);
+    sceneStore.invalidate();
+    const t = window.setTimeout(() => sceneStore.invalidate(), 250);
     return () => window.clearTimeout(t);
-  }, [gltf, invalidate]);
+  }, [gltf]);
   return gltf;
 }

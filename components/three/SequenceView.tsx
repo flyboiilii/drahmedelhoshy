@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense, useEffect, type RefObject } from "react";
-import { useThree } from "@react-three/fiber";
+import { sceneStore } from "@/lib/scene-store";
 import { PerspectiveCamera, View } from "@react-three/drei";
 import type { SequenceKind } from "@/lib/sequences";
 import models from "@/content/models.json";
@@ -21,12 +21,12 @@ const CAMERA: Record<SequenceKind, { position: [number, number, number]; look: [
 
 /** Requests one frame after mount so the view is not blank until the first scroll tick. */
 function Wake() {
-  const invalidate = useThree((s) => s.invalidate);
+  // Root-level invalidate: a View portal's own invalidate does not reach the demand loop.
   useEffect(() => {
-    invalidate();
-    const t = window.setTimeout(() => invalidate(), 250);
+    sceneStore.invalidate();
+    const t = window.setTimeout(() => sceneStore.invalidate(), 250);
     return () => window.clearTimeout(t);
-  }, [invalidate]);
+  }, []);
   return null;
 }
 
