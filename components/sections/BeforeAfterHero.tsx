@@ -1,10 +1,9 @@
 import { getDict, l, type Lang } from "@/lib/i18n";
-import { models, type Case } from "@/lib/content";
+import type { Case } from "@/lib/content";
 import { whatsAppUrl } from "@/lib/whatsapp";
 import { Button } from "@/components/ui/Button";
 import { StatsRow } from "@/components/ui/StatsRow";
 import { BeforeAfterCompare } from "./BeforeAfterCompare";
-import { ArchViewerSlot } from "@/components/three/ArchViewerSlot";
 
 /**
  * Concept B hero: the case is the headline. Terracotta is reserved for the
@@ -27,19 +26,15 @@ export function BeforeAfterHero({ lang, featured }: { lang: Lang; featured: Case
       </div>
 
       <div className="mt-10 md:mt-14">
-        {models.arch ? (
-          <ArchViewerSlot lang={lang} labels={d.compare} />
-        ) : (
-          <BeforeAfterCompare
-            before={{ src: featured.before, alt: beforeAlt }}
-            after={{ src: featured.after, alt: afterAlt }}
-            labels={d.compare}
-            className="aspect-[4/3] md:aspect-[16/8]"
-            priority
-            mirrored={lang === "ar"}
-            sizes="(min-width: 1440px) 1344px, 100vw"
-          />
-        )}
+        <BeforeAfterCompare
+          before={{ src: featured.before, alt: beforeAlt }}
+          after={{ src: featured.after, alt: afterAlt }}
+          labels={d.compare}
+          className="aspect-[4/3] md:aspect-[16/8]"
+          priority
+          mirrored={lang === "ar"}
+          sizes="(min-width: 1440px) 1344px, 100vw"
+        />
         <p className="caption mt-3">{d.cases.consentShort}</p>
       </div>
 

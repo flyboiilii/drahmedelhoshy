@@ -50,29 +50,64 @@ arch = make_object(scene, "arch", bm, material_vcol("arch", roughness=0.4))
 add_shape_key(arch, "m6", ranges, mats(0.5))
 add_shape_key(arch, "m12", ranges, mats(1.0))
 
-# tray: a thin shell over the aligned crowns
+# tray: a thin shell over the crowns, with the same stages as the arch (m6, m12) so it always
+# fits the teeth it is moving instead of being shaped for the finished arch from day one.
+SHELL_IN = 0.004   # clearance between enamel and the inner surface
+SHELL = 0.045      # wall thickness
+
+
+def tray_lists(t):
+    """(verts, faces) of the shell over every crown placed at stage t. Same topology for every t."""
+    all_verts, all_faces = [], []
+    for k, (kind, w, sc) in enumerate(ROW):
+        lverts, lfaces = tooth_lists(kind)
+        cut = 0.14 if kind != "pm" else 0.12
+        m = place(ROW, CENTRES, k, CROWDING[k], t, S)
+        part = bmesh.new()
+        index = {i: part.verts.new(m @ v) for i, v in enumerate(lverts) if v.z > cut}
+        for f in lfaces:
+            if all(i in index for i in f):
+                try:
+                    part.faces.new([index[i] for i in f])
+                except ValueError:
+                    pass
+        bmesh.ops.recalc_face_normals(part, faces=part.faces)
+        part.normal_update()
+        normals = {v: v.normal.copy() for v in part.verts}
+        dup = bmesh.ops.duplicate(part, geom=part.verts[:] + part.edges[:] + part.faces[:])
+        vmap = dup["vert_map"]
+        for v, n in normals.items():
+            vmap[v].co = v.co + n * SHELL_IN
+            v.co = v.co + n * (SHELL_IN + SHELL)
+        bmesh.ops.reverse_faces(part, faces=[g for g in dup["geom"] if isinstance(g, bmesh.types.BMFace)])
+        bmesh.ops.bridge_loops(part, edges=[e for e in part.edges if e.is_boundary])
+        bmesh.ops.recalc_face_normals(part, faces=part.faces)
+        part.verts.ensure_lookup_table()
+        part.verts.index_update()
+        base = len(all_verts)
+        all_verts += [v.co.copy() for v in part.verts]
+        all_faces += [tuple(base + v.index for v in f.verts) for f in part.faces]
+        part.free()
+    return all_verts, all_faces
+
+
+tv0, tf0 = tray_lists(0.0)
+tv6, _ = tray_lists(0.5)
+tv12, _ = tray_lists(1.0)
+assert len(tv0) == len(tv6) == len(tv12), "tray stages differ in vertex count"
 bm = bmesh.new()
-aligned = mats(1.0)
-for k, (kind, w, sc) in enumerate(ROW):
-    lverts, lfaces = tooth_lists(kind)
-    cut = 0.14 if kind != "pm" else 0.12
-    index = {i: bm.verts.new(aligned[k] @ v) for i, v in enumerate(lverts) if v.z > cut}
-    for f in lfaces:
-        if all(i in index for i in f):
-            try:
-                bm.faces.new([index[i] for i in f])
-            except ValueError:
-                pass
-# push the shell 0.004 off the crowns so its inner surface never coincides with the aligned teeth
-bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
-bm.normal_update()
-for v in bm.verts:
-    v.co += v.normal * 0.004
+tverts = [bm.verts.new(v) for v in tv0]
+for f in tf0:
+    try:
+        bm.faces.new([tverts[i] for i in f])
+    except ValueError:
+        pass
 tray = make_object(scene, "tray", bm, material("aligner", "#F2F5F6", roughness=0.08, alpha=0.42, double_sided=True))
-solid = tray.modifiers.new("shell", "SOLIDIFY")
-solid.thickness = 0.045
-solid.offset = 1.0
-solid.use_even_offset = True
+tray.shape_key_add(name="Basis", from_mix=False)
+for key_name, vs in (("m6", tv6), ("m12", tv12)):
+    key = tray.shape_key_add(name=key_name, from_mix=False)
+    for i, co in enumerate(vs):
+        key.data[i].co = co
 
 glb = os.path.join(OUT, "aligner.glb")
 export_glb(glb, [arch, tray])
@@ -88,6 +123,7 @@ studio(scene, cam_pos=(0, -4.0, 2.2), look_at=(0, 0, -0.1), fov_deg=30)
 tray.hide_render = True
 render(scene, os.path.join(OUT, "aligner-preview-1-crowded.png"))
 arch.data.shape_keys.key_blocks["m12"].value = 1.0
+tray.data.shape_keys.key_blocks["m12"].value = 1.0
 render(scene, os.path.join(OUT, "aligner-preview-2-aligned.png"))
 tray.hide_render = False
 tray.location.z = 0.3

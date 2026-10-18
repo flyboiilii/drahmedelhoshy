@@ -18,17 +18,18 @@ TOOTH_SINK = -0.08     # the cervical line sits this far below the gum top
 SEG = 36
 GAP = 0.025
 
-CANINE_RINGS = INCISOR_RINGS[:11] + [(0.70, 0.40, 0.235, 0.135), (0.85, 0.355, 0.19, 0.12), (0.95, 0.26, 0.13, 0.09), (1.03, 0.12, 0.07, 0.06), (1.08, 0.001, 0.001, 0.001)]
+# the canine reaches the same level as the centrals, with a soft point
+CANINE_RINGS = INCISOR_RINGS[:11] + [(0.70, 0.40, 0.235, 0.135), (0.82, 0.36, 0.19, 0.12), (0.91, 0.28, 0.14, 0.09), (0.97, 0.15, 0.08, 0.06), (1.0, 0.001, 0.001, 0.001)]
 
 # (kind, mesio-distal width, local scale)
 FRONT_TEN = [
     ("pm", 0.33, (1.0, 1.0, 1.0)),
     ("pm", 0.34, (1.0, 1.0, 1.0)),
     ("c", 0.38, (0.45, 0.52, 0.64)),
-    ("i2", 0.34, (0.40, 0.44, 0.56)),
+    ("i2", 0.35, (0.42, 0.44, 0.60)),
     ("i1", 0.42, (0.50, 0.50, 0.64)),
     ("i1", 0.42, (0.50, 0.50, 0.64)),
-    ("i2", 0.34, (0.40, 0.44, 0.56)),
+    ("i2", 0.35, (0.42, 0.44, 0.60)),
     ("c", 0.38, (0.45, 0.52, 0.64)),
     ("pm", 0.34, (1.0, 1.0, 1.0)),
     ("pm", 0.33, (1.0, 1.0, 1.0)),
@@ -54,9 +55,9 @@ def tooth_lists(kind):
     elif kind == "c":
         out = bmesh_lists(loft_bmesh(CANINE_RINGS, segments=SEG, flat_top=None, shape=None), min_z=-0.3)
     elif kind == "pm":
-        out = bmesh_lists(cusped_crown_bmesh(0.165, 0.21, 0.42, -0.22, cusps=[(0, -0.09, 0.06, 0.012), (0, 0.09, 0.04, 0.012)], groove_x=0.03, n_super=2.6, u=SEG, v=22))
+        out = bmesh_lists(cusped_crown_bmesh(0.165, 0.21, 0.50, -0.22, cusps=[(0, -0.09, 0.04, 0.012), (0, 0.09, 0.03, 0.012)], groove_x=0.02, n_super=2.6, u=SEG, v=22))
     else:
-        out = bmesh_lists(cusped_crown_bmesh(0.23, 0.25, 0.40, -0.22, cusps=[(-0.11, -0.1, 0.055, 0.012), (0.11, -0.1, 0.055, 0.012), (-0.11, 0.1, 0.045, 0.012), (0.11, 0.1, 0.045, 0.012)], groove_x=0.03, groove_y=0.012, n_super=3.0, u=SEG, v=22))
+        out = bmesh_lists(cusped_crown_bmesh(0.23, 0.25, 0.47, -0.22, cusps=[(-0.11, -0.1, 0.035, 0.012), (0.11, -0.1, 0.035, 0.012), (-0.11, 0.1, 0.03, 0.012), (0.11, 0.1, 0.03, 0.012)], groove_x=0.02, groove_y=0.01, n_super=3.0, u=SEG, v=22))
     _cache[kind] = out
     return out
 

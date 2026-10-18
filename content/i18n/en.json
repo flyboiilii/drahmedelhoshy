@@ -71,6 +71,11 @@
     "after": "After",
     "handle": "Compare before and after"
   },
+  "archSection": {
+    "eyebrow": "What alignment changes",
+    "title": "One arch, before and after.",
+    "note": "Illustration, not a patient. Drag across the arch or use the slider."
+  },
   "cases": {
     "eyebrow": "Recent cases",
     "title": "Recent cases",

@@ -6,6 +6,7 @@ import { localize } from "@/lib/routes";
 import { breadcrumbJsonLd, clinicJsonLd } from "@/lib/jsonld";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { BeforeAfterHero } from "@/components/sections/BeforeAfterHero";
+import { ArchSection } from "@/components/sections/ArchSection";
 import { TreatmentList } from "@/components/sections/TreatmentList";
 import { ProfessorBlock } from "@/components/sections/ProfessorBlock";
 import { AbroadBlock } from "@/components/sections/AbroadBlock";
@@ -58,6 +59,10 @@ export function HomePage({ lang }: { lang: Lang }) {
 
       <Suspense>
         <SequenceSection {...sequenceProps("veneer", lang, true)} />
+      </Suspense>
+
+      <Suspense>
+        <ArchSection lang={lang} />
       </Suspense>
 
       <Suspense>

@@ -16,6 +16,7 @@ const MAP = {
   implant: "implant-preview-2-cutaway.png",
   aligner: "aligner-preview-3-tray-above.png",
   fullmouth: "fullmouth-preview-2-halfway.png",
+  arch: "arch-preview-3-wipe.png",
 };
 for (const [name, file] of Object.entries(MAP)) {
   const from = join(src, file);

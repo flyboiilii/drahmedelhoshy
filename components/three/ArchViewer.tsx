@@ -24,7 +24,7 @@ export default function ArchViewer({ split, yaw, onReady }: Props) {
 
   return (
     <View className="absolute inset-0" index={1}>
-      <PerspectiveCamera makeDefault fov={26} position={[0, 1.2, 5]} onUpdate={(c) => c.lookAt(0, 0, 0)} />
+      <PerspectiveCamera makeDefault fov={26} position={[0, 1.0, 4.1]} onUpdate={(c) => c.lookAt(0, 0, 0)} />
       <Lights />
       <Suspense fallback={null}>
         <Arches split={split} yaw={yaw} onReady={onReady} />

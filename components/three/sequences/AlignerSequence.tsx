@@ -102,11 +102,13 @@ function AlignerGlb({ progress }: { progress: ProgressRef }) {
       if (trayBase.current === null) trayBase.current = tray.position.y;
       tray.position.y = lerp(trayBase.current + TRAY_TOP, trayBase.current, easeOutBack(range(p, 0, 0.4), 1.2));
     }
-    if (arch?.morphTargetInfluences && arch.morphTargetDictionary) {
-      const dict = arch.morphTargetDictionary;
-      const inf = arch.morphTargetInfluences;
-      const m = smooth(range(p, 0.4, 1)) * 12;
-      // m0 is the crowded base shape; blend through m6 to m12
+    // The crowded base shape blends through m6 to m12. The tray carries the same stages, so it
+    // always fits the teeth it is moving.
+    const m = smooth(range(p, 0.4, 1)) * 12;
+    for (const mesh of [arch, tray]) {
+      if (!mesh?.morphTargetInfluences || !mesh.morphTargetDictionary) continue;
+      const dict = mesh.morphTargetDictionary;
+      const inf = mesh.morphTargetInfluences;
       if (dict.m6 !== undefined) inf[dict.m6] = m <= 6 ? m / 6 : 1 - (m - 6) / 6;
       if (dict.m12 !== undefined) inf[dict.m12] = m <= 6 ? 0 : (m - 6) / 6;
     }
