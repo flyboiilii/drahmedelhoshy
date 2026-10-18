@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import "../fonts.css";
 import "../globals.css";
-import { instrumentSans, instrumentSerif, instrumentSerifItalic, notoNaskh } from "../fonts";
 import { RootShell } from "@/components/layout/RootShell";
 import { metadataBase } from "@/lib/seo";
 import { getDict } from "@/lib/i18n";
@@ -24,8 +24,10 @@ export const viewport: Viewport = {
 
 export default function ArabicLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ar-EG" dir="rtl" className={`${notoNaskh.variable} ${instrumentSerif.variable} ${instrumentSerifItalic.variable} ${instrumentSans.variable}`}>
+    <html lang="ar-EG" dir="rtl">
       <head>
+        <link rel="preload" href="/fonts/noto-naskh-arabic-arabic.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
       <body>

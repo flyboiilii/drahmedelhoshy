@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import "./fonts.css";
 import "./globals.css";
-import { instrumentSans, instrumentSerif, instrumentSerifItalic, notoNaskh } from "./fonts";
 import { getDict } from "@/lib/i18n";
 
 const en = getDict("en");
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
  */
 export default function GlobalNotFound() {
   return (
-    <html lang="en" className={`${instrumentSerif.variable} ${instrumentSerifItalic.variable} ${instrumentSans.variable} ${notoNaskh.variable}`}>
+    <html lang="en">
       <body>
         <main className="container-x py-16 md:py-24 grid gap-16 md:grid-cols-2">
           <section>

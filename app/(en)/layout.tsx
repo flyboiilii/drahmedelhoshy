@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
+import "../fonts.css";
 import "../globals.css";
-import { instrumentSans, instrumentSerif, instrumentSerifItalic } from "../fonts";
 import { RootShell } from "@/components/layout/RootShell";
 import { metadataBase } from "@/lib/seo";
 import { getDict } from "@/lib/i18n";
@@ -24,8 +24,11 @@ export const viewport: Viewport = {
 
 export default function EnglishLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" dir="ltr" className={`${instrumentSerif.variable} ${instrumentSerifItalic.variable} ${instrumentSans.variable}`}>
+    <html lang="en" dir="ltr">
       <head>
+        <link rel="preload" href="/fonts/instrument-serif-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/instrument-serif-italic-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} />
       </head>
       <body>
