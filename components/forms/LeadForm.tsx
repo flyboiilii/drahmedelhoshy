@@ -2,7 +2,7 @@
 
 import { useId, useState } from "react";
 import type { Dict, Lang } from "@/lib/i18n";
-import { leadUrl } from "@/lib/whatsapp";
+import { leadUrl } from "@/lib/lead";
 import { track } from "@/lib/track";
 
 type Option = { value: string; label: string };
@@ -66,7 +66,7 @@ export function LeadForm({ lang, page, t, treatments, className = "" }: Props) {
     const treatmentLabel = treatments.find((o) => o.value === data.treatment)?.label ?? t.treatmentUnsure;
     const visitLabel = data.visitType === "video" ? t.video : t.inClinic;
     const dayLabel = data.day === "any" ? t.anyDay : data.day;
-    const url = leadUrl(lang, {
+    const url = leadUrl(t, {
       name: data.name,
       phone: data.phone,
       treatment: treatmentLabel,
