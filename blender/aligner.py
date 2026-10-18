@@ -63,7 +63,7 @@ for k, (kind, w, sc) in enumerate(ROW):
                 bm.faces.new([index[i] for i in f])
             except ValueError:
                 pass
-tray = make_object(scene, "tray", bm, material("aligner", "#EEF1F2", roughness=0.05, transmission=0.9, ior=1.45, double_sided=True))
+tray = make_object(scene, "tray", bm, material("aligner", "#F2F5F6", roughness=0.08, alpha=0.42, double_sided=True))
 solid = tray.modifiers.new("shell", "SOLIDIFY")
 solid.thickness = 0.045
 solid.offset = 1.0

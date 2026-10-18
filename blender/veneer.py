@@ -74,7 +74,7 @@ bm.free()
 for p in veneer.data.polygons:
     p.use_smooth = True
 subsurf(veneer, 1)
-veneer.data.materials.append(material("porcelain", SITE_COLORS["shade_bl2"], roughness=0.15, transmission=0.6, ior=1.5, double_sided=True))
+veneer.data.materials.append(material("porcelain", SITE_COLORS["shade_bl2"], roughness=0.15, alpha=0.9, double_sided=True))
 
 for ob in (tooth, prep, veneer):
     ob.location = (0, 0, 0)

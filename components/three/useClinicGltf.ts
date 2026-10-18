@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { useThree } from "@react-three/fiber";
 import { useGLTF } from "@react-three/drei";
 import { KTX2Loader, type GLTFLoader } from "three-stdlib";
@@ -22,5 +22,14 @@ export function useClinicGltf(path: string) {
       gltfLoader.setKTX2Loader(loader);
     };
   }, [gl]);
-  return useGLTF(path, "/draco/", false, extend);
+  const gltf = useGLTF(path, "/draco/", false, extend);
+  // The canvas renders on demand; once the file has loaded (and Suspense resolved) ask for a
+  // frame, otherwise a viewer that is not being scrolled stays blank until the next event.
+  const invalidate = useThree((s) => s.invalidate);
+  useEffect(() => {
+    invalidate();
+    const t = window.setTimeout(() => invalidate(), 250);
+    return () => window.clearTimeout(t);
+  }, [gltf, invalidate]);
+  return gltf;
 }
