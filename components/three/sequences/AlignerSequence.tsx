@@ -3,7 +3,7 @@
 import { useMemo, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import { useClinicGltf } from "../useClinicGltf";
-import { CatmullRomCurve3, DoubleSide, Group, Mesh, MeshPhysicalMaterial, MeshStandardMaterial, Plane, TubeGeometry, Vector3 } from "three";
+import { CatmullRomCurve3, DoubleSide, FrontSide, Group, Mesh, MeshPhysicalMaterial, MeshStandardMaterial, Plane, TubeGeometry, Vector3 } from "three";
 import type { ProgressRef } from "../SequenceView";
 import { archSlots, COLORS, crownGeometry } from "@/lib/three/tooth";
 import { easeOutBack, lerp, range, smooth } from "@/lib/three/motion";
@@ -93,14 +93,25 @@ function AlignerGlb({ progress }: { progress: ProgressRef }) {
   const { scene, nodes } = useClinicGltf("/models/aligner.glb");
   const arch = nodes.arch as Mesh | undefined;
   const tray = nodes.tray as Mesh | undefined;
-  const trayBase = useRef<number | null>(null);
   const group = useRef<Group>(null);
+
+  // The shell is blended; drawing only its outer faces keeps the inner surfaces and the
+  // overlaps between neighbouring teeth from showing through each other.
+  useMemo(() => {
+    const m = tray?.material as MeshStandardMaterial | undefined;
+    if (m) {
+      m.side = FrontSide;
+      m.transparent = true;
+      m.depthWrite = false;
+    }
+  }, [tray]);
 
   useFrame(() => {
     const p = progress.current ?? 0;
     if (tray) {
-      if (trayBase.current === null) trayBase.current = tray.position.y;
-      tray.position.y = lerp(trayBase.current + TRAY_TOP, trayBase.current, easeOutBack(range(p, 0, 0.4), 1.2));
+      // The loaded scene is cached across mounts, so the rest position is kept on the node itself.
+      const rest = (tray.userData.restY ??= tray.position.y) as number;
+      tray.position.y = lerp(rest + TRAY_TOP, rest, easeOutBack(range(p, 0, 0.4), 1.2));
     }
     // The crowded base shape blends through m6 to m12. The tray carries the same stages, so it
     // always fits the teeth it is moving.

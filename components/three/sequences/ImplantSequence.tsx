@@ -96,7 +96,6 @@ function ImplantProcedural({ progress }: { progress: ProgressRef }) {
 function ImplantGlb({ progress }: { progress: ProgressRef }) {
   const { scene, nodes } = useClinicGltf("/models/implant.glb");
   const plane = useMemo(() => new Plane(new Vector3(0, 0, -1), 0.8), []);
-  const base = useRef<Record<string, number>>({});
 
   useMemo(() => {
     for (const name of ["bone", "gum"]) {
@@ -115,9 +114,10 @@ function ImplantGlb({ progress }: { progress: ProgressRef }) {
     const move = (name: string, a: number, b: number, lift: number, turns = 0) => {
       const n = nodes[name] as Mesh | undefined;
       if (!n) return;
-      if (base.current[name] === undefined) base.current[name] = n.position.y;
+      // The loaded scene is cached across mounts, so the rest position is kept on the node itself.
+      const rest = (n.userData.restY ??= n.position.y) as number;
       const t = smooth(range(p, a, b));
-      n.position.y = lerp(base.current[name] + lift, base.current[name], t);
+      n.position.y = lerp(rest + lift, rest, t);
       if (turns) n.rotation.y = t * turns * TWO_PI;
       n.visible = p >= a - 0.02;
     };

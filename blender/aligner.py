@@ -52,8 +52,8 @@ add_shape_key(arch, "m12", ranges, mats(1.0))
 
 # tray: a thin shell over the crowns, with the same stages as the arch (m6, m12) so it always
 # fits the teeth it is moving instead of being shaped for the finished arch from day one.
-SHELL_IN = 0.004   # clearance between enamel and the inner surface
-SHELL = 0.045      # wall thickness
+SHELL_IN = 0.003   # clearance between enamel and the inner surface
+SHELL = 0.03       # wall thickness
 
 
 def tray_lists(t):
@@ -102,7 +102,7 @@ for f in tf0:
         bm.faces.new([tverts[i] for i in f])
     except ValueError:
         pass
-tray = make_object(scene, "tray", bm, material("aligner", "#F2F5F6", roughness=0.08, alpha=0.42, double_sided=True))
+tray = make_object(scene, "tray", bm, material("aligner", "#F2F5F6", roughness=0.08, alpha=0.38))
 tray.shape_key_add(name="Basis", from_mix=False)
 for key_name, vs in (("m6", tv6), ("m12", tv12)):
     key = tray.shape_key_add(name=key_name, from_mix=False)

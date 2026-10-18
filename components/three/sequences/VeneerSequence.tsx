@@ -90,7 +90,6 @@ function VeneerGlb({ progress }: { progress: ProgressRef }) {
   const group = useRef<Group>(null);
   const tooth = nodes.tooth as Mesh | undefined;
   const veneer = nodes.veneer as Mesh | undefined;
-  const startX = useRef<number | null>(null);
 
   useFrame(() => {
     const p = progress.current ?? 0;
@@ -109,9 +108,10 @@ function VeneerGlb({ progress }: { progress: ProgressRef }) {
 
     // 3. veneer slides in from +x and seats, 4. shade warms A3 -> BL2
     if (veneer) {
-      if (startX.current === null) startX.current = veneer.position.x;
+      // The loaded scene is cached across mounts, so the rest position is kept on the node itself.
+      const rest = (veneer.userData.restX ??= veneer.position.x) as number;
       const seat = smooth(range(p, 0.55, 0.85));
-      veneer.position.x = lerp(startX.current + 1.6, startX.current, seat);
+      veneer.position.x = lerp(rest + 1.6, rest, seat);
       const vm = veneer.material as MeshStandardMaterial;
       const o = range(p, 0.55, 0.62);
       vm.transparent = o < 1;

@@ -16,25 +16,26 @@ ARCH_Y0 = 0.48
 GUM_TOP = 0.02
 TOOTH_SINK = -0.08     # the cervical line sits this far below the gum top
 SEG = 36
-GAP = 0.025
+GAP = 0.0            # slots are the contact-to-contact widths, so neighbours touch
 
 # the canine reaches the same level as the centrals, with a soft point
 CANINE_RINGS = INCISOR_RINGS[:11] + [(0.70, 0.40, 0.235, 0.135), (0.82, 0.36, 0.19, 0.12), (0.91, 0.28, 0.14, 0.09), (0.97, 0.15, 0.08, 0.06), (1.0, 0.001, 0.001, 0.001)]
 
-# (kind, mesio-distal width, local scale)
+# (kind, slot width along the arch, local scale). Slots sit a little inside the widest ring so the
+# teeth meet at contact points instead of showing gaps once they turn with the arch.
 FRONT_TEN = [
-    ("pm", 0.33, (1.0, 1.0, 1.0)),
-    ("pm", 0.34, (1.0, 1.0, 1.0)),
-    ("c", 0.38, (0.45, 0.52, 0.64)),
-    ("i2", 0.35, (0.42, 0.44, 0.60)),
-    ("i1", 0.42, (0.50, 0.50, 0.64)),
-    ("i1", 0.42, (0.50, 0.50, 0.64)),
-    ("i2", 0.35, (0.42, 0.44, 0.60)),
-    ("c", 0.38, (0.45, 0.52, 0.64)),
-    ("pm", 0.34, (1.0, 1.0, 1.0)),
-    ("pm", 0.33, (1.0, 1.0, 1.0)),
+    ("pm", 0.305, (1.0, 1.0, 1.0)),
+    ("pm", 0.315, (1.0, 1.0, 1.0)),
+    ("c", 0.35, (0.45, 0.56, 0.64)),
+    ("i2", 0.33, (0.42, 0.50, 0.60)),
+    ("i1", 0.40, (0.50, 0.56, 0.64)),
+    ("i1", 0.40, (0.50, 0.56, 0.64)),
+    ("i2", 0.33, (0.42, 0.50, 0.60)),
+    ("c", 0.35, (0.45, 0.56, 0.64)),
+    ("pm", 0.315, (1.0, 1.0, 1.0)),
+    ("pm", 0.305, (1.0, 1.0, 1.0)),
 ]
-MOLARS = [("m", 0.46, (1.0, 1.0, 1.0)), ("m", 0.44, (1.0, 1.0, 1.0))]
+MOLARS = [("m", 0.43, (1.0, 1.0, 1.0)), ("m", 0.41, (1.0, 1.0, 1.0))]
 
 
 def teeth_row(with_molars=False):
