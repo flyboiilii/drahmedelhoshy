@@ -43,7 +43,7 @@ ivory = hex_rgba(SITE_COLORS["ivory"])
 gum_c = hex_rgba(SITE_COLORS["gum"])
 
 bm = bmesh.new()
-col = bm.loops.layers.color.new("Col")
+col = bm.loops.layers.float_color.new("Col")
 ranges = add_teeth(bm, col, ROW, mats(0.0), lambda k, kind, co: ivory)
 add_gum(bm, col, ARC_HALF, S, gum_c)
 arch = make_object(scene, "arch", bm, material_vcol("arch", roughness=0.4))
@@ -63,6 +63,11 @@ for k, (kind, w, sc) in enumerate(ROW):
                 bm.faces.new([index[i] for i in f])
             except ValueError:
                 pass
+# push the shell 0.004 off the crowns so its inner surface never coincides with the aligned teeth
+bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+bm.normal_update()
+for v in bm.verts:
+    v.co += v.normal * 0.004
 tray = make_object(scene, "tray", bm, material("aligner", "#F2F5F6", roughness=0.08, alpha=0.42, double_sided=True))
 solid = tray.modifiers.new("shell", "SOLIDIFY")
 solid.thickness = 0.045

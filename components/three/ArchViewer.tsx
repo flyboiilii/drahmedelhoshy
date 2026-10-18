@@ -8,14 +8,14 @@ import { DoubleSide, Group, Mesh, MeshStandardMaterial, Plane, Vector3 } from "t
 import { sceneStore } from "@/lib/scene-store";
 import { Lights } from "./SequenceView";
 
-type Props = { split: RefObject<number>; yaw: RefObject<number> };
+type Props = { split: RefObject<number>; yaw: RefObject<number>; onReady?: () => void };
 
 /**
  * Proof viewer for the hero once arch.glb exists: two arches (archBefore,
  * archAfter) split by a wipe plane driven by `split` (0 to 1). Orbit is limited
  * to 15 degrees each way through `yaw`. Rendered inside the hero box.
  */
-export default function ArchViewer({ split, yaw }: Props) {
+export default function ArchViewer({ split, yaw, onReady }: Props) {
   useEffect(() => {
     sceneStore.enable();
     const t = window.setTimeout(() => sceneStore.invalidate(), 300);
@@ -27,14 +27,18 @@ export default function ArchViewer({ split, yaw }: Props) {
       <PerspectiveCamera makeDefault fov={26} position={[0, 1.2, 5]} onUpdate={(c) => c.lookAt(0, 0, 0)} />
       <Lights />
       <Suspense fallback={null}>
-        <Arches split={split} yaw={yaw} />
+        <Arches split={split} yaw={yaw} onReady={onReady} />
       </Suspense>
     </View>
   );
 }
 
-function Arches({ split, yaw }: Props) {
+function Arches({ split, yaw, onReady }: Props) {
   const { nodes } = useClinicGltf("/models/arch.glb");
+  useEffect(() => {
+    onReady?.();
+    sceneStore.invalidate();
+  }, [onReady]);
   const group = useRef<Group>(null);
   const before = nodes.archBefore as Mesh | undefined;
   const after = nodes.archAfter as Mesh | undefined;

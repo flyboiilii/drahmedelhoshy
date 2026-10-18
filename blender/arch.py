@@ -61,7 +61,7 @@ def color_before(k, kind, co):
 def build(name, offsets, t, color_fn, reshape):
     mats = [place(ROW, CENTRES, k, offsets[k], t, S) for k in range(len(ROW))]
     bm = bmesh.new()
-    col = bm.loops.layers.color.new("Col")
+    col = bm.loops.layers.float_color.new("Col")
     add_teeth(bm, col, ROW, mats, color_fn, reshape=reshape)
     add_gum(bm, col, ARC_HALF, S, gum_c)
     return make_object(scene, name, bm, material_vcol(name, roughness=0.4))

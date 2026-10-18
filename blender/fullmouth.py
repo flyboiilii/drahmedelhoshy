@@ -54,7 +54,7 @@ def color(k, kind, co):
 
 
 bm = bmesh.new()
-col = bm.loops.layers.color.new("Col")
+col = bm.loops.layers.float_color.new("Col")
 ranges = add_teeth(bm, col, ROW, M, color, reshape=worn)
 add_gum(bm, col, ARC_HALF, S, gum_c)
 arch = make_object(scene, "arch", bm, material_vcol("arch", roughness=0.45))
@@ -75,7 +75,7 @@ for k, (kind, w, sc) in enumerate(ROW):
             except ValueError:
                 pass
     name = f"crown_{k + 1:02d}"
-    crowns.append(make_object(scene, name, bm, material(f"ceramic_{k + 1:02d}", SITE_COLORS["ivory_bright"], roughness=0.3, coat=0.25)))
+    crowns.append(make_object(scene, name, bm, material(f"ceramic_{k + 1:02d}", SITE_COLORS["ivory_bright"], roughness=0.3)))
 
 glb = os.path.join(OUT, "fullmouth.glb")
 export_glb(glb, [arch] + crowns)

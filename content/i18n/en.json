@@ -117,8 +117,7 @@
         { "title": "A 0.4 mm layer", "text": "Enamel is shaped only where the design needs it. Often less than half a millimetre." },
         { "title": "The veneer seats", "text": "A thin porcelain shell slides over the prepared face and is bonded." },
         { "title": "The shade", "text": "Shade is chosen with you, from the natural A3 range to the brighter BL2." }
-      ],
-      "labels": { "a3": "Shade A3", "bl2": "Shade BL2", "prep": "0.4 mm" }
+      ]
     },
     "implant": {
       "eyebrow": "What goes into the jaw",
@@ -129,8 +128,7 @@
         { "title": "The fixture", "text": "A titanium post is turned into the bone under local anaesthetic." },
         { "title": "The abutment", "text": "After healing, a small connector is fitted to the post." },
         { "title": "The crown", "text": "A porcelain crown seats on top. It is cleaned like your own tooth." }
-      ],
-      "labels": { "bone": "Bone", "fixture": "Fixture", "abutment": "Abutment", "crown": "Crown" }
+      ]
     },
     "aligner": {
       "eyebrow": "Will anyone see it",
@@ -141,8 +139,7 @@
         { "title": "Months 0 to 4", "text": "Small planned movements start with the most crowded teeth." },
         { "title": "Months 4 to 8", "text": "Rotations correct and spaces close." },
         { "title": "Month 12", "text": "Alignment holds with a retainer." }
-      ],
-      "labels": { "month": "Month {n}" }
+      ]
     },
     "fullmouth": {
       "eyebrow": "Can failed work be fixed",
@@ -153,8 +150,7 @@
         { "title": "One tooth at a time", "text": "Each failing crown is replaced in turn. Nothing healthy is removed." },
         { "title": "The bite returns", "text": "Height is restored so the face and jaw joints rest where they should." },
         { "title": "From the side", "text": "The new arch seen in profile." }
-      ],
-      "labels": { "replacing": "Replacing old crowns", "restored": "Bite height restored" }
+      ]
     }
   },
   "professor": {

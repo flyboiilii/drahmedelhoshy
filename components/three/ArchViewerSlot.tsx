@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useId, useRef, useState } from "react";
+import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { canRun3D } from "@/lib/device";
 import { sceneStore } from "@/lib/scene-store";
 import type { Lang } from "@/lib/i18n";
@@ -21,6 +21,8 @@ export function ArchViewerSlot({ labels }: Props) {
   const yaw = useRef(0);
   const [live, setLive] = useState(false);
   const [value, setValue] = useState(50);
+  const [ready, setReady] = useState(false);
+  const onReady = useCallback(() => setReady(true), []);
   const id = useId();
 
   useEffect(() => {
@@ -64,10 +66,10 @@ export function ArchViewerSlot({ labels }: Props) {
       <div
         ref={host}
         className="relative aspect-[4/3] md:aspect-[16/8] img-frame touch-pan-y"
-        style={{ backgroundImage: "url(/posters/arch.webp)", backgroundSize: "cover" }}
+        style={ready ? undefined : { backgroundImage: "url(/posters/arch.webp)", backgroundSize: "cover" }}
         aria-hidden="true"
       >
-        {live && <ArchViewer split={split} yaw={yaw} />}
+        {live && <ArchViewer split={split} yaw={yaw} onReady={onReady} />}
       </div>
       {live && (
         <div className="mt-3 flex items-center gap-3">

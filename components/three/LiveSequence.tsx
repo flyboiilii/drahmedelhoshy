@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, type RefObject } from "react";
+import { useCallback, useEffect, useState, type RefObject } from "react";
 import { createPortal } from "react-dom";
 import { useScrollProgress } from "@/lib/useScrollProgress";
 import { sceneStore } from "@/lib/scene-store";
@@ -20,6 +20,16 @@ type Props = {
  */
 export default function LiveSequence({ kind, sectionRef, onProgress }: Props) {
   const [host, setHost] = useState<HTMLElement | null>(null);
+  // Once the view draws, the poster underneath fades out (CSS on data-live).
+  const onReady = useCallback(() => {
+    if (host) host.dataset.live = "true";
+  }, [host]);
+  useEffect(
+    () => () => {
+      if (host) delete host.dataset.live;
+    },
+    [host],
+  );
   const progress = useScrollProgress(sectionRef, {
     end: SEQUENCE_SCROLL,
     onUpdate: (p) => {
@@ -37,5 +47,5 @@ export default function LiveSequence({ kind, sectionRef, onProgress }: Props) {
   }, [onProgress, sectionRef]);
 
   if (!host) return null;
-  return createPortal(<SequenceView kind={kind} progress={progress} />, host);
+  return createPortal(<SequenceView kind={kind} progress={progress} onReady={onReady} />, host);
 }

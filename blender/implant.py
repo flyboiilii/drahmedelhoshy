@@ -78,7 +78,7 @@ core_c = hex_rgba("#CDBB9C")
 core_light = hex_rgba("#E4D7C0")
 
 bm = bmesh.new()
-col = bm.loops.layers.color.new("Col")
+col = bm.loops.layers.float_color.new("Col")
 box(bm, (-BONE_W, -BONE_D, BONE_BOTTOM), (BONE_W, BONE_D, BONE_TOP), bevel=0.0, color_layer=col, color=bone_c)
 for f in bm.faces:
     for loop in f.loops:
@@ -220,7 +220,7 @@ for v in bm.verts:
 bmesh.ops.remove_doubles(bm, verts=bm.verts, dist=0.002)
 bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
 crown = new_object("crown", bm)
-crown.data.materials.append(material("ceramic", SITE_COLORS["ivory"], roughness=0.3, coat=0.3))
+crown.data.materials.append(material("ceramic", SITE_COLORS["ivory"], roughness=0.3))
 
 parts = [bone, gum, fixture, abutment, crown]
 # The block alone was 2.6 units tall with the crown; scale everything to sit inside the site camera.

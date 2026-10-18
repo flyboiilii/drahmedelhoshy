@@ -5,16 +5,12 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SequenceShell } from "./SequenceShell";
 
 export type SequenceStep = { title: string; text: string };
-export type SequenceLabel = { id: string; text: string; at: number; until?: number };
 
 type Props = {
   kind: SequenceKind;
   eyebrow: string;
   title: string;
   steps: SequenceStep[];
-  labels: SequenceLabel[];
-  /** Template with {n}, used by the aligner month counter. */
-  monthTemplate?: string;
   link?: { href: string; label: string };
   hints: { scroll: string; static: string };
   id?: string;
@@ -25,9 +21,9 @@ type Props = {
  * the small client part that pins the section, drives the step highlighting
  * and, on capable devices, mounts the WebGL view into the poster box.
  */
-export function SequenceSection({ kind, eyebrow, title, steps, labels, monthTemplate, link, hints, id }: Props) {
+export function SequenceSection({ kind, eyebrow, title, steps, link, hints, id }: Props) {
   return (
-    <SequenceShell kind={kind} monthTemplate={monthTemplate} id={id}>
+    <SequenceShell kind={kind} id={id}>
       <div className="container-x w-full grid gap-10 lg:grid-cols-12 lg:items-center">
         <div className="lg:col-span-5">
           <Eyebrow>{eyebrow}</Eyebrow>
@@ -55,18 +51,6 @@ export function SequenceSection({ kind, eyebrow, title, steps, labels, monthTemp
         <div className="lg:col-span-7">
           <div className="relative aspect-[16/10] lg:aspect-[5/4] img-frame" aria-hidden="true" data-sequence-host>
             <Image src={SEQUENCE_POSTERS[kind]} alt="" fill sizes="(min-width: 1024px) 56vw, 100vw" className="object-cover" />
-          </div>
-          <div className="mt-4 flex flex-wrap gap-2 min-h-[2rem]">
-            {labels.map((lb) => (
-              <span key={lb.id} className="seq-label placeholder-tag border-solid" data-label-at={lb.at} data-label-until={lb.until} data-on="true">
-                {lb.text}
-              </span>
-            ))}
-            {monthTemplate && (
-              <span className="seq-label placeholder-tag border-solid" data-month data-on="true">
-                {monthTemplate.replace("{n}", "12")}
-              </span>
-            )}
           </div>
         </div>
       </div>

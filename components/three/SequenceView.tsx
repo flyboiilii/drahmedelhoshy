@@ -2,7 +2,8 @@
 
 import { Suspense, useEffect, type RefObject } from "react";
 import { sceneStore } from "@/lib/scene-store";
-import { PerspectiveCamera, View } from "@react-three/drei";
+import { Environment, PerspectiveCamera, View } from "@react-three/drei";
+import { BackSide, DoubleSide } from "three";
 import type { SequenceKind } from "@/lib/sequences";
 import models from "@/content/models.json";
 import { VeneerSequence } from "./sequences/VeneerSequence";
@@ -30,14 +31,34 @@ function Wake() {
   return null;
 }
 
+/** Fires once the model (or the procedural stand-in) has mounted, i.e. the view is drawing. */
+function Ready({ onReady }: { onReady?: () => void }) {
+  useEffect(() => {
+    onReady?.();
+    sceneStore.invalidate();
+  }, [onReady]);
+  return null;
+}
+
 export function Lights() {
   return (
     <>
-      <ambientLight intensity={0.6} />
-      <hemisphereLight args={["#fbf8f3", "#d9cfc2", 0.5]} />
-      <directionalLight position={[3, 5, 4]} intensity={1.6} />
+      <ambientLight intensity={0.2} />
+      <hemisphereLight args={["#fbf8f3", "#d9cfc2", 0.25]} />
+      <directionalLight position={[3, 5, 4]} intensity={1.3} />
       <directionalLight position={[-4, 2, -2]} intensity={0.5} color="#f4ead9" />
       <directionalLight position={[0, 3, -4]} intensity={0.35} />
+      {/* A plain warm studio to reflect: with no environment, glossy porcelain and ceramic render grey. */}
+      <Environment resolution={32} frames={1} environmentIntensity={0.35}>
+        <mesh scale={50}>
+          <sphereGeometry args={[1, 16, 8]} />
+          <meshBasicMaterial color="#e4ddd1" side={BackSide} />
+        </mesh>
+        <mesh position={[0, 6, 5]} scale={[10, 5, 1]}>
+          <planeGeometry />
+          <meshBasicMaterial color="#ffffff" side={DoubleSide} />
+        </mesh>
+      </Environment>
     </>
   );
 }
@@ -48,7 +69,7 @@ export function Lights() {
  * poster box it is rendered in. Each sequence picks the GLB version when
  * content/models.json says the file exists, else the procedural stand-in.
  */
-export function SequenceView({ kind, progress }: { kind: SequenceKind; progress: ProgressRef }) {
+export function SequenceView({ kind, progress, onReady }: { kind: SequenceKind; progress: ProgressRef; onReady?: () => void }) {
   const cam = CAMERA[kind];
   const hasGlb = models[kind];
   return (
@@ -61,6 +82,7 @@ export function SequenceView({ kind, progress }: { kind: SequenceKind; progress:
         {kind === "implant" && <ImplantSequence progress={progress} glb={hasGlb} />}
         {kind === "aligner" && <AlignerSequence progress={progress} glb={hasGlb} />}
         {kind === "fullmouth" && <FullMouthSequence progress={progress} glb={hasGlb} />}
+        <Ready onReady={onReady} />
       </Suspense>
     </View>
   );

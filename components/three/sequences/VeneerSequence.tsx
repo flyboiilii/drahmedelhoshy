@@ -79,7 +79,12 @@ function VeneerProcedural({ progress }: { progress: ProgressRef }) {
   );
 }
 
-/** Artist-delivered GLB with nodes tooth, prepLayer, veneer. Same choreography on the named nodes. */
+/**
+ * Blender GLB with nodes tooth, prepLayer, veneer (vertex coloured, see blender/veneer.py).
+ * The enamel fades out and is then hidden, so nothing fights the veneer's outer surface; the
+ * prepared tooth sits a hair inside the veneer's fitting surface. The veneer arrives in the
+ * tooth's own A3 shade and warms to BL2 in the last step. Materials are opaque unless fading.
+ */
 function VeneerGlb({ progress }: { progress: ProgressRef }) {
   const { scene, nodes } = useClinicGltf("/models/veneer.glb");
   const group = useRef<Group>(null);
@@ -89,22 +94,31 @@ function VeneerGlb({ progress }: { progress: ProgressRef }) {
 
   useFrame(() => {
     const p = progress.current ?? 0;
+    // 1. turn
     if (group.current) group.current.rotation.y = lerp(0, (20 * Math.PI) / 180, smooth(range(p, 0, 0.3)));
-    const toothMat = tooth?.material as MeshStandardMaterial | undefined;
-    if (toothMat) {
-      toothMat.transparent = true;
-      toothMat.opacity = lerp(1, 0.12, smooth(range(p, 0.3, 0.55)));
-      tmp.copy(A3).lerp(BL2, smooth(range(p, 0.85, 1)));
-      toothMat.color.copy(tmp);
+
+    // 2. enamel fades to reveal the prepared tooth, then leaves the scene
+    if (tooth) {
+      const m = tooth.material as MeshStandardMaterial;
+      const o = lerp(1, 0, smooth(range(p, 0.3, 0.55)));
+      m.transparent = o < 1;
+      m.depthWrite = o >= 1;
+      m.opacity = o;
+      tooth.visible = o > 0.01;
     }
+
+    // 3. veneer slides in from +x and seats, 4. shade warms A3 -> BL2
     if (veneer) {
       if (startX.current === null) startX.current = veneer.position.x;
       const seat = smooth(range(p, 0.55, 0.85));
       veneer.position.x = lerp(startX.current + 1.6, startX.current, seat);
       const vm = veneer.material as MeshStandardMaterial;
-      vm.transparent = true;
-      vm.opacity = lerp(0, 1, range(p, 0.55, 0.62));
-      vm.color.copy(tmp);
+      const o = range(p, 0.55, 0.62);
+      vm.transparent = o < 1;
+      vm.depthWrite = o >= 1;
+      vm.opacity = o;
+      veneer.visible = o > 0;
+      vm.color.copy(tmp.copy(A3).lerp(BL2, smooth(range(p, 0.85, 1))));
     }
   });
 
