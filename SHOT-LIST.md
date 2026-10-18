@@ -48,7 +48,7 @@ These must be real patients of the clinic with written consent on file. They can
 
 ## 8. Reel covers
 
-Covers for the three Instagram reels on the Reviews page (tap to play). Vertical 9:16, 1080 x 1920, under 150 KB, no text. Files `reel-1.jpg`, `reel-2.jpg`, `reel-3.jpg`. Full briefs in `REEL-COVERS.md`.
+Done. The three reels keep their own cover frames (saved as `reel-1.jpg` to `reel-3.jpg`); nothing to shoot. See `REEL-COVERS.md`.
 
 ## 9. Logo
 
