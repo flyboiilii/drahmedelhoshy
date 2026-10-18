@@ -46,6 +46,28 @@ export default function LiveSequence({ kind, sectionRef, onProgress }: Props) {
     return () => window.clearTimeout(t);
   }, [onProgress, sectionRef]);
 
+  // While the pinned section is on screen the canvas renders every frame (see sceneStore.setActive).
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el || !("IntersectionObserver" in window)) return;
+    let on = false;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        const next = entry.isIntersecting;
+        if (next !== on) {
+          on = next;
+          sceneStore.setActive(on);
+        }
+      },
+      { rootMargin: "120px 0px 120px 0px" },
+    );
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      if (on) sceneStore.setActive(false);
+    };
+  }, [sectionRef]);
+
   if (!host) return null;
   return createPortal(<SequenceView kind={kind} progress={progress} onReady={onReady} />, host);
 }

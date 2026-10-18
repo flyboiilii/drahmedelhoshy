@@ -24,6 +24,27 @@ export function ArchViewerSlot({ labels }: Props) {
   const [value, setValue] = useState(50);
   const [ready, setReady] = useState(false);
   const onReady = useCallback(() => setReady(true), []);
+
+  // Render every frame while the box is on screen, so the arch never lags behind the scroll.
+  useEffect(() => {
+    const el = host.current;
+    if (!el || !live || !("IntersectionObserver" in window)) return;
+    let on = false;
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting !== on) {
+          on = entry.isIntersecting;
+          sceneStore.setActive(on);
+        }
+      },
+      { rootMargin: "120px 0px 120px 0px" },
+    );
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      if (on) sceneStore.setActive(false);
+    };
+  }, [live]);
   const id = useId();
 
   // Same gate as the sequences: nothing from three.js loads until the visitor has interacted
@@ -88,7 +109,7 @@ export function ArchViewerSlot({ labels }: Props) {
       <div
         ref={host}
         className="relative aspect-[4/3] md:aspect-[16/8] img-frame touch-pan-y"
-        style={ready ? undefined : { backgroundImage: "url(/posters/arch.webp)", backgroundSize: "cover" }}
+        style={ready ? { background: "transparent" } : { backgroundImage: "url(/posters/arch.webp)", backgroundSize: "cover" }}
         aria-hidden="true"
       >
         {live && <ArchViewer split={split} yaw={yaw} onReady={onReady} />}

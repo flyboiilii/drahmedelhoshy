@@ -3,15 +3,15 @@
     "slug": "yellow-teeth",
     "title": { "en": "My teeth look yellow", "ar": "أسناني تبدو صفراء" },
     "seoTitle": { "en": "Yellow Teeth: Whitening or Veneers | Prof. El Hoshy", "ar": "أسنان صفراء: تبييض أم فينير | أ.د. أحمد الحوشى" },
-    "description": { "en": "Why teeth yellow, when whitening is enough and when veneers are needed. Free first consultation in Heliopolis, Cairo.", "ar": "لماذا تصفر الأسنان، ومتى يكفي التبييض ومتى يلزم الفينير. استشارة أولى مجانية في مصر الجديدة." },
+    "description": { "en": "Why teeth yellow, when whitening is enough and when veneers are needed. Consultations in Heliopolis, Cairo, booked on WhatsApp.", "ar": "لماذا تصفر الأسنان، ومتى يكفي التبييض ومتى يلزم الفينير. استشارة في مصر الجديدة تُحجز عبر واتساب." },
     "paragraphs": {
       "en": [
         "Teeth yellow for two reasons: surface stain from coffee, tea and smoking, and the natural darkening of dentine with age. The first responds well to cleaning and whitening. The second responds partly, and sometimes needs veneers to change the colour fully.",
-        "At the free first consultation we check which kind you have, show you what whitening alone would reach, and tell you honestly if it will not get you where you want."
+        "At the first consultation we check which kind you have, show you what whitening alone would reach, and tell you honestly if it will not get you where you want."
       ],
       "ar": [
         "تصفر الأسنان لسببين: تصبغ سطحي من القهوة والشاي والتدخين، واغمقاق طبيعي للعاج مع العمر. الأول يستجيب جيداً للتنظيف والتبييض. والثاني يستجيب جزئياً، وقد يحتاج أحياناً إلى فينير لتغيير اللون كلياً.",
-        "في الاستشارة الأولى المجانية نحدد أي النوعين لديك، ونريك ما يمكن أن يصل إليه التبييض وحده، ونخبرك بصراحة إن كان لن يوصلك إلى ما تريد."
+        "في الاستشارة الأولى نحدد أي النوعين لديك، ونريك ما يمكن أن يصل إليه التبييض وحده، ونخبرك بصراحة إن كان لن يوصلك إلى ما تريد."
       ]
     },
     "serviceSlug": "whitening-bonding",
@@ -21,7 +21,7 @@
     "slug": "gaps",
     "title": { "en": "I have gaps between my teeth", "ar": "لديّ فراغات بين أسناني" },
     "seoTitle": { "en": "Gaps Between Teeth: Three Options | Prof. El Hoshy", "ar": "فراغات بين الأسنان: ثلاثة خيارات | أ.د. أحمد الحوشى" },
-    "description": { "en": "Aligners, bonding or veneers for gaps between teeth, and how to choose. Free first consultation in Heliopolis, Cairo.", "ar": "تقويم شفاف أم حشوة تجميلية أم فينير لإغلاق الفراغات، وكيف تختار. استشارة أولى مجانية في مصر الجديدة." },
+    "description": { "en": "Aligners, bonding or veneers for gaps between teeth, and how to choose. Consultations in Heliopolis, Cairo, booked on WhatsApp.", "ar": "تقويم شفاف أم حشوة تجميلية أم فينير لإغلاق الفراغات، وكيف تختار. استشارة في مصر الجديدة تُحجز عبر واتساب." },
     "paragraphs": {
       "en": [
         "Gaps can be closed three ways: aligners move the teeth together, bonding adds width in one visit, and veneers close larger spaces while improving shape. The right choice depends on the size of the gap and the size of the teeth beside it.",
@@ -75,7 +75,7 @@
     "slug": "missing-teeth",
     "title": { "en": "I am missing a tooth and hide my smile", "ar": "فقدت سناً وأخفي ابتسامتي" },
     "seoTitle": { "en": "Replacing a Missing Tooth | Prof. Ahmed El Hoshy", "ar": "تعويض السن المفقود | أ.د. أحمد الحوشى" },
-    "description": { "en": "Implant or bridge for a missing tooth, and why waiting makes it harder. Free first consultation in Heliopolis, Cairo.", "ar": "زرعة أم جسر للسن المفقود، ولماذا يصعّب الانتظار العلاج. استشارة أولى مجانية في مصر الجديدة." },
+    "description": { "en": "Implant or bridge for a missing tooth, and why waiting makes it harder. Consultations in Heliopolis, Cairo, booked on WhatsApp.", "ar": "زرعة أم جسر للسن المفقود، ولماذا يصعّب الانتظار العلاج. استشارة في مصر الجديدة تُحجز عبر واتساب." },
     "paragraphs": {
       "en": [
         "A single missing tooth is most often replaced with an implant, which does not touch the neighbouring teeth. A bridge is the alternative when an implant is not suitable. Both give a fixed tooth you clean like your own.",

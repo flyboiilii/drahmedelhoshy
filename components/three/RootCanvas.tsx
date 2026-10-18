@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { Canvas, useThree } from "@react-three/fiber";
 import { View } from "@react-three/drei";
-import { sceneStore } from "@/lib/scene-store";
+import { sceneStore, useSceneActive } from "@/lib/scene-store";
 
 function InvalidateBridge() {
   const invalidate = useThree((s) => s.invalidate);
@@ -27,9 +27,11 @@ function InvalidateBridge() {
  * frameloop="demand": frames are requested by scroll, resize and the GSAP scrub.
  */
 export default function RootCanvas() {
+  // Continuous frames only while a sequence is on screen; on demand otherwise.
+  const active = useSceneActive();
   return (
     <Canvas
-      frameloop="demand"
+      frameloop={active ? "always" : "demand"}
       dpr={[1, 1.5]}
       gl={{ alpha: true, antialias: true, powerPreference: "high-performance", stencil: false }}
       onCreated={({ gl }) => {

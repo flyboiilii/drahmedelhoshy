@@ -46,8 +46,8 @@
     "ar": ["العربية", "الإنجليزية", "الفرنسية", "الإيطالية"]
   },
   "payment": {
-    "en": "Visa, Mastercard and Meeza accepted. Payment plans available. The first consultation is free.",
-    "ar": "نقبل بطاقات فيزا وماستركارد وميزة. تتوفر خطط سداد. الاستشارة الأولى مجانية."
+    "en": "Visa, Mastercard and Meeza accepted. Payment plans available. Consultations are booked on WhatsApp.",
+    "ar": "نقبل بطاقات فيزا وماستركارد وميزة. تتوفر خطط سداد. تُحجز الاستشارة عبر واتساب."
   },
   "since": "1997"
 }

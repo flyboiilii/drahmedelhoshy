@@ -6,8 +6,8 @@
     "shortTitle": { "en": "Smile design and veneers", "ar": "تصميم الابتسامة والفينير" },
     "seoTitle": { "en": "Porcelain Veneers in Heliopolis | Prof. Ahmed El Hoshy", "ar": "الفينير في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
-      "en": "Porcelain veneers and smile design in Heliopolis, Cairo, planned by a professor of restorative dentistry. Free first consultation.",
-      "ar": "فينير خزفي وتصميم ابتسامة في مصر الجديدة بإشراف أستاذ طب الأسنان الترميمي. الاستشارة الأولى مجانية."
+      "en": "Porcelain veneers and smile design in Heliopolis, Cairo, planned by a professor of restorative dentistry. Consultation booked on WhatsApp.",
+      "ar": "فينير خزفي وتصميم ابتسامة في مصر الجديدة بإشراف أستاذ طب الأسنان الترميمي. تُحجز الاستشارة عبر واتساب."
     },
     "fearIntro": {
       "en": "The question most people bring to this room is how much tooth will be removed. With planned veneers the answer is usually a fraction of a millimetre of enamel, and sometimes none at all. We show you the plan on a wax model before anything touches your teeth.",
@@ -40,7 +40,7 @@
     ],
     "costParagraph": {
       "en": "The cost of veneers depends on the number of teeth, the ceramic system and whether the plan includes whitening of the remaining teeth. In our clinic a per-tooth figure is given in writing after the first consultation, once the plan is agreed. Porcelain veneers start from EGP 9,000 per tooth. Payment plans are available.",
-      "ar": "سعر الفينير في مصر يختلف حسب عدد الأسنان ونوع الخزف وما إذا كانت الخطة تشمل تبييض بقية الأسنان. في عيادتنا يُكتب السعر لكل سن بعد الاستشارة الأولى المجانية، بعد الاتفاق على الخطة. يبدأ سعر الفينير الخزفي من ٩٬٠٠٠ جنيه للسن. تتوفر خطط سداد."
+      "ar": "سعر الفينير في مصر يختلف حسب عدد الأسنان ونوع الخزف وما إذا كانت الخطة تشمل تبييض بقية الأسنان. في عيادتنا يُكتب السعر لكل سن بعد الاستشارة الأولى، بعد الاتفاق على الخطة. يبدأ سعر الفينير الخزفي من ٩٬٠٠٠ جنيه للسن. تتوفر خطط سداد."
     },
     "model": "veneer",
     "faqIds": ["ven-1", "ven-2", "ven-3", "ven-4", "ven-5", "ven-6"]
@@ -52,8 +52,8 @@
     "shortTitle": { "en": "Implants and full arch", "ar": "الزراعة والفك الكامل" },
     "seoTitle": { "en": "Dental Implants in Heliopolis | Prof. Ahmed El Hoshy", "ar": "زراعة الأسنان في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
-      "en": "Dental implants, bone grafting and full arch replacement in Heliopolis, Cairo. A written plan, honest timelines and a free first consultation.",
-      "ar": "زراعة الأسنان وترقيع العظم واستبدال الفك الكامل في مصر الجديدة. خطة مكتوبة ومواعيد واضحة واستشارة أولى مجانية."
+      "en": "Dental implants, bone grafting and full arch replacement in Heliopolis, Cairo. A written plan, honest timelines and a consultation booked on WhatsApp.",
+      "ar": "زراعة الأسنان وترقيع العظم واستبدال الفك الكامل في مصر الجديدة. خطة مكتوبة ومواعيد واضحة واستشارة تُحجز عبر واتساب."
     },
     "fearIntro": {
       "en": "People want to know what goes into the jaw and whether it will hurt. An implant is a small titanium post placed under local anaesthetic in a visit that is usually shorter than a filling appointment. Most patients describe the days after as mild soreness managed with ordinary painkillers.",
@@ -143,8 +143,8 @@
     "shortTitle": { "en": "Clear aligners", "ar": "التقويم الشفاف" },
     "seoTitle": { "en": "Clear Aligners in Heliopolis | Prof. Ahmed El Hoshy", "ar": "التقويم الشفاف في مصر الجديدة | أ.د. أحمد الحوشى" },
     "description": {
-      "en": "Clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Free first consultation.",
-      "ar": "التقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. الاستشارة الأولى مجانية."
+      "en": "Clear aligners for adults in Heliopolis, Cairo. See the planned movement on screen before you start. Consultation booked on WhatsApp.",
+      "ar": "التقويم الشفاف للكبار في مصر الجديدة. شاهد خطة الحركة على الشاشة قبل البدء. تُحجز الاستشارة عبر واتساب."
     },
     "fearIntro": {
       "en": "Two worries come up: will people see it, and does it really move teeth. Aligners are thin clear trays that most people never notice in conversation. They move teeth in small planned steps, and you see the full sequence on screen before the first tray is made.",
@@ -224,8 +224,8 @@
       { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "Whitening starts from EGP 6,000 per session and composite bonding from EGP 2,500 per tooth. Both are confirmed at the free first consultation.",
-      "ar": "سعر تبييض الأسنان في مصر يبدأ من ٦٬٠٠٠ جنيه للجلسة، والحشوة التجميلية من ٢٬٥٠٠ جنيه للسن. يُؤكَّد السعران في الاستشارة الأولى المجانية."
+      "en": "Whitening starts from EGP 6,000 per session and composite bonding from EGP 2,500 per tooth. Both are confirmed at the first consultation.",
+      "ar": "سعر تبييض الأسنان في مصر يبدأ من ٦٬٠٠٠ جنيه للجلسة، والحشوة التجميلية من ٢٬٥٠٠ جنيه للسن. يُؤكَّد السعران في الاستشارة الأولى."
     },
     "model": "none",
     "faqIds": ["wh-1", "wh-2", "wh-3", "wh-4"]
@@ -269,8 +269,8 @@
       { "label": {"en":"Warranty","ar":"الضمان"}, "value": {"en":"Crowns and veneers are reviewed and adjusted free of charge for two years; implant fixtures carry the manufacturer's warranty; composite bonding one year","ar":"تُراجع التيجان والفينير وتُعدَّل مجاناً لمدة سنتين؛ الزرعات مشمولة بضمان الشركة المصنعة؛ الحشوات التجميلية سنة واحدة"} }
     ],
     "costParagraph": {
-      "en": "General treatment is priced per item after examination. Fillings, root canals and cleanings each have a set fee that is confirmed before treatment starts. Fillings start from EGP 1,500 and root canal treatment from EGP 4,500. The first consultation is free.",
-      "ar": "يُسعَّر العلاج العام لكل إجراء بعد الفحص. للحشوات وعلاج العصب والتنظيف رسوم محددة تُؤكَّد قبل بدء العلاج. تبدأ الحشوات من ١٬٥٠٠ جنيه وعلاج العصب من ٤٬٥٠٠ جنيه. الاستشارة الأولى مجانية."
+      "en": "General treatment is priced per item after examination. Fillings, root canals and cleanings each have a set fee that is confirmed before treatment starts. Fillings start from EGP 1,500 and root canal treatment from EGP 4,500. Consultations are booked on WhatsApp.",
+      "ar": "يُسعَّر العلاج العام لكل إجراء بعد الفحص. للحشوات وعلاج العصب والتنظيف رسوم محددة تُؤكَّد قبل بدء العلاج. تبدأ الحشوات من ١٬٥٠٠ جنيه وعلاج العصب من ٤٬٥٠٠ جنيه. تُحجز الاستشارة عبر واتساب."
     },
     "model": "none",
     "faqIds": ["gen-1", "gen-2", "gen-3", "gen-4"]

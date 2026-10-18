@@ -2,7 +2,7 @@
   "meta": {
     "siteTitle": "El Hoshy Dental Clinic | Heliopolis, Cairo",
     "homeTitle": "El Hoshy Dental Clinic | Prof. Ahmed El Hoshy, Heliopolis",
-    "homeDescription": "Veneers, implants and full mouth restoration in Heliopolis, Cairo, by Prof. Ahmed El Hoshy, professor of restorative dentistry. Free first consultation.",
+    "homeDescription": "Veneers, implants and full mouth restoration in Heliopolis, Cairo, by Prof. Ahmed El Hoshy, professor of restorative dentistry. Book a consultation on WhatsApp.",
     "casesTitle": "Before and After Cases | Prof. Ahmed El Hoshy",
     "casesDescription": "Real patient cases from El Hoshy Dental Clinic in Heliopolis, Cairo, published with written consent. Veneers, implants, aligners and full mouth work.",
     "caseTitle": "Case {number}: {treatment} | Prof. Ahmed El Hoshy",
@@ -10,13 +10,13 @@
     "reviewsTitle": "Patient Reviews | El Hoshy Dental Clinic, Heliopolis",
     "reviewsDescription": "Google rating 4.9 from 141 reviews. What patients say about El Hoshy Dental Clinic in Heliopolis, Cairo.",
     "pricingTitle": "Pricing and Financing | El Hoshy Dental Clinic",
-    "pricingDescription": "Free first consultation, entry prices for whitening and bonding, what a written plan includes, and payment options at El Hoshy Dental Clinic.",
+    "pricingDescription": "Consultations booked on WhatsApp, entry prices for whitening and bonding, what a written plan includes, and payment options at El Hoshy Dental Clinic.",
     "faqTitle": "Dental Questions Answered | Prof. Ahmed El Hoshy",
     "faqDescription": "Thirty plain answers about veneers, implants, aligners, full mouth restoration, whitening and general dentistry from a professor of restorative dentistry.",
     "internationalTitle": "Dental Treatment in Cairo for Patients Abroad",
     "internationalDescription": "One trip to Cairo with a written plan before you fly. Days per treatment, languages spoken and a WhatsApp video consultation with Prof. Ahmed El Hoshy.",
-    "bookTitle": "Book a Free Consultation | El Hoshy Dental, Heliopolis",
-    "bookDescription": "Book a free first consultation with Prof. Ahmed El Hoshy in Heliopolis, Cairo. Address, hours, phone, WhatsApp and map.",
+    "bookTitle": "Book a Consultation | El Hoshy Dental, Heliopolis",
+    "bookDescription": "Book a consultation with Prof. Ahmed El Hoshy in Heliopolis, Cairo. Address, hours, phone, WhatsApp and map.",
     "professorTitle": "Prof. Ahmed El Hoshy | Restorative and Esthetic Dentist",
     "professorDescription": "Prof. Ahmed Zoheir El Hoshy: PhD in Restorative Dentistry, Cairo University, Professor at Future University in Egypt, teacher of dentists, practising in Heliopolis.",
     "privacyTitle": "Privacy and Consent | El Hoshy Dental Clinic",
@@ -34,14 +34,14 @@
     "book": "Book",
     "privacy": "Privacy",
     "concerns": "Common concerns",
-    "cta": "Free first consultation",
+    "cta": "Book on WhatsApp",
     "menu": "Menu",
     "close": "Close",
     "langToggle": "عربي",
     "langToggleAria": "Switch to Arabic"
   },
   "common": {
-    "book": "Book a free consultation",
+    "book": "Book on WhatsApp",
     "whatsapp": "WhatsApp",
     "call": "Call",
     "learnMore": "Learn more",
@@ -56,8 +56,8 @@
   "hero": {
     "title": "The work speaks.",
     "titleEm": "Quietly.",
-    "lead": "Veneers, implants and full mouth restoration in Heliopolis, planned and placed by a professor of restorative dentistry who teaches the technique to other dentists. The first consultation is free.",
-    "book": "Book a free consultation",
+    "lead": "Veneers, implants and full mouth restoration in Heliopolis, planned and placed by a professor of restorative dentistry who teaches the technique to other dentists. Consultations are booked on WhatsApp.",
+    "book": "Book on WhatsApp",
     "whatsapp": "WhatsApp",
     "stats": [
       { "value": "4.9", "label": "from 141 Google reviews" },
@@ -236,7 +236,7 @@
   },
   "book": {
     "eyebrow": "Book",
-    "title": "Start with a free consultation.",
+    "title": "Book a consultation on WhatsApp.",
     "lead": "Send a WhatsApp message, call, or use the form. We reply during clinic hours.",
     "address": "Address",
     "hours": "Hours",
@@ -269,7 +269,7 @@
     "again": "Send another message",
     "errorName": "Please enter your name.",
     "errorPhone": "Please enter a WhatsApp number with country code.",
-    "messageIntro": "Hello El Hoshy Dental Clinic, I would like to book a free first consultation.",
+    "messageIntro": "Hello, I would like to book a consultation session.",
     "messageName": "Name",
     "messagePhone": "WhatsApp",
     "messageTreatment": "Treatment",
@@ -278,9 +278,9 @@
     "messageOutro": "Sent from the website"
   },
   "whatsapp": {
-    "template": "Hello El Hoshy Dental Clinic, I am interested in {service}. I found you on the website ({page}).",
-    "generalService": "a free first consultation",
-    "videoTemplate": "Hello El Hoshy Dental Clinic, I would like a video consultation. I am in [country]."
+    "template": "Hello, I would like to book a consultation session. I found you on the website https://drahmedelhoshy.com",
+    "generalService": "a consultation",
+    "videoTemplate": "Hello, I would like to book a video consultation session. I am in [country]."
   },
   "sticky": {
     "whatsapp": "WhatsApp",
@@ -306,7 +306,7 @@
     "cases": "Cases",
     "cost": "What it costs",
     "faq": "Questions patients ask",
-    "bookTitle": "Start with a free consultation.",
+    "bookTitle": "Book a consultation on WhatsApp.",
     "bookText": "Photographs, a conversation, and a written note of what the professor would and would not do.",
     "step": "Step",
     "visitsLabel": "Visits",
@@ -317,7 +317,7 @@
   "pricing": {
     "eyebrow": "Pricing and financing",
     "title": "Clear figures, written down.",
-    "lead": "Every plan is quoted in writing after the free first consultation. The figures below are the entry points for the simplest treatments.",
+    "lead": "Every plan is quoted in writing after the first consultation. The figures below are the entry points for the simplest treatments.",
     "entryTitle": "Entry prices",
     "entryHead": { "item": "Treatment", "price": "From" },
     "includesTitle": "What a written plan includes",

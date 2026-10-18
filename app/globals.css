@@ -782,6 +782,11 @@ html[dir="rtl"] .compare .compare-tag {
   opacity: 0;
 }
 
+/* No card behind a live model: the canvas is transparent and a box made any lag between scroll and render visible. */
+[data-sequence-host][data-live="true"] {
+  background: transparent;
+}
+
 /* ------------------------------------------------------------------ */
 /* Misc                                                                 */
 /* ------------------------------------------------------------------ */
