@@ -36,4 +36,4 @@ Hours, phones, address, Google rating and review count, review quotes (Google an
 - Photographs: all supplied on 18 October 2026 and in place. If the case photographs are generated stand-ins rather than consented patients, replace them before launch: the consent line under each case must be true.
 - Logo file at `public/logo.svg` (or `.png`).
 - Google Maps embed URL from the "Embed a map" dialog, to replace the labelled coordinate pin (`content/settings.json` googleMapsEmbedUrl). The current pin is the verified location.
-- Phase 2: GitHub repository, Cloudflare account, Pages project, domain `elhoshydentalclinic.com`, Web Analytics token.
+- Phase 2: GitHub repository, Cloudflare account, Pages project, domain `drahmedelhoshy.com`, Web Analytics token.

@@ -24,7 +24,7 @@ Environment variables (all optional, see `.env.example`):
 
 | Variable | Effect |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Base URL for canonical links, hreflang, sitemap and JSON-LD. Defaults to `https://elhoshydentalclinic.com`. |
+| `NEXT_PUBLIC_SITE_URL` | Base URL for canonical links, hreflang, sitemap and JSON-LD. Defaults to `https://drahmedelhoshy.com`. |
 | `NEXT_PUBLIC_WEB3FORMS_KEY` | When set, the lead form also posts a JSON copy of each lead to Web3Forms (email). |
 | `NEXT_PUBLIC_CF_BEACON_TOKEN` | When set, the Cloudflare Web Analytics beacon is added to every page. |
 
@@ -152,7 +152,7 @@ Nothing in the page components depends on where the content comes from.
 2. Cloudflare dashboard: Workers and Pages, Create, Pages, Connect to Git, pick the repo.
 3. Framework preset: Next.js (Static HTML Export). Build command `npm run build`. Output directory `out`. Environment variable `NODE_VERSION` = `20`. Add `NEXT_PUBLIC_SITE_URL` (and the optional keys) as needed.
 4. Deploy. The `out/` folder contains both language trees, `404.html`, `sitemap.xml`, `robots.txt` and the OG images.
-5. Custom domain: in the Pages project add the apex (`elhoshydentalclinic.com`) and `www`. With the domain at Cloudflare Registrar the DNS records are created for you. Redirect `www` to the apex with a Bulk Redirect.
+5. Custom domain: in the Pages project add the apex (`drahmedelhoshy.com`) and `www`. With the domain at Cloudflare Registrar the DNS records are created for you. Redirect `www` to the apex with a Bulk Redirect.
 
 The full checklist, including the launch-day list, is in section 13 of the brief.
 
@@ -188,7 +188,7 @@ Choices made where the brief was silent or where two of its rules met:
 - **On small screens only the active step of a pinned sequence shows its text**, and the 3D box is 16:10 rather than 4:3, so the pinned section fits a phone viewport.
 - **`scroll-padding-bottom` on mobile** keeps anchored targets above the sticky bar.
 - **The clinic's six-petal mark is redrawn as a single-colour vector** (`components/ui/LogoMark.tsx`, favicon, OG images). The original artwork is blue, which the palette excludes, so the mark sits in graphite or brass beside the serif wordmark. Swap in the clinic's vector file when it arrives.
-- **Site URL defaults to `https://elhoshydentalclinic.com`** (the domain chosen in the placeholders round). Set `NEXT_PUBLIC_SITE_URL` if a different domain is bought before the first deploy.
+- **Site URL defaults to `https://drahmedelhoshy.com`** (the domain chosen on 18 October 2026). Set `NEXT_PUBLIC_SITE_URL` if a different domain is bought before the first deploy.
 - **Node 22 was used for the build on this machine**; the project pins 20 for Cloudflare (`NODE_VERSION`, `.nvmrc`). Both work.
 - **The GLB models are built headlessly in Blender 4.2** from the scripts in `blender/` (one script per model, shared helpers in `common.py`). The brief asked for an artist; no artist was available before the pitch, so the geometry is scripted: lofted cross-sections, Draco export, previews rendered from the site's camera. Rebuild one with `"<blender>" --background --python blender/veneer.py -- <out dir>` and copy the `.glb` into `public/models/`. Each script prints the node list with triangle counts.
 - **Veneer preparation depth is 0.02 to 0.09 units** on a crown 1 unit tall (about half a millimetre on a real tooth), not the 0.4 to 0.6 the first brief suggested, which would have read as a quarter of the tooth. All three veneer nodes are cut from one subdivided mesh: the veneer is the removed layer itself, its outer surface is the tooth face and the prepared tooth sits 0.004 inside its fitting surface, so nothing z-fights when it seats. The enamel node is hidden once it has faded for the same reason.
